@@ -67,6 +67,7 @@ class ProblemConfig:
     len_accumulator: int
     parallelism: int
     num_shots: int
+    pp_success_probability: float
     rns_primes_bit_length: int | None
     rns_primes_range_start: int | None
     rns_primes_range_stop: int | None
@@ -96,6 +97,8 @@ class ProblemConfig:
             raise TypeError(f"not isinstance({self.parallelism=}, int)")
         if not isinstance(self.num_shots, int):
             raise TypeError(f"not isinstance({self.num_shots=}, int)")
+        if not isinstance(self.pp_success_probability, float):
+            raise TypeError(f"not isinstance({self.pp_success_probability=}, float)")
         if not isinstance(self.rns_primes_bit_length, int | None):
             raise TypeError(f"not isinstance({self.rns_primes_bit_length=}, int)")
         if not isinstance(self.rns_primes_range_start, int | None):
@@ -170,6 +173,7 @@ class ProblemConfig:
             num_input_qubits=self.num_input_qubits,
             generator=self.generator,
             num_shots=self.num_shots,
+            pp_success_probability=self.pp_success_probability
         )
 
     def estimate_minimum_rns_period_bit_length(self) -> int:
@@ -256,36 +260,8 @@ class ProblemConfig:
                 raise ValueError(f"Duplicate {key=}")
             kv[key] = val
 
-        modulus = kv.pop("modulus")
-        s = kv.pop("s", None)
-        num_input_qubits = kv.pop("num_input_qubits", None)
-        num_shots = kv.pop("num_shots", None)
-        if s is None:
-            if num_input_qubits is None:
-                raise ValueError("Specified neither s= nor num_input_qubits=")
-            if num_shots is None:
-                raise ValueError("Specified neither s= nor num_shots=")
-        else:
-            n = modulus.bit_length()
-            x_size = math.ceil(n * (1 / 2 + 1 / (2 * s)))
-            y_size = math.ceil(n / (2 * s))
-            implied_num_input_qubits = x_size + y_size
-            implied_shots = s + 1
-            if num_input_qubits is not None and num_input_qubits != implied_num_input_qubits:
-                raise ValueError(
-                    f"Specified both {s=} and {num_input_qubits=}, but {s=} implies num_input_qubits={implied_num_input_qubits}"
-                )
-            if num_shots is not None and num_shots != implied_shots:
-                raise ValueError(
-                    f"Specified both {s=} and {num_shots=}, but {s=} implies num_shots={implied_shots}"
-                )
-            num_input_qubits = implied_num_input_qubits
-            num_shots = implied_shots
-        assert num_shots is not None
-        assert num_input_qubits is not None
-
         result = ProblemConfig(
-            modulus=modulus,
+            modulus=kv.pop("modulus"),
             window1=kv.pop("window1"),
             window3a=kv.pop("window3a"),
             window3b=kv.pop("window3b"),
@@ -298,10 +274,11 @@ class ProblemConfig:
             rns_primes_range_stop=kv.pop("rns_primes_range_stop", None),
             rns_primes_extra=kv.pop("rns_primes_extra", None),
             rns_primes_skipped=kv.pop("rns_primes_skipped", None),
-            num_input_qubits=num_input_qubits,
+            num_input_qubits=kv.pop("num_input_qubits"),
             generator=kv.pop("generator"),
             parallelism=kv.pop("parallelism", 1),
-            num_shots=num_shots,
+            num_shots=kv.pop("num_shots"),
+            pp_success_probability=kv.pop("pp_success_probability")
         )
         if kv:
             raise ValueError(f"Unrecognized keys: {sorted(kv.keys())}")
@@ -327,6 +304,7 @@ class ProblemConfig:
             ("window4", self.window4),
             ("parallelism", self.parallelism),
             ("num_shots", self.num_shots),
+            ("pp_success_probability", self.pp_success_probability),
             "",
             ("rns_primes_bit_length", self.rns_primes_bit_length),
             ("rns_primes_range_start", self.rns_primes_range_start),

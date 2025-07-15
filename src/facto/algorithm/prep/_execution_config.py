@@ -133,6 +133,8 @@ class ExecutionConfig:
         *,
         modulus_bitlength: int,
         num_input_qubits: int,
+        num_shots: int,
+        pp_success_probability: float,
         num_periods: int,
         period_bitlength: int,
         w1: int = 1,
@@ -140,12 +142,13 @@ class ExecutionConfig:
         w3a: int = 1,
         w3b: int = 1,
         len_acc: int = 24,
-        num_shots: int = 1,
         mask_bits: int | None = None,
     ) -> ExecutionConfig:
         problem_conf = ProblemConfig(
             modulus=(1 << modulus_bitlength) - 1,
             num_input_qubits=num_input_qubits,
+            pp_success_probability=pp_success_probability,
+            num_shots=num_shots,
             generator=2,
             window1=w1,
             window3a=w3a,
@@ -154,7 +157,6 @@ class ExecutionConfig:
             min_wraparound_gap=len_acc,
             len_accumulator=len_acc,
             parallelism=1,
-            num_shots=num_shots,
             rns_primes_bit_length=period_bitlength,
             rns_primes_range_start=2 ** (period_bitlength - 1),
             rns_primes_range_stop=2**period_bitlength,
@@ -236,9 +238,12 @@ class ExecutionConfig:
         return self.conf.num_shots
 
     @property
+    def pp_success_probability(self) -> int:
+        return self.conf.pp_success_probability
+
+    @property
     def expected_shots(self) -> float:
-        p_post_process_succeed = 0.99
-        return self.conf.num_shots / (1 - self.probability_of_deviation_failure) / p_post_process_succeed
+        return self.conf.num_shots / (1 - self.probability_of_deviation_failure) / self.conf.pp_success_probability
 
     @property
     def estimated_logical_qubits(self) -> int:

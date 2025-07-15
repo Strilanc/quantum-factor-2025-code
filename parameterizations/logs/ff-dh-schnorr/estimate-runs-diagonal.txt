@@ -1,0 +1,881 @@
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 20:35:20 CEST
+m: 112 sigma: 8 s: 2 n: 2 -- tau: 4.057564 v: 54830.5 <1508>
+m: 112 sigma: 8 s: 2 n: 3 -- tau: 4.517823 v: 1.69951E-10 <2315>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 20:35:42 CEST
+m: 112 sigma: 8 s: 3 n: 3 -- tau: 4.477973 v: 2.74149E+06 <2291>
+m: 112 sigma: 8 s: 3 n: 4 -- tau: 4.844838 v: 0.00300434 <2914>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-9-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 20:36:18 CEST
+m: 112 sigma: 9 s: 4 n: 4 -- tau: 4.598476 v: 1.40688E+09 <1558>
+m: 112 sigma: 9 s: 4 n: 5 -- tau: 4.827971 v: 1264.27 <1916>
+m: 112 sigma: 9 s: 4 n: 6 -- tau: 4.987528 v: 0.00112259 <2261>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 20:37:10 CEST
+m: 112 sigma: 9 s: 5 n: 5 -- tau: 4.808164 v: 3.90681E+10 <1890>
+m: 112 sigma: 9 s: 5 n: 6 -- tau: 5.023862 v: 1.43772E+06 <2334>
+m: 112 sigma: 9 s: 5 n: 8 -- tau: 5.354284 v: 0.00259653 <2987>
+m: 112 sigma: 9 s: 5 n: 7 -- tau: 5.194918 v: 56.1156 <2663>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 20:39:03 CEST
+m: 112 sigma: 9 s: 6 n: 6 -- tau: 4.999430 v: 2.14249E+13 <2197>
+m: 112 sigma: 9 s: 6 n: 7 -- tau: 5.191008 v: 1.47404E+10 <2680>
+m: 112 sigma: 9 s: 6 n: 11 -- tau: 5.835135 v: 0.0178931 <4140>
+m: 112 sigma: 9 s: 6 n: 10 -- tau: 5.702699 v: 15.0786 <3849>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-10-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 20:32:46 CEST
+m: 112 sigma: 10 s: 7 n: 7 -- tau: 4.948604 v: 8.06192E+15 <1376>
+m: 112 sigma: 10 s: 7 n: 8 -- tau: 5.076751 v: 3.31302E+13 <1504>
+m: 112 sigma: 10 s: 7 n: 14 -- tau: 5.691891 v: 1.45733 <2670>
+m: 112 sigma: 10 s: 7 n: 13 -- tau: 5.588918 v: 170.013 <2427>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-10-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:06:51 CEST
+m: 112 sigma: 10 s: 8 n: 8 -- tau: 5.073519 v: 2.12788E+18 <1456>
+m: 112 sigma: 10 s: 8 n: 9 -- tau: 5.182082 v: 3.65716E+16 <1677>
+m: 112 sigma: 10 s: 8 n: 19 -- tau: 6.108023 v: 41.1773 <3537>
+m: 112 sigma: 10 s: 8 n: 20 -- tau: 6.174450 v: 1.84056 <3746>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-11-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 09:51:46 CEST
+m: 112 sigma: 11 s: 9 n: 9 -- tau: 5.077677 v: 9.08135E+18 <838>
+m: 112 sigma: 11 s: 9 n: 10 -- tau: 5.128062 v: 2.17492E+17 <942>
+m: 112 sigma: 11 s: 9 n: 21 -- tau: 5.839041 v: 413.159 <2015>
+m: 112 sigma: 11 s: 9 n: 22 -- tau: 5.891449 v: 26.932 <2139>
+m: 112 sigma: 11 s: 9 n: 23 -- tau: 5.930137 v: 1.50389 <2186>
+
+# Processing: diagonal-distribution-det-dim-8192-m-112-sigma-11-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 09:55:45 CEST
+m: 112 sigma: 11 s: 10 n: 10 -- tau: 5.130234 v: 2.26432E+20 <976>
+m: 112 sigma: 11 s: 10 n: 11 -- tau: 5.221611 v: 1.64367E+19 <982>
+m: 112 sigma: 11 s: 10 n: 28 -- tau: 6.134464 v: 616.622 <2634>
+m: 112 sigma: 11 s: 10 n: 29 -- tau: 6.158561 v: 70.9626 <2759>
+m: 112 sigma: 11 s: 10 n: 30 -- tau: 6.231690 v: 24.2286 <2874>
+m: 112 sigma: 11 s: 10 n: 31 -- tau: 6.260537 v: 3.43004 <2984>
+m: 112 sigma: 11 s: 10 n: 32 -- tau: 6.311711 v: 0.842639 <3022>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-144-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:14:39 CEST
+m: 144 sigma: 8 s: 2 n: 2 -- tau: 4.066143 v: 55815.8 <1493>
+m: 144 sigma: 8 s: 2 n: 3 -- tau: 4.450225 v: 2.15028E-15 <2296>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 22:47:59 CEST
+m: 144 sigma: 8 s: 3 n: 3 -- tau: 4.481560 v: 1.10755E+07 <2273>
+m: 144 sigma: 8 s: 3 n: 4 -- tau: 4.844699 v: 1.173E-05 <3047>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 22:45:59 CEST
+m: 144 sigma: 8 s: 4 n: 4 -- tau: 4.868907 v: 3.59059E+09 <3036>
+m: 144 sigma: 8 s: 4 n: 5 -- tau: 5.172834 v: 20.7193 <3817>
+m: 144 sigma: 8 s: 4 n: 6 -- tau: 5.505506 v: 2.11405E-07 <4612>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-9-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 22:44:29 CEST
+m: 144 sigma: 9 s: 4 n: 4 -- tau: 4.540856 v: 1.15229E+09 <1459>
+m: 144 sigma: 9 s: 4 n: 5 -- tau: 4.776970 v: 3.99489 <1872>
+m: 144 sigma: 9 s: 4 n: 6 -- tau: 5.020596 v: 2.01101E-08 <2391>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 22:52:40 CEST
+m: 144 sigma: 9 s: 5 n: 5 -- tau: 4.805399 v: 1.54486E+11 <1858>
+m: 144 sigma: 9 s: 5 n: 6 -- tau: 5.005491 v: 82195.5 <2367>
+m: 144 sigma: 9 s: 5 n: 7 -- tau: 5.198911 v: 0.0560271 <2755>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 22:49:50 CEST
+m: 144 sigma: 9 s: 6 n: 6 -- tau: 5.002690 v: 8.70656E+13 <2278>
+m: 144 sigma: 9 s: 6 n: 7 -- tau: 5.159465 v: 1.5469E+09 <2643>
+m: 144 sigma: 9 s: 6 n: 9 -- tau: 5.540736 v: 1.52405 <3430>
+m: 144 sigma: 9 s: 6 n: 8 -- tau: 5.372326 v: 48751.8 <3006>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-9-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 22:58:02 CEST
+m: 144 sigma: 9 s: 7 n: 7 -- tau: 5.157388 v: 3.20695E+15 <2561>
+m: 144 sigma: 9 s: 7 n: 8 -- tau: 5.373186 v: 8.22319E+11 <3030>
+m: 144 sigma: 9 s: 7 n: 12 -- tau: 5.997201 v: 0.00855493 <4522>
+m: 144 sigma: 9 s: 7 n: 11 -- tau: 5.821017 v: 16.2925 <4058>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-10-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 22:55:03 CEST
+m: 144 sigma: 10 s: 7 n: 7 -- tau: 4.943432 v: 9.79249E+14 <1309>
+m: 144 sigma: 10 s: 7 n: 8 -- tau: 5.103910 v: 1.53305E+11 <1568>
+m: 144 sigma: 10 s: 7 n: 11 -- tau: 5.405403 v: 0.513678 <2048>
+m: 144 sigma: 10 s: 7 n: 10 -- tau: 5.309639 v: 3084.8 <1895>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-10-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:04:15 CEST
+m: 144 sigma: 10 s: 8 n: 8 -- tau: 5.088794 v: 2.3406E+18 <1473>
+m: 144 sigma: 10 s: 8 n: 9 -- tau: 5.180558 v: 2.26171E+15 <1737>
+m: 144 sigma: 10 s: 8 n: 14 -- tau: 5.665608 v: 17.7418 <2625>
+m: 144 sigma: 10 s: 8 n: 15 -- tau: 5.783452 v: 0.0508833 <2853>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-10-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:01:14 CEST
+m: 144 sigma: 10 s: 9 n: 9 -- tau: 5.216002 v: 7.57995E+20 <1698>
+m: 144 sigma: 10 s: 9 n: 10 -- tau: 5.310799 v: 3.50403E+18 <1912>
+m: 144 sigma: 10 s: 9 n: 18 -- tau: 5.997977 v: 35.5842 <3466>
+m: 144 sigma: 10 s: 9 n: 19 -- tau: 6.092544 v: 0.51914 <3622>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 09:25:30 CEST
+m: 144 sigma: 10 s: 10 n: 10 -- tau: 5.322723 v: 3.92962E+21 <1907>
+m: 144 sigma: 10 s: 10 n: 11 -- tau: 5.417329 v: 4.18552E+19 <2048>
+m: 144 sigma: 10 s: 10 n: 21 -- tau: 6.309986 v: 530.513 <4046>
+m: 144 sigma: 10 s: 10 n: 22 -- tau: 6.315840 v: 5.70466 <4132>
+m: 144 sigma: 10 s: 10 n: 23 -- tau: 6.459028 v: 0.607939 <4386>
+
+# Processing: diagonal-distribution-det-dim-8192-m-144-sigma-11-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:03:29 CEST
+m: 144 sigma: 11 s: 10 n: 10 -- tau: 5.151662 v: 1.06646E+21 <985>
+m: 144 sigma: 11 s: 10 n: 11 -- tau: 5.207408 v: 7.3026E+18 <1058>
+m: 144 sigma: 11 s: 10 n: 20 -- tau: 5.824984 v: 46.5737 <1840>
+m: 144 sigma: 11 s: 10 n: 21 -- tau: 5.835306 v: 0.381138 <1948>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-160-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:15:03 CEST
+m: 160 sigma: 8 s: 2 n: 2 -- tau: 4.077962 v: 57202.3 <1577>
+m: 160 sigma: 8 s: 2 n: 3 -- tau: 4.539257 v: 1.07497E-17 <2344>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 07:59:53 CEST
+m: 160 sigma: 8 s: 3 n: 3 -- tau: 4.475313 v: 2.72136E+06 <2281>
+m: 160 sigma: 8 s: 3 n: 4 -- tau: 4.870840 v: 5.01644E-08 <3055>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:04:47 CEST
+m: 160 sigma: 8 s: 4 n: 4 -- tau: 4.891433 v: 3.88206E+09 <3114>
+m: 160 sigma: 8 s: 4 n: 5 -- tau: 5.201544 v: 1.45916 <3736>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:06:46 CEST
+m: 160 sigma: 9 s: 5 n: 5 -- tau: 4.809327 v: 3.14061E+11 <1952>
+m: 160 sigma: 9 s: 5 n: 6 -- tau: 5.011608 v: 21167.9 <2294>
+m: 160 sigma: 9 s: 5 n: 7 -- tau: 5.205640 v: 0.00181741 <2759>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:10:05 CEST
+m: 160 sigma: 9 s: 6 n: 6 -- tau: 5.003323 v: 2.18333E+13 <2260>
+m: 160 sigma: 9 s: 6 n: 7 -- tau: 5.156218 v: 4.74782E+07 <2669>
+m: 160 sigma: 9 s: 6 n: 9 -- tau: 5.547786 v: 0.000781427 <3480>
+m: 160 sigma: 9 s: 6 n: 8 -- tau: 5.355617 v: 171.587 <3012>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-10-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:12:29 CEST
+m: 160 sigma: 10 s: 7 n: 7 -- tau: 4.969492 v: 4.5259E+15 <1331>
+m: 160 sigma: 10 s: 7 n: 8 -- tau: 5.075550 v: 1.28449E+11 <1463>
+m: 160 sigma: 10 s: 7 n: 11 -- tau: 5.403576 v: 0.00790518 <2091>
+m: 160 sigma: 10 s: 7 n: 10 -- tau: 5.323474 v: 214.248 <1848>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-10-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:58:32 CEST
+m: 160 sigma: 10 s: 8 n: 8 -- tau: 5.092019 v: 2.38816E+18 <1537>
+m: 160 sigma: 10 s: 8 n: 9 -- tau: 5.181362 v: 5.68587E+14 <1675>
+m: 160 sigma: 10 s: 8 n: 13 -- tau: 5.571546 v: 8.97739 <2446>
+m: 160 sigma: 10 s: 8 n: 14 -- tau: 5.691919 v: 0.00569434 <2623>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-10-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:55:34 CEST
+m: 160 sigma: 10 s: 9 n: 9 -- tau: 5.160977 v: 1.29413E+20 <1680>
+m: 160 sigma: 10 s: 9 n: 10 -- tau: 5.310224 v: 2.18044E+17 <1870>
+m: 160 sigma: 10 s: 9 n: 17 -- tau: 5.913448 v: 0.0120381 <3165>
+m: 160 sigma: 10 s: 9 n: 16 -- tau: 5.842970 v: 5.6736 <2943>
+
+# Processing: diagonal-distribution-det-dim-8192-m-160-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:12:04 CEST
+m: 160 sigma: 10 s: 10 n: 10 -- tau: 5.297420 v: 2.0737E+23 <1953>
+m: 160 sigma: 10 s: 10 n: 11 -- tau: 5.404107 v: 1.19989E+21 <2051>
+m: 160 sigma: 10 s: 10 n: 21 -- tau: 6.216168 v: 3.96487 <3935>
+m: 160 sigma: 10 s: 10 n: 22 -- tau: 6.411884 v: 0.412119 <4309>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-192-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:15:30 CEST
+m: 192 sigma: 8 s: 2 n: 2 -- tau: 4.100987 v: 60003.4 <1548>
+m: 192 sigma: 8 s: 2 n: 3 -- tau: 4.510153 v: 1.51319E-22 <2205>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:00:49 CEST
+m: 192 sigma: 8 s: 3 n: 3 -- tau: 4.496610 v: 1.15472E+07 <2282>
+m: 192 sigma: 8 s: 3 n: 4 -- tau: 4.846845 v: 1.80322E-10 <2944>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:01:16 CEST
+m: 192 sigma: 8 s: 4 n: 4 -- tau: 4.871656 v: 3.62496E+09 <3020>
+m: 192 sigma: 8 s: 4 n: 5 -- tau: 5.171382 v: 0.00502798 <3736>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:20:30 CEST
+m: 192 sigma: 9 s: 5 n: 5 -- tau: 4.783137 v: 3.5207E+10 <1959>
+m: 192 sigma: 9 s: 5 n: 6 -- tau: 5.047829 v: 24.6429 <2324>
+m: 192 sigma: 9 s: 5 n: 7 -- tau: 5.181462 v: 1.21261E-08 <2570>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:21:56 CEST
+m: 192 sigma: 9 s: 6 n: 6 -- tau: 4.986223 v: 8.03808E+13 <2160>
+m: 192 sigma: 9 s: 6 n: 7 -- tau: 5.189982 v: 7.15661E+06 <2658>
+m: 192 sigma: 9 s: 6 n: 8 -- tau: 5.328021 v: 0.564267 <2949>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-9-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:28:16 CEST
+m: 192 sigma: 9 s: 7 n: 7 -- tau: 5.172313 v: 1.74181E+15 <2624>
+m: 192 sigma: 9 s: 7 n: 8 -- tau: 5.354680 v: 2.86197E+09 <3049>
+m: 192 sigma: 9 s: 7 n: 10 -- tau: 5.699233 v: 0.0143412 <3827>
+m: 192 sigma: 9 s: 7 n: 9 -- tau: 5.543189 v: 6349.52 <3374>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-10-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:35:07 CEST
+m: 192 sigma: 10 s: 8 n: 8 -- tau: 5.078738 v: 2.19829E+18 <1531>
+m: 192 sigma: 10 s: 8 n: 9 -- tau: 5.200640 v: 4.06168E+13 <1699>
+m: 192 sigma: 10 s: 8 n: 12 -- tau: 5.480535 v: 0.333208 <2200>
+m: 192 sigma: 10 s: 8 n: 11 -- tau: 5.408799 v: 17314.5 <2111>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-10-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:41:04 CEST
+m: 192 sigma: 10 s: 9 n: 9 -- tau: 5.215593 v: 1.18101E+19 <1723>
+m: 192 sigma: 10 s: 9 n: 10 -- tau: 5.320195 v: 9.19005E+14 <1954>
+m: 192 sigma: 10 s: 9 n: 14 -- tau: 5.693929 v: 0.0930331 <2676>
+m: 192 sigma: 10 s: 9 n: 13 -- tau: 5.621329 v: 931.384 <2507>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:45:28 CEST
+m: 192 sigma: 10 s: 10 n: 10 -- tau: 5.287157 v: 7.49074E+20 <1905>
+m: 192 sigma: 10 s: 10 n: 11 -- tau: 5.414439 v: 3.19229E+17 <2124>
+m: 192 sigma: 10 s: 10 n: 17 -- tau: 5.958468 v: 0.00527757 <3268>
+m: 192 sigma: 10 s: 10 n: 16 -- tau: 5.825606 v: 4.62384 <3002>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-10-s-11.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:15:25 CEST
+m: 192 sigma: 10 s: 11 n: 11 -- tau: 5.406764 v: 1.25614E+24 <2061>
+m: 192 sigma: 10 s: 11 n: 12 -- tau: 5.476727 v: 1.52046E+21 <2222>
+m: 192 sigma: 10 s: 11 n: 20 -- tau: 6.177906 v: 1.93552 <3732>
+m: 192 sigma: 10 s: 11 n: 19 -- tau: 6.102838 v: 613.142 <3593>
+
+# Processing: diagonal-distribution-det-dim-8192-m-192-sigma-11-s-12.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:48:55 CEST
+m: 192 sigma: 11 s: 12 n: 12 -- tau: 5.290788 v: 4.7761E+27 <1150>
+m: 192 sigma: 11 s: 12 n: 13 -- tau: 5.365362 v: 2.34829E+25 <1218>
+m: 192 sigma: 11 s: 12 n: 24 -- tau: 6.005959 v: 43.2032 <2289>
+m: 192 sigma: 11 s: 12 n: 25 -- tau: 6.020480 v: 0.223186 <2370>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-224-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:16:04 CEST
+m: 224 sigma: 8 s: 2 n: 2 -- tau: 4.065839 v: 55780.5 <1531>
+m: 224 sigma: 8 s: 2 n: 3 -- tau: 4.509766 v: 2.30647E-27 <2287>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:02:22 CEST
+m: 224 sigma: 8 s: 3 n: 3 -- tau: 4.487623 v: 5.63157E+06 <2252>
+m: 224 sigma: 8 s: 3 n: 4 -- tau: 4.866943 v: 4.71988E-14 <2991>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:03:00 CEST
+m: 224 sigma: 8 s: 4 n: 4 -- tau: 4.869409 v: 3.59684E+09 <3053>
+m: 224 sigma: 8 s: 4 n: 5 -- tau: 5.138006 v: 1.70954E-05 <3755>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:49:46 CEST
+m: 224 sigma: 9 s: 5 n: 5 -- tau: 4.805672 v: 1.54662E+11 <1902>
+m: 224 sigma: 9 s: 5 n: 6 -- tau: 5.013869 v: 1.30623 <2284>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-08 23:50:50 CEST
+m: 224 sigma: 9 s: 6 n: 6 -- tau: 5.019631 v: 5.90773E+12 <2282>
+m: 224 sigma: 9 s: 6 n: 7 -- tau: 5.175872 v: 6462.94 <2617>
+m: 224 sigma: 9 s: 6 n: 8 -- tau: 5.412116 v: 1.45488E-05 <3081>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-9-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:28:57 CEST
+m: 224 sigma: 9 s: 7 n: 7 -- tau: 5.187077 v: 3.02463E+16 <2681>
+m: 224 sigma: 9 s: 7 n: 8 -- tau: 5.327442 v: 2.41477E+09 <3064>
+m: 224 sigma: 9 s: 7 n: 10 -- tau: 5.728022 v: 6.97704E-05 <3830>
+m: 224 sigma: 9 s: 7 n: 9 -- tau: 5.505863 v: 306.382 <3348>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-10-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:19:14 CEST
+m: 224 sigma: 10 s: 8 n: 8 -- tau: 5.094983 v: 2.43272E+18 <1567>
+m: 224 sigma: 10 s: 8 n: 9 -- tau: 5.192794 v: 2.40418E+12 <1718>
+m: 224 sigma: 10 s: 8 n: 12 -- tau: 5.546005 v: 9.17142E-06 <2357>
+m: 224 sigma: 10 s: 8 n: 11 -- tau: 5.412711 v: 4.36698 <2143>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-10-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:22:09 CEST
+m: 224 sigma: 10 s: 9 n: 9 -- tau: 5.164298 v: 2.64852E+20 <1657>
+m: 224 sigma: 10 s: 9 n: 10 -- tau: 5.313852 v: 3.50248E+15 <1912>
+m: 224 sigma: 10 s: 9 n: 14 -- tau: 5.685857 v: 8.35398E-05 <2675>
+m: 224 sigma: 10 s: 9 n: 13 -- tau: 5.589106 v: 5.32256 <2413>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:25:51 CEST
+m: 224 sigma: 10 s: 10 n: 10 -- tau: 5.296794 v: 3.22473E+21 <1921>
+m: 224 sigma: 10 s: 10 n: 11 -- tau: 5.375404 v: 1.15364E+17 <2111>
+m: 224 sigma: 10 s: 10 n: 15 -- tau: 5.784765 v: 1.65215 <2817>
+m: 224 sigma: 10 s: 10 n: 14 -- tau: 5.697942 v: 25427.2 <2733>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-10-s-11.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:29:30 CEST
+m: 224 sigma: 10 s: 11 n: 11 -- tau: 5.402810 v: 6.07749E+23 <2080>
+m: 224 sigma: 10 s: 11 n: 12 -- tau: 5.509226 v: 1.27359E+20 <2313>
+m: 224 sigma: 10 s: 11 n: 18 -- tau: 6.030489 v: 0.0533219 <3403>
+m: 224 sigma: 10 s: 11 n: 17 -- tau: 5.904856 v: 88.5909 <3119>
+
+# Processing: diagonal-distribution-det-dim-8192-m-224-sigma-10-s-12.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:33:45 CEST
+m: 224 sigma: 10 s: 12 n: 12 -- tau: 5.486311 v: 1.73812E+27 <2218>
+m: 224 sigma: 10 s: 12 n: 13 -- tau: 5.601875 v: 1.82085E+24 <2498>
+m: 224 sigma: 10 s: 12 n: 22 -- tau: 6.361646 v: 0.0462522 <4207>
+m: 224 sigma: 10 s: 12 n: 21 -- tau: 6.265095 v: 16.7219 <4042>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-256-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:16:46 CEST
+m: 256 sigma: 8 s: 2 n: 2 -- tau: 4.061003 v: 55223.3 <1450>
+m: 256 sigma: 8 s: 2 n: 3 -- tau: 4.487747 v: 3.31108E-32 <2274>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:04:13 CEST
+m: 256 sigma: 8 s: 3 n: 3 -- tau: 4.477516 v: 2.73802E+06 <2261>
+m: 256 sigma: 8 s: 3 n: 4 -- tau: 4.871034 v: 1.16876E-17 <3047>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:04:49 CEST
+m: 256 sigma: 8 s: 4 n: 4 -- tau: 4.846171 v: 3.31859E+09 <3027>
+m: 256 sigma: 8 s: 4 n: 5 -- tau: 5.172307 v: 7.70166E-08 <3763>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:05:34 CEST
+m: 256 sigma: 9 s: 5 n: 5 -- tau: 4.756881 v: 1.5783E+10 <1825>
+m: 256 sigma: 9 s: 5 n: 6 -- tau: 5.007091 v: 0.00123436 <2240>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 00:58:19 CEST
+m: 256 sigma: 9 s: 6 n: 6 -- tau: 4.981333 v: 1.96241E+13 <2296>
+m: 256 sigma: 9 s: 6 n: 7 -- tau: 5.202022 v: 933.924 <2682>
+m: 256 sigma: 9 s: 6 n: 8 -- tau: 5.337626 v: 3.57097E-08 <3002>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-9-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:00:03 CEST
+m: 256 sigma: 9 s: 7 n: 7 -- tau: 5.187886 v: 3.7978E+15 <2623>
+m: 256 sigma: 9 s: 7 n: 8 -- tau: 5.324139 v: 9.24032E+06 <3084>
+m: 256 sigma: 9 s: 7 n: 9 -- tau: 5.507969 v: 0.0379502 <3406>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-9-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:02:05 CEST
+m: 256 sigma: 9 s: 8 n: 8 -- tau: 5.323694 v: 1.01317E+19 <2985>
+m: 256 sigma: 9 s: 8 n: 9 -- tau: 5.528585 v: 1.54035E+12 <3428>
+m: 256 sigma: 9 s: 8 n: 11 -- tau: 5.853958 v: 0.0418514 <4236>
+m: 256 sigma: 9 s: 8 n: 10 -- tau: 5.666910 v: 188052 <3760>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-10-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:52:41 CEST
+m: 256 sigma: 10 s: 9 n: 9 -- tau: 5.168899 v: 1.70896E+19 <1672>
+m: 256 sigma: 10 s: 9 n: 10 -- tau: 5.299667 v: 1.22791E+13 <1877>
+m: 256 sigma: 10 s: 9 n: 13 -- tau: 5.607201 v: 6.05034E-06 <2529>
+m: 256 sigma: 10 s: 9 n: 12 -- tau: 5.507360 v: 6.78902 <2310>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:08:51 CEST
+m: 256 sigma: 10 s: 10 n: 10 -- tau: 5.301798 v: 1.34005E+22 <1820>
+m: 256 sigma: 10 s: 10 n: 11 -- tau: 5.384516 v: 6.22235E+16 <2043>
+m: 256 sigma: 10 s: 10 n: 15 -- tau: 5.736840 v: 0.000118532 <2775>
+m: 256 sigma: 10 s: 10 n: 14 -- tau: 5.680642 v: 20.7436 <2659>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-10-s-11.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 08:45:34 CEST
+m: 256 sigma: 10 s: 11 n: 11 -- tau: 5.424001 v: 3.62443E+23 <2043>
+m: 256 sigma: 10 s: 11 n: 12 -- tau: 5.523703 v: 9.06903E+18 <2290>
+m: 256 sigma: 10 s: 11 n: 17 -- tau: 5.938648 v: 0.000257585 <3163>
+m: 256 sigma: 10 s: 11 n: 16 -- tau: 5.832073 v: 4.98996 <2991>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-10-s-12.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 08:51:02 CEST
+m: 256 sigma: 10 s: 12 n: 12 -- tau: 5.488733 v: 1.11029E+26 <2277>
+m: 256 sigma: 10 s: 12 n: 13 -- tau: 5.587649 v: 1.23911E+22 <2398>
+m: 256 sigma: 10 s: 12 n: 19 -- tau: 6.107126 v: 0.15886 <3581>
+m: 256 sigma: 10 s: 12 n: 18 -- tau: 6.062453 v: 1330.9 <3449>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-10-s-13.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 08:56:03 CEST
+m: 256 sigma: 10 s: 13 n: 13 -- tau: 5.565023 v: 6.67635E+29 <2366>
+m: 256 sigma: 10 s: 13 n: 14 -- tau: 5.714765 v: 5.7211E+26 <2686>
+m: 256 sigma: 10 s: 13 n: 23 -- tau: 6.444170 v: 0.059351 <4378>
+m: 256 sigma: 10 s: 13 n: 22 -- tau: 6.334790 v: 30.8669 <4190>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-11-s-13.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-10 18:56:35 CEST
+m: 256 sigma: 11 s: 13 n: 13 -- tau: 5.373542 v: 1.04132E+29 <1197>
+m: 256 sigma: 11 s: 13 n: 14 -- tau: 5.448078 v: 3.5752E+25 <1296>
+m: 256 sigma: 11 s: 13 n: 22 -- tau: 5.881354 v: 0.0223909 <1998>
+m: 256 sigma: 11 s: 13 n: 21 -- tau: 5.863107 v: 74.5432 <2054>
+
+# Processing: diagonal-distribution-det-dim-8192-m-256-sigma-11-s-14.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-10 19:04:39 CEST
+m: 256 sigma: 11 s: 14 n: 14 -- tau: 5.443220 v: 5.56913E+29 <1366>
+m: 256 sigma: 11 s: 14 n: 15 -- tau: 5.542154 v: 5.55019E+26 <1495>
+m: 256 sigma: 11 s: 14 n: 24 -- tau: 5.999035 v: 0.149682 <2278>
+m: 256 sigma: 11 s: 14 n: 23 -- tau: 5.916150 v: 76.2685 <2140>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-304-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:17:19 CEST
+m: 304 sigma: 8 s: 2 n: 2 -- tau: 4.074440 v: 56785.7 <1509>
+m: 304 sigma: 8 s: 2 n: 3 -- tau: 4.533846 v: 2.24247E-39 <2349>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:07:22 CEST
+m: 304 sigma: 8 s: 3 n: 3 -- tau: 4.505661 v: 2.9601E+06 <2260>
+m: 304 sigma: 8 s: 3 n: 4 -- tau: 4.866883 v: 1.75793E-22 <3098>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:08:13 CEST
+m: 304 sigma: 8 s: 4 n: 4 -- tau: 4.795156 v: 2.78093E+09 <2935>
+m: 304 sigma: 8 s: 4 n: 5 -- tau: 5.189331 v: 2.01822E-11 <3785>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:09:13 CEST
+m: 304 sigma: 9 s: 5 n: 5 -- tau: 4.835155 v: 1.74832E+11 <1927>
+m: 304 sigma: 9 s: 5 n: 6 -- tau: 4.989586 v: 1.77165E-05 <2239>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:17:48 CEST
+m: 304 sigma: 9 s: 6 n: 6 -- tau: 5.000349 v: 2.15206E+13 <2311>
+m: 304 sigma: 9 s: 6 n: 7 -- tau: 5.162306 v: 2.92708 <2562>
+m: 304 sigma: 9 s: 6 n: 8 -- tau: 5.361633 v: 6.32909E-13 <3121>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-9-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:15:18 CEST
+m: 304 sigma: 9 s: 7 n: 7 -- tau: 5.143668 v: 1.48602E+15 <2501>
+m: 304 sigma: 9 s: 7 n: 8 -- tau: 5.348482 v: 42014 <2922>
+m: 304 sigma: 9 s: 7 n: 9 -- tau: 5.541304 v: 1.45917E-06 <3517>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-9-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:38:23 CEST
+m: 304 sigma: 9 s: 8 n: 8 -- tau: 5.351610 v: 1.2059E+19 <2991>
+m: 304 sigma: 9 s: 8 n: 9 -- tau: 5.527634 v: 2.39099E+10 <3372>
+m: 304 sigma: 9 s: 8 n: 11 -- tau: 5.828372 v: 1.29046E-07 <4166>
+m: 304 sigma: 9 s: 8 n: 10 -- tau: 5.700832 v: 59.4621 <3956>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-10-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:28:17 CEST
+m: 304 sigma: 10 s: 9 n: 9 -- tau: 5.203226 v: 1.7344E+20 <1669>
+m: 304 sigma: 10 s: 9 n: 10 -- tau: 5.289668 v: 2.84447E+12 <1911>
+m: 304 sigma: 10 s: 9 n: 12 -- tau: 5.498155 v: 0.00152556 <2219>
+m: 304 sigma: 10 s: 9 n: 11 -- tau: 5.411625 v: 70905 <2108>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:32:27 CEST
+m: 304 sigma: 10 s: 10 n: 10 -- tau: 5.277762 v: 2.78919E+21 <1858>
+m: 304 sigma: 10 s: 10 n: 11 -- tau: 5.397552 v: 5.41793E+14 <2045>
+m: 304 sigma: 10 s: 10 n: 14 -- tau: 5.714535 v: 7.035E-06 <2695>
+m: 304 sigma: 10 s: 10 n: 13 -- tau: 5.553229 v: 15.0309 <2446>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-10-s-11.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 09:01:54 CEST
+m: 304 sigma: 10 s: 11 n: 11 -- tau: 5.390369 v: 4.38406E+24 <2101>
+m: 304 sigma: 10 s: 11 n: 12 -- tau: 5.480021 v: 6.11822E+18 <2221>
+m: 304 sigma: 10 s: 11 n: 16 -- tau: 5.872893 v: 0.000123171 <3002>
+m: 304 sigma: 10 s: 11 n: 15 -- tau: 5.724995 v: 27.2475 <2784>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-10-s-12.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 09:06:44 CEST
+m: 304 sigma: 10 s: 12 n: 12 -- tau: 5.500714 v: 1.23686E+26 <2193>
+m: 304 sigma: 10 s: 12 n: 13 -- tau: 5.622815 v: 1.08941E+21 <2566>
+m: 304 sigma: 10 s: 12 n: 18 -- tau: 6.052332 v: 6.94289E-05 <3502>
+m: 304 sigma: 10 s: 12 n: 17 -- tau: 5.964342 v: 5.81517 <3234>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-10-s-13.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 09:12:26 CEST
+m: 304 sigma: 10 s: 13 n: 13 -- tau: 5.578335 v: 4.74811E+28 <2361>
+m: 304 sigma: 10 s: 13 n: 14 -- tau: 5.662172 v: 1.29349E+24 <2568>
+m: 304 sigma: 10 s: 13 n: 20 -- tau: 6.199221 v: 0.010311 <3842>
+m: 304 sigma: 10 s: 13 n: 19 -- tau: 6.088083 v: 124.931 <3632>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-10-s-14.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 18:21:00 CEST
+m: 304 sigma: 10 s: 14 n: 14 -- tau: 5.655509 v: 3.2398E+32 <2593>
+m: 304 sigma: 10 s: 14 n: 15 -- tau: 5.744633 v: 4.19381E+28 <2760>
+m: 304 sigma: 10 s: 14 n: 23 -- tau: 6.402496 v: 0.118688 <4306>
+m: 304 sigma: 10 s: 14 n: 22 -- tau: 6.346195 v: 592.35 <4237>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-11-s-14.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-10 10:11:17 CEST
+m: 304 sigma: 11 s: 14 n: 14 -- tau: 5.457815 v: 4.14829E+31 <1342>
+m: 304 sigma: 11 s: 14 n: 15 -- tau: 5.493699 v: 2.5943E+27 <1423>
+m: 304 sigma: 11 s: 14 n: 22 -- tau: 5.919385 v: 0.656905 <2054>
+m: 304 sigma: 11 s: 14 n: 21 -- tau: 5.851971 v: 4025.69 <1996>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-11-s-15.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-10 10:20:02 CEST
+m: 304 sigma: 11 s: 15 n: 15 -- tau: 5.536902 v: 1.37263E+32 <1404>
+m: 304 sigma: 11 s: 15 n: 16 -- tau: 5.581456 v: 2.06286E+28 <1515>
+m: 304 sigma: 11 s: 15 n: 24 -- tau: 6.036512 v: 0.286555 <2327>
+m: 304 sigma: 11 s: 15 n: 23 -- tau: 5.976197 v: 828.376 <2205>
+
+# Processing: diagonal-distribution-det-dim-8192-m-304-sigma-11-s-16.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-10 12:30:58 CEST
+m: 304 sigma: 11 s: 16 n: 16 -- tau: 5.557748 v: 6.70046E+37 <1554>
+m: 304 sigma: 11 s: 16 n: 17 -- tau: 5.634029 v: 6.27122E+34 <1636>
+m: 304 sigma: 11 s: 16 n: 29 -- tau: 6.209579 v: 0.1001 <2670>
+m: 304 sigma: 11 s: 16 n: 28 -- tau: 6.164797 v: 70.9093 <2655>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-352-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:17:55 CEST
+m: 352 sigma: 8 s: 2 n: 2 -- tau: 4.063180 v: 55473.5 <1565>
+m: 352 sigma: 8 s: 2 n: 3 -- tau: 4.510238 v: 1.25197E-46 <2272>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:11:36 CEST
+m: 352 sigma: 8 s: 3 n: 3 -- tau: 4.504979 v: 2.95452E+06 <2274>
+m: 352 sigma: 8 s: 3 n: 4 -- tau: 4.860438 v: 2.62315E-27 <2986>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:12:48 CEST
+m: 352 sigma: 8 s: 4 n: 4 -- tau: 4.874592 v: 3.66201E+09 <3034>
+m: 352 sigma: 8 s: 4 n: 5 -- tau: 5.173673 v: 4.6167E-15 <3775>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:14:01 CEST
+m: 352 sigma: 9 s: 5 n: 5 -- tau: 4.812937 v: 3.98512E+10 <1879>
+m: 352 sigma: 9 s: 5 n: 6 -- tau: 4.991256 v: 4.36051E-09 <2211>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:21:41 CEST
+m: 352 sigma: 9 s: 6 n: 6 -- tau: 4.971492 v: 1.87092E+13 <2274>
+m: 352 sigma: 9 s: 6 n: 7 -- tau: 5.176251 v: 0.012353 <2661>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-9-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:23:12 CEST
+m: 352 sigma: 9 s: 7 n: 7 -- tau: 5.145768 v: 7.51709E+14 <2553>
+m: 352 sigma: 9 s: 7 n: 8 -- tau: 5.341125 v: 156.756 <2956>
+m: 352 sigma: 9 s: 7 n: 9 -- tau: 5.503898 v: 3.43606E-11 <3376>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-9-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 01:56:19 CEST
+m: 352 sigma: 9 s: 8 n: 8 -- tau: 5.348585 v: 1.18335E+19 <3008>
+m: 352 sigma: 9 s: 8 n: 9 -- tau: 5.508117 v: 3.26324E+08 <3372>
+m: 352 sigma: 9 s: 8 n: 10 -- tau: 5.707599 v: 0.0152857 <3874>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-9-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:18:31 CEST
+m: 352 sigma: 9 s: 9 n: 9 -- tau: 5.529714 v: 2.60458E+19 <3442>
+m: 352 sigma: 9 s: 9 n: 10 -- tau: 5.701491 v: 1.60421E+10 <3782>
+m: 352 sigma: 9 s: 9 n: 12 -- tau: 6.031001 v: 1.10634E-08 <4554>
+m: 352 sigma: 9 s: 9 n: 11 -- tau: 5.844561 v: 9.90843 <4155>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-10-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:00:21 CEST
+m: 352 sigma: 10 s: 9 n: 9 -- tau: 5.190448 v: 2.48032E+18 <1674>
+m: 352 sigma: 10 s: 9 n: 10 -- tau: 5.298154 v: 7.40864E+08 <1852>
+m: 352 sigma: 10 s: 9 n: 11 -- tau: 5.374808 v: 0.199134 <1977>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:04:51 CEST
+m: 352 sigma: 10 s: 10 n: 10 -- tau: 5.291338 v: 7.73338E+20 <1823>
+m: 352 sigma: 10 s: 10 n: 11 -- tau: 5.391470 v: 4.02395E+12 <2159>
+m: 352 sigma: 10 s: 10 n: 13 -- tau: 5.606786 v: 0.000192834 <2554>
+m: 352 sigma: 10 s: 10 n: 12 -- tau: 5.508918 v: 28201 <2276>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-10-s-11.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:31:36 CEST
+m: 352 sigma: 10 s: 11 n: 11 -- tau: 5.376982 v: 6.27538E+25 <2030>
+m: 352 sigma: 10 s: 11 n: 12 -- tau: 5.488996 v: 6.63354E+18 <2306>
+m: 352 sigma: 10 s: 11 n: 15 -- tau: 5.782385 v: 0.0125713 <2884>
+m: 352 sigma: 10 s: 11 n: 14 -- tau: 5.663204 v: 70877.2 <2639>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-10-s-12.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:37:36 CEST
+m: 352 sigma: 10 s: 12 n: 12 -- tau: 5.492854 v: 1.15229E+26 <2218>
+m: 352 sigma: 10 s: 12 n: 13 -- tau: 5.586181 v: 4.77181E+19 <2434>
+m: 352 sigma: 10 s: 12 n: 17 -- tau: 5.938052 v: 3.99499E-06 <3178>
+m: 352 sigma: 10 s: 12 n: 16 -- tau: 5.836236 v: 5.24082 <2940>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-10-s-13.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:44:34 CEST
+m: 352 sigma: 10 s: 13 n: 13 -- tau: 5.580409 v: 3.02789E+27 <2396>
+m: 352 sigma: 10 s: 13 n: 14 -- tau: 5.671369 v: 5.55972E+21 <2605>
+m: 352 sigma: 10 s: 13 n: 18 -- tau: 6.036234 v: 0.230052 <3443>
+m: 352 sigma: 10 s: 13 n: 17 -- tau: 5.939015 v: 69462.3 <3224>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-10-s-14.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 02:52:12 CEST
+m: 352 sigma: 10 s: 14 n: 14 -- tau: 5.696799 v: 1.94409E+30 <2673>
+m: 352 sigma: 10 s: 14 n: 15 -- tau: 5.777528 v: 1.47464E+25 <2893>
+m: 352 sigma: 10 s: 14 n: 20 -- tau: 6.180323 v: 2.00483 <3790>
+m: 352 sigma: 10 s: 14 n: 21 -- tau: 6.281979 v: 4.12598E-05 <3961>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-10-s-15.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 18:28:09 CEST
+m: 352 sigma: 10 s: 15 n: 15 -- tau: 5.784891 v: 1.71809E+34 <2999>
+m: 352 sigma: 10 s: 15 n: 16 -- tau: 5.842078 v: 4.44812E+29 <3009>
+m: 352 sigma: 10 s: 15 n: 23 -- tau: 6.402419 v: 0.474142 <4305>
+m: 352 sigma: 10 s: 15 n: 22 -- tau: 6.319901 v: 6232.31 <4060>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-11-s-15.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 18:37:03 CEST
+m: 352 sigma: 11 s: 15 n: 15 -- tau: 5.500750 v: 7.35392E+32 <1438>
+m: 352 sigma: 11 s: 15 n: 16 -- tau: 5.567586 v: 1.75182E+28 <1516>
+m: 352 sigma: 11 s: 15 n: 23 -- tau: 5.954543 v: 0.000275521 <2141>
+m: 352 sigma: 11 s: 15 n: 22 -- tau: 5.897031 v: 7.35962 <2063>
+
+# Processing: diagonal-distribution-det-dim-8192-m-352-sigma-11-s-16.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 18:57:49 CEST
+m: 352 sigma: 11 s: 16 n: 16 -- tau: 5.574736 v: 8.18533E+37 <1476>
+m: 352 sigma: 11 s: 16 n: 17 -- tau: 5.624540 v: 6.96378E+33 <1572>
+m: 352 sigma: 11 s: 16 n: 26 -- tau: 6.074888 v: 0.0397351 <2453>
+m: 352 sigma: 11 s: 16 n: 25 -- tau: 6.038694 v: 317.34 <2330>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: diagonal-distribution-det-dim-2048-m-400-sigma-8-s-2.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 10:18:50 CEST
+m: 400 sigma: 8 s: 2 n: 2 -- tau: 4.062546 v: 55400.5 <1551>
+m: 400 sigma: 8 s: 2 n: 3 -- tau: 4.503929 v: 7.33303E-54 <2316>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-8-s-3.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:16:35 CEST
+m: 400 sigma: 8 s: 3 n: 3 -- tau: 4.520411 v: 3.0836E+06 <2205>
+m: 400 sigma: 8 s: 3 n: 4 -- tau: 4.850156 v: 3.86253E-32 <3056>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-8-s-4.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:17:45 CEST
+m: 400 sigma: 8 s: 4 n: 4 -- tau: 4.891474 v: 3.88261E+09 <3099>
+m: 400 sigma: 8 s: 4 n: 5 -- tau: 5.205887 v: 1.28869E-18 <3796>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-9-s-5.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:19:06 CEST
+m: 400 sigma: 9 s: 5 n: 5 -- tau: 4.779568 v: 2.77507E+11 <1887>
+m: 400 sigma: 9 s: 5 n: 6 -- tau: 5.037884 v: 8.54275E-11 <2337>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-9-s-6.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-11 08:20:58 CEST
+m: 400 sigma: 9 s: 6 n: 6 -- tau: 4.985868 v: 2.00606E+13 <2273>
+m: 400 sigma: 9 s: 6 n: 7 -- tau: 5.176949 v: 4.84411E-05 <2677>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-9-s-7.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:00:02 CEST
+m: 400 sigma: 9 s: 7 n: 7 -- tau: 5.161691 v: 4.10547E+14 <2644>
+m: 400 sigma: 9 s: 7 n: 8 -- tau: 5.375415 v: 0.758367 <3051>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-9-s-8.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:02:00 CEST
+m: 400 sigma: 9 s: 8 n: 8 -- tau: 5.399864 v: 1.62942E+19 <3028>
+m: 400 sigma: 9 s: 8 n: 9 -- tau: 5.499734 v: 4.81099E+06 <3384>
+m: 400 sigma: 9 s: 8 n: 10 -- tau: 5.701051 v: 3.55014E-06 <3844>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-9-s-9.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:05:43 CEST
+m: 400 sigma: 9 s: 9 n: 9 -- tau: 5.489076 v: 1.57218E+20 <3342>
+m: 400 sigma: 9 s: 9 n: 10 -- tau: 5.653333 v: 2.77805E+09 <3796>
+m: 400 sigma: 9 s: 9 n: 11 -- tau: 5.819937 v: 0.0630736 <4106>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-10-s-10.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:09:34 CEST
+m: 400 sigma: 10 s: 10 n: 10 -- tau: 5.302455 v: 2.15486E+23 <1889>
+m: 400 sigma: 10 s: 10 n: 11 -- tau: 5.415568 v: 7.86716E+13 <2137>
+m: 400 sigma: 10 s: 10 n: 13 -- tau: 5.613190 v: 1.28248E-05 <2477>
+m: 400 sigma: 10 s: 10 n: 12 -- tau: 5.532440 v: 34858.9 <2327>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-10-s-11.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:16:06 CEST
+m: 400 sigma: 10 s: 11 n: 11 -- tau: 5.418077 v: 6.90035E+23 <2123>
+m: 400 sigma: 10 s: 11 n: 12 -- tau: 5.495025 v: 1.70992E+15 <2208>
+m: 400 sigma: 10 s: 11 n: 14 -- tau: 5.725403 v: 0.0322623 <2693>
+m: 400 sigma: 10 s: 11 n: 13 -- tau: 5.608840 v: 6.75907E+06 <2523>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-10-s-12.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:22:41 CEST
+m: 400 sigma: 10 s: 12 n: 12 -- tau: 5.550147 v: 1.93091E+26 <2353>
+m: 400 sigma: 10 s: 12 n: 13 -- tau: 5.580749 v: 2.82926E+18 <2453>
+m: 400 sigma: 10 s: 12 n: 16 -- tau: 5.903894 v: 0.000177482 <3109>
+m: 400 sigma: 10 s: 12 n: 15 -- tau: 5.754360 v: 2415.12 <2726>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-10-s-13.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:30:08 CEST
+m: 400 sigma: 10 s: 13 n: 13 -- tau: 5.579943 v: 1.54329E+30 <2487>
+m: 400 sigma: 10 s: 13 n: 14 -- tau: 5.676566 v: 3.75576E+23 <2581>
+m: 400 sigma: 10 s: 13 n: 18 -- tau: 6.052212 v: 0.0044364 <3486>
+m: 400 sigma: 10 s: 13 n: 17 -- tau: 5.911485 v: 6158.72 <3156>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-10-s-14.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:38:28 CEST
+m: 400 sigma: 10 s: 14 n: 14 -- tau: 5.679315 v: 1.03741E+32 <2656>
+m: 400 sigma: 10 s: 14 n: 15 -- tau: 5.800323 v: 1.51903E+26 <2927>
+m: 400 sigma: 10 s: 14 n: 20 -- tau: 6.201963 v: 0.000670683 <3766>
+m: 400 sigma: 10 s: 14 n: 19 -- tau: 6.078912 v: 220.03 <3634>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-10-s-15.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 03:47:51 CEST
+m: 400 sigma: 10 s: 15 n: 15 -- tau: 5.737004 v: 8.08156E+34 <2797>
+m: 400 sigma: 10 s: 15 n: 16 -- tau: 5.872418 v: 6.35975E+29 <3064>
+m: 400 sigma: 10 s: 15 n: 22 -- tau: 6.327830 v: 0.0269776 <4132>
+m: 400 sigma: 10 s: 15 n: 21 -- tau: 6.240398 v: 2937.41 <4000>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-11-s-16.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 18:46:42 CEST
+m: 400 sigma: 11 s: 16 n: 16 -- tau: 5.574078 v: 8.12214E+37 <1544>
+m: 400 sigma: 11 s: 16 n: 17 -- tau: 5.667521 v: 1.48814E+33 <1623>
+m: 400 sigma: 11 s: 16 n: 24 -- tau: 5.993762 v: 0.13661 <2309>
+m: 400 sigma: 11 s: 16 n: 23 -- tau: 5.961196 v: 10326.8 <2248>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-11-s-17.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 19:07:47 CEST
+m: 400 sigma: 11 s: 17 n: 17 -- tau: 5.654851 v: 1.66533E+38 <1596>
+m: 400 sigma: 11 s: 17 n: 18 -- tau: 5.686707 v: 3.06417E+33 <1645>
+m: 400 sigma: 11 s: 17 n: 26 -- tau: 6.075786 v: 0.00252552 <2328>
+m: 400 sigma: 11 s: 17 n: 25 -- tau: 6.059891 v: 116.242 <2373>
+
+# Processing: diagonal-distribution-det-dim-8192-m-400-sigma-11-s-18.txt
+# Bounds: (eta = <all> (0), delta = 1000000, v = 2)
+# Timestamp: 2025-06-09 19:29:14 CEST
+m: 400 sigma: 11 s: 18 n: 18 -- tau: 5.651984 v: 5.08455E+38 <1701>
+m: 400 sigma: 11 s: 18 n: 19 -- tau: 5.746784 v: 4.57422E+34 <1811>
+m: 400 sigma: 11 s: 18 n: 28 -- tau: 6.189941 v: 0.0017936 <2613>
+m: 400 sigma: 11 s: 18 n: 27 -- tau: 6.147937 v: 22.4478 <2544>

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import collections
 import dataclasses
+import json
 import math
 
 from facto.algorithm.prep import ExecutionConfig, simplified_costs, prime_count_and_capacity_at_bit_length
@@ -16,30 +17,36 @@ def total_costs(conf: ExecutionConfig) -> dict[str, collections.Counter[CostKey]
 
 @dataclasses.dataclass(frozen=True)
 class CostConfig:
-    s: int
     conf: ExecutionConfig
     toffolis: int
     keep_rate: float
 
     @staticmethod
     def from_params(
-        *, n: int, l: int, s: int, w1: int, w3: int, w4: int, len_acc: int
+        *,
+        modulus_bitlength: int,
+        num_input_qubits: int,
+        num_shots: int,
+        pp_success_probability: float,
+        l: int,
+        w1: int,
+        w3: int,
+        w4: int,
+        len_acc: int
     ) -> CostConfig | None:
-        x_size = math.ceil(n * (1 / 2 + 1 / (2 * s)))
-        y_size = math.ceil(n / (2 * s))
-        m = x_size + y_size
-        num_mults = math.ceil(m / w1)
-        cap = num_mults * n
+        num_mults = math.ceil(num_input_qubits / w1)
+        cap = num_mults * modulus_bitlength
         num_periods = math.ceil(cap / l)
         count, cap = prime_count_and_capacity_at_bit_length(l)
         if num_periods > count:
             return None
-        if cap < n * num_mults:
+        if cap < modulus_bitlength * num_mults:
             return None
         conf = ExecutionConfig.vacuous_config(
-            num_shots=s + 1,
-            modulus_bitlength=n,
-            num_input_qubits=m,
+            modulus_bitlength=modulus_bitlength,
+            num_input_qubits=num_input_qubits,
+            num_shots=num_shots,
+            pp_success_probability=pp_success_probability,
             num_periods=num_periods,
             period_bitlength=l,
             w1=w1,
@@ -75,23 +82,49 @@ class CostConfig:
                     raise NotImplementedError(f"{k2=}")
         keep_rate = 1 - conf.probability_of_deviation_failure
         toffolis = math.ceil(toffolis * conf.num_shots / keep_rate)
-        return CostConfig(s=s, conf=conf, toffolis=toffolis, keep_rate=keep_rate)
+        return CostConfig(conf=conf, toffolis=toffolis, keep_rate=keep_rate)
 
     @staticmethod
     def iter_configurations(tup) -> str:
-        result = []
+        results = []
         seen = set()
-        n, s, len_acc, l = tup
+
+        params, len_acc, l = tup
+
+        modulus_bitlength = params["modulus_bitlength"]
+        num_input_qubits = params["num_input_qubits"]
+        num_shots = params["num_shots"]
+        pp_success_probability = params["pp_success_probability"]
+        details = params["details"]
+
         for w1 in range(2, 9)[::-1]:
             for w3 in range(2, 6)[::-1]:
                 for w4 in range(2, 9)[::-1]:
-                    tt: CostConfig = CostConfig.from_params(n=n, s=s, l=l, w1=w1, w3=w3, w4=w4, len_acc=len_acc)
+                    tt: CostConfig = CostConfig.from_params(
+                        modulus_bitlength=modulus_bitlength,
+                        num_input_qubits=num_input_qubits,
+                        num_shots=num_shots,
+                        pp_success_probability=pp_success_probability,
+                        l=l, w1=w1, w3=w3, w4=w4, len_acc=len_acc)
+
                     if tt is not None:
                         key = (tt.toffolis, tt.conf.estimated_logical_qubits)
                         if key in seen:
                             continue
                         seen.add(key)
-                        result.append(
-                            f"""{n},{s},{l},{w1},{w3},{w4},{len_acc},{tt.toffolis},{tt.conf.estimated_logical_qubits}"""
-                        )
-        return "\n".join(result)
+                        results.append({
+                            "modulus_bitlength": modulus_bitlength,
+                            "num_input_qubits": num_input_qubits,
+                            "num_shots": num_shots,
+                            "pp_success_probability": pp_success_probability,
+                            "l": l,
+                            "w1": w1,
+                            "w3": w3,
+                            "w4": w4,
+                            "len_acc": len_acc,
+                            "tofs": tt.toffolis,
+                            "qubits": tt.conf.estimated_logical_qubits,
+                            "details": json.dumps(details),
+                        })
+
+        return results

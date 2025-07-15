@@ -1,0 +1,2118 @@
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:01:53 CEST
+m: 255 s: 1 n: 1 -- tau: 4.331247 v: 1276.12 <114>
+m: 255 s: 1 n: 2 -- tau: 4.822726 v: 4.64244E-72 <203>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:12:23 CEST
+m: 255 s: 2 n: 2 -- tau: 4.831163 v: 136767 <191>
+m: 255 s: 2 n: 3 -- tau: 5.132651 v: 9.89021E-32 <299>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:12:37 CEST
+m: 255 s: 3 n: 3 -- tau: 5.137160 v: 6.81559E+07 <314>
+m: 255 s: 3 n: 4 -- tau: 5.299679 v: 4.12938E-16 <370>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:12:54 CEST
+m: 255 s: 4 n: 4 -- tau: 5.341109 v: 9.22049E+09 <408>
+m: 255 s: 4 n: 5 -- tau: 5.499642 v: 1.5022E-07 <509>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:13:14 CEST
+m: 255 s: 5 n: 5 -- tau: 5.520056 v: 6.03319E+12 <523>
+m: 255 s: 5 n: 6 -- tau: 5.614889 v: 0.753765 <638>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:13:36 CEST
+m: 255 s: 6 n: 6 -- tau: 5.633413 v: 2.32117E+14 <565>
+m: 255 s: 6 n: 7 -- tau: 5.741855 v: 9316.5 <667>
+m: 255 s: 6 n: 8 -- tau: 5.846050 v: 4.25749E-07 <759>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:14:14 CEST
+m: 255 s: 7 n: 7 -- tau: 5.750061 v: 4.28818E+16 <754>
+m: 255 s: 7 n: 8 -- tau: 5.842966 v: 1.17554E+08 <780>
+m: 255 s: 7 n: 9 -- tau: 5.917246 v: 0.323738 <898>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:14:56 CEST
+m: 255 s: 8 n: 8 -- tau: 5.842884 v: 1.29186E+20 <812>
+m: 255 s: 8 n: 9 -- tau: 5.894650 v: 9.7392E+12 <841>
+m: 255 s: 8 n: 11 -- tau: 6.057631 v: 0.113871 <1105>
+m: 255 s: 8 n: 10 -- tau: 5.993440 v: 1.13363E+06 <1008>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:15:57 CEST
+m: 255 s: 9 n: 9 -- tau: 5.929376 v: 1.6629E+21 <874>
+m: 255 s: 9 n: 10 -- tau: 5.985356 v: 1.14447E+15 <1007>
+m: 255 s: 9 n: 13 -- tau: 6.223323 v: 0.00119482 <1235>
+m: 255 s: 9 n: 12 -- tau: 6.116305 v: 819.907 <1176>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:02:04 CEST
+m: 255 s: 10 n: 10 -- tau: 6.023141 v: 1.63915E+24 <1073>
+m: 255 s: 10 n: 11 -- tau: 6.094191 v: 1.13882E+19 <1062>
+m: 255 s: 10 n: 15 -- tau: 6.336280 v: 0.0457046 <1579>
+m: 255 s: 10 n: 14 -- tau: 6.237718 v: 3398.32 <1395>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:03:19 CEST
+m: 255 s: 11 n: 11 -- tau: 6.039330 v: 3.0265E+25 <1096>
+m: 255 s: 11 n: 12 -- tau: 6.143534 v: 1.20815E+21 <1161>
+m: 255 s: 11 n: 17 -- tau: 6.357263 v: 0.0238866 <1769>
+m: 255 s: 11 n: 16 -- tau: 6.350490 v: 1122.12 <1554>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:04:45 CEST
+m: 255 s: 12 n: 12 -- tau: 6.124272 v: 1.70396E+28 <1164>
+m: 255 s: 12 n: 13 -- tau: 6.215627 v: 2.74535E+24 <1272>
+m: 255 s: 12 n: 20 -- tau: 6.495441 v: 0.00150181 <1918>
+m: 255 s: 12 n: 19 -- tau: 6.480893 v: 14.1343 <1876>
+
+# Processing: linear-distribution-max-dim-8192-d-m-255-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:06:21 CEST
+m: 255 s: 13 n: 13 -- tau: 6.182438 v: 1.33507E+32 <1261>
+m: 255 s: 13 n: 14 -- tau: 6.242136 v: 6.88228E+28 <1436>
+m: 255 s: 13 n: 23 -- tau: 6.592137 v: 0.347865 <2205>
+m: 255 s: 13 n: 22 -- tau: 6.604374 v: 1134.94 <2194>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:17:08 CEST
+m: 383 s: 1 n: 1 -- tau: 4.360914 v: 1329.56 <108>
+m: 383 s: 1 n: 2 -- tau: 4.823671 v: 1.36697E-110 <197>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:35:26 CEST
+m: 383 s: 2 n: 2 -- tau: 4.845044 v: 140769 <192>
+m: 383 s: 2 n: 3 -- tau: 5.127791 v: 5.28976E-51 <292>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:38:16 CEST
+m: 383 s: 3 n: 3 -- tau: 5.111053 v: 3.1699E+07 <312>
+m: 383 s: 3 n: 4 -- tau: 5.322113 v: 2.53703E-29 <391>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:38:32 CEST
+m: 383 s: 4 n: 4 -- tau: 5.333043 v: 8.96635E+09 <413>
+m: 383 s: 4 n: 5 -- tau: 5.499754 v: 3.49922E-17 <478>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:38:50 CEST
+m: 383 s: 5 n: 5 -- tau: 5.495952 v: 1.36444E+12 <477>
+m: 383 s: 5 n: 6 -- tau: 5.623255 v: 2.92431E-09 <586>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:39:12 CEST
+m: 383 s: 6 n: 6 -- tau: 5.633911 v: 9.30712E+14 <630>
+m: 383 s: 6 n: 7 -- tau: 5.741422 v: 0.0177272 <657>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:39:38 CEST
+m: 383 s: 7 n: 7 -- tau: 5.769706 v: 1.91267E+17 <722>
+m: 383 s: 7 n: 8 -- tau: 5.819727 v: 1551.68 <799>
+m: 383 s: 7 n: 9 -- tau: 5.933197 v: 2.10468E-11 <940>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:40:21 CEST
+m: 383 s: 8 n: 8 -- tau: 5.833986 v: 1.22211E+20 <776>
+m: 383 s: 8 n: 9 -- tau: 5.957789 v: 2.302E+08 <909>
+m: 383 s: 8 n: 10 -- tau: 6.020763 v: 0.000325075 <1010>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:42:56 CEST
+m: 383 s: 9 n: 9 -- tau: 5.918017 v: 6.14801E+21 <852>
+m: 383 s: 9 n: 10 -- tau: 6.014474 v: 3.48866E+11 <1001>
+m: 383 s: 9 n: 12 -- tau: 6.169984 v: 1.20956E-09 <1183>
+m: 383 s: 9 n: 11 -- tau: 6.084793 v: 18.27 <1131>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:17:18 CEST
+m: 383 s: 10 n: 10 -- tau: 6.005417 v: 3.57989E+23 <1000>
+m: 383 s: 10 n: 11 -- tau: 6.074789 v: 2.95748E+14 <1116>
+m: 383 s: 10 n: 13 -- tau: 6.200207 v: 0.000238683 <1270>
+m: 383 s: 10 n: 12 -- tau: 6.122186 v: 221320 <1126>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:18:31 CEST
+m: 383 s: 11 n: 11 -- tau: 6.068468 v: 4.93635E+27 <1024>
+m: 383 s: 11 n: 12 -- tau: 6.146898 v: 7.78336E+19 <1237>
+m: 383 s: 11 n: 15 -- tau: 6.303351 v: 0.000247828 <1470>
+m: 383 s: 11 n: 14 -- tau: 6.235936 v: 13343.8 <1398>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:19:51 CEST
+m: 383 s: 12 n: 12 -- tau: 6.154046 v: 5.70451E+30 <1210>
+m: 383 s: 12 n: 13 -- tau: 6.183269 v: 5.01383E+23 <1318>
+m: 383 s: 12 n: 17 -- tau: 6.406625 v: 0.000172735 <1719>
+m: 383 s: 12 n: 16 -- tau: 6.348176 v: 1091.95 <1592>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:21:19 CEST
+m: 383 s: 13 n: 13 -- tau: 6.201940 v: 4.03308E+31 <1267>
+m: 383 s: 13 n: 14 -- tau: 6.234746 v: 1.55598E+25 <1409>
+m: 383 s: 13 n: 18 -- tau: 6.417519 v: 1.09005 <1777>
+m: 383 s: 13 n: 17 -- tau: 6.385774 v: 2.28781E+06 <1655>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:22:54 CEST
+m: 383 s: 14 n: 14 -- tau: 6.220101 v: 3.58688E+33 <1310>
+m: 383 s: 14 n: 15 -- tau: 6.301096 v: 9.80478E+27 <1465>
+m: 383 s: 14 n: 20 -- tau: 6.482431 v: 0.318133 <1925>
+m: 383 s: 14 n: 19 -- tau: 6.450101 v: 151115 <1853>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:24:35 CEST
+m: 383 s: 15 n: 15 -- tau: 6.295310 v: 9.87351E+36 <1518>
+m: 383 s: 15 n: 16 -- tau: 6.367617 v: 1.08784E+32 <1680>
+m: 383 s: 15 n: 23 -- tau: 6.624379 v: 0.000580838 <2295>
+m: 383 s: 15 n: 22 -- tau: 6.582970 v: 50.4266 <2333>
+
+# Processing: linear-distribution-max-dim-8192-d-m-383-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:26:26 CEST
+m: 383 s: 16 n: 16 -- tau: 6.321115 v: 2.70119E+41 <1574>
+m: 383 s: 16 n: 17 -- tau: 6.386260 v: 1.16712E+37 <1689>
+m: 383 s: 16 n: 26 -- tau: 6.707609 v: 0.00263124 <2625>
+m: 383 s: 16 n: 25 -- tau: 6.669736 v: 52.5964 <2476>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:45:29 CEST
+m: 511 s: 1 n: 1 -- tau: 4.347277 v: 1304.72 <100>
+m: 511 s: 1 n: 2 -- tau: 4.790068 v: 3.74622E-149 <194>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:08:28 CEST
+m: 511 s: 2 n: 2 -- tau: 4.877361 v: 150548 <213>
+m: 511 s: 2 n: 3 -- tau: 5.141383 v: 2.97768E-70 <321>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:12:15 CEST
+m: 511 s: 3 n: 3 -- tau: 5.126394 v: 1.6538E+07 <285>
+m: 511 s: 3 n: 4 -- tau: 5.340700 v: 1.53808E-42 <422>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:12:44 CEST
+m: 511 s: 4 n: 4 -- tau: 5.351724 v: 9.56594E+09 <392>
+m: 511 s: 4 n: 5 -- tau: 5.514987 v: 8.68007E-27 <512>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:14:20 CEST
+m: 511 s: 5 n: 5 -- tau: 5.524917 v: 3.84773E+11 <480>
+m: 511 s: 5 n: 6 -- tau: 5.652151 v: 1.25334E-17 <647>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:15:02 CEST
+m: 511 s: 6 n: 6 -- tau: 5.620668 v: 5.45496E+13 <589>
+m: 511 s: 6 n: 7 -- tau: 5.746706 v: 2.7201E-10 <672>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:16:10 CEST
+m: 511 s: 7 n: 7 -- tau: 5.751115 v: 6.90128E+17 <702>
+m: 511 s: 7 n: 8 -- tau: 5.848646 v: 0.0283574 <789>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:17:11 CEST
+m: 511 s: 8 n: 8 -- tau: 5.849639 v: 1.34746E+20 <807>
+m: 511 s: 8 n: 9 -- tau: 5.917160 v: 2650.47 <864>
+m: 511 s: 8 n: 10 -- tau: 6.019952 v: 7.5221E-14 <996>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:17:59 CEST
+m: 511 s: 9 n: 9 -- tau: 5.950506 v: 3.0803E+22 <882>
+m: 511 s: 9 n: 10 -- tau: 5.994450 v: 7.31133E+07 <993>
+m: 511 s: 9 n: 11 -- tau: 6.054151 v: 2.10994E-07 <1106>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:45:41 CEST
+m: 511 s: 10 n: 10 -- tau: 5.994085 v: 8.20896E+22 <951>
+m: 511 s: 10 n: 11 -- tau: 6.082019 v: 9.58486E+09 <1087>
+m: 511 s: 10 n: 12 -- tau: 6.150695 v: 0.00106597 <1207>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:47:09 CEST
+m: 511 s: 11 n: 11 -- tau: 6.061310 v: 2.90689E+26 <1131>
+m: 511 s: 11 n: 12 -- tau: 6.137005 v: 1.08635E+15 <1236>
+m: 511 s: 11 n: 14 -- tau: 6.244888 v: 1.33198E-08 <1441>
+m: 511 s: 11 n: 13 -- tau: 6.192484 v: 3715.3 <1330>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:49:29 CEST
+m: 511 s: 12 n: 12 -- tau: 6.146252 v: 3.3235E+29 <1176>
+m: 511 s: 12 n: 13 -- tau: 6.200666 v: 1.81149E+19 <1298>
+m: 511 s: 12 n: 15 -- tau: 6.306441 v: 0.0656558 <1453>
+m: 511 s: 12 n: 14 -- tau: 6.249209 v: 1.00391E+09 <1327>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:51:14 CEST
+m: 511 s: 13 n: 13 -- tau: 6.219807 v: 1.19915E+31 <1255>
+m: 511 s: 13 n: 14 -- tau: 6.256240 v: 4.75004E+21 <1404>
+m: 511 s: 13 n: 17 -- tau: 6.353705 v: 3.48654E-07 <1652>
+m: 511 s: 13 n: 16 -- tau: 6.343514 v: 1033.58 <1537>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:53:22 CEST
+m: 511 s: 14 n: 14 -- tau: 6.230599 v: 1.60021E+34 <1389>
+m: 511 s: 14 n: 15 -- tau: 6.293330 v: 7.02788E+25 <1429>
+m: 511 s: 14 n: 19 -- tau: 6.487586 v: 2.8887E-08 <1864>
+m: 511 s: 14 n: 18 -- tau: 6.420187 v: 4.51615 <1804>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:55:08 CEST
+m: 511 s: 15 n: 15 -- tau: 6.300551 v: 8.17527E+34 <1487>
+m: 511 s: 15 n: 16 -- tau: 6.353697 v: 1.40881E+27 <1624>
+m: 511 s: 15 n: 20 -- tau: 6.495382 v: 9.37823E-05 <1926>
+m: 511 s: 15 n: 19 -- tau: 6.474704 v: 6641.75 <1939>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 19:58:25 CEST
+m: 511 s: 16 n: 16 -- tau: 6.341808 v: 3.44707E+41 <1539>
+m: 511 s: 16 n: 17 -- tau: 6.369017 v: 3.67659E+34 <1648>
+m: 511 s: 16 n: 22 -- tau: 6.568786 v: 2.51383 <2133>
+m: 511 s: 16 n: 23 -- tau: 6.624699 v: 5.70251E-07 <2310>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-17.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:00:42 CEST
+m: 511 s: 17 n: 17 -- tau: 6.367472 v: 4.72697E+39 <1661>
+m: 511 s: 17 n: 18 -- tau: 6.450250 v: 2.17745E+33 <1865>
+m: 511 s: 17 n: 24 -- tau: 6.629838 v: 9.73685E-07 <2329>
+m: 511 s: 17 n: 23 -- tau: 6.599891 v: 3.16611 <2237>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-18.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:03:12 CEST
+m: 511 s: 18 n: 18 -- tau: 6.421335 v: 1.02248E+44 <1726>
+m: 511 s: 18 n: 19 -- tau: 6.489791 v: 1.70034E+38 <1917>
+m: 511 s: 18 n: 26 -- tau: 6.667818 v: 0.00031238 <2584>
+m: 511 s: 18 n: 25 -- tau: 6.670314 v: 425.177 <2454>
+
+# Processing: linear-distribution-max-dim-8192-d-m-511-s-19.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:05:45 CEST
+m: 511 s: 19 n: 19 -- tau: 6.455017 v: 2.88615E+49 <1890>
+m: 511 s: 19 n: 20 -- tau: 6.514077 v: 1.79931E+44 <1920>
+m: 511 s: 19 n: 29 -- tau: 6.779628 v: 0.000419492 <2854>
+m: 511 s: 19 n: 28 -- tau: 6.743631 v: 61.1396 <2722>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:18:57 CEST
+m: 767 s: 1 n: 1 -- tau: 4.314667 v: 1247.19 <105>
+m: 767 s: 1 n: 2 -- tau: 4.825531 v: 3.48274E-226 <197>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:38:31 CEST
+m: 767 s: 2 n: 2 -- tau: 4.816627 v: 132697 <191>
+m: 767 s: 2 n: 3 -- tau: 5.145006 v: 8.83893E-109 <283>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:46:12 CEST
+m: 767 s: 3 n: 3 -- tau: 5.144709 v: 3.47985E+07 <327>
+m: 767 s: 3 n: 4 -- tau: 5.344972 v: 8.07029E-68 <382>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:46:18 CEST
+m: 767 s: 4 n: 4 -- tau: 5.316126 v: 8.45582E+09 <384>
+m: 767 s: 4 n: 5 -- tau: 5.489493 v: 4.23214E-46 <522>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:46:25 CEST
+m: 767 s: 5 n: 5 -- tau: 5.482471 v: 6.45028E+11 <501>
+m: 767 s: 5 n: 6 -- tau: 5.653803 v: 1.12215E-32 <583>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:46:34 CEST
+m: 767 s: 6 n: 6 -- tau: 5.640311 v: 9.60064E+14 <608>
+m: 767 s: 6 n: 7 -- tau: 5.702790 v: 7.7569E-22 <682>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:46:44 CEST
+m: 767 s: 7 n: 7 -- tau: 5.718976 v: 7.21849E+16 <710>
+m: 767 s: 7 n: 8 -- tau: 5.840155 v: 2.44605E-14 <783>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:46:55 CEST
+m: 767 s: 8 n: 8 -- tau: 5.826425 v: 1.16581E+20 <855>
+m: 767 s: 8 n: 9 -- tau: 5.942159 v: 7.33867E-07 <866>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:47:08 CEST
+m: 767 s: 9 n: 9 -- tau: 5.930068 v: 8.35445E+20 <870>
+m: 767 s: 9 n: 10 -- tau: 6.031505 v: 0.00564515 <1000>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:19:28 CEST
+m: 767 s: 10 n: 10 -- tau: 5.981601 v: 4.7767E+24 <960>
+m: 767 s: 10 n: 11 -- tau: 6.085795 v: 18865 <1119>
+m: 767 s: 10 n: 12 -- tau: 6.126563 v: 4.87515E-17 <1235>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:20:31 CEST
+m: 767 s: 11 n: 11 -- tau: 6.079964 v: 2.71583E+27 <1099>
+m: 767 s: 11 n: 12 -- tau: 6.140879 v: 1.07283E+09 <1214>
+m: 767 s: 11 n: 13 -- tau: 6.197400 v: 4.4302E-10 <1375>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:22:27 CEST
+m: 767 s: 12 n: 12 -- tau: 6.127244 v: 4.48055E+30 <1208>
+m: 767 s: 12 n: 13 -- tau: 6.203557 v: 1.42137E+14 <1352>
+m: 767 s: 12 n: 14 -- tau: 6.255123 v: 0.00388378 <1365>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:23:40 CEST
+m: 767 s: 13 n: 13 -- tau: 6.177798 v: 4.08415E+33 <1174>
+m: 767 s: 13 n: 14 -- tau: 6.263944 v: 5.02555E+18 <1419>
+m: 767 s: 13 n: 16 -- tau: 6.335180 v: 3.32852E-12 <1564>
+m: 767 s: 13 n: 15 -- tau: 6.308869 v: 4420.27 <1511>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:25:24 CEST
+m: 767 s: 14 n: 14 -- tau: 6.243538 v: 2.92902E+35 <1399>
+m: 767 s: 14 n: 15 -- tau: 6.311834 v: 5.26658E+21 <1511>
+m: 767 s: 14 n: 17 -- tau: 6.365282 v: 8.05668E-07 <1651>
+m: 767 s: 14 n: 16 -- tau: 6.340430 v: 6.53188E+07 <1533>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:27:50 CEST
+m: 767 s: 15 n: 15 -- tau: 6.295753 v: 1.55034E+35 <1433>
+m: 767 s: 15 n: 16 -- tau: 6.364444 v: 2.43988E+22 <1679>
+m: 767 s: 15 n: 18 -- tau: 6.418855 v: 0.00027085 <1756>
+m: 767 s: 15 n: 17 -- tau: 6.382382 v: 2.24565E+09 <1721>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:30:03 CEST
+m: 767 s: 16 n: 16 -- tau: 6.358673 v: 4.2049E+41 <1614>
+m: 767 s: 16 n: 17 -- tau: 6.373626 v: 5.94203E+29 <1641>
+m: 767 s: 16 n: 20 -- tau: 6.524819 v: 8.99681E-06 <2001>
+m: 767 s: 16 n: 19 -- tau: 6.450714 v: 2.43848E+06 <1862>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-17.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:31:58 CEST
+m: 767 s: 17 n: 17 -- tau: 6.365415 v: 9.21435E+39 <1722>
+m: 767 s: 17 n: 18 -- tau: 6.423025 v: 9.28573E+28 <1743>
+m: 767 s: 17 n: 21 -- tau: 6.536127 v: 6.21596E-05 <2091>
+m: 767 s: 17 n: 20 -- tau: 6.513441 v: 8.38236E+06 <1986>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-18.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:34:33 CEST
+m: 767 s: 18 n: 18 -- tau: 6.423257 v: 1.67789E+45 <1800>
+m: 767 s: 18 n: 19 -- tau: 6.468060 v: 1.22857E+35 <1858>
+m: 767 s: 18 n: 23 -- tau: 6.595882 v: 2.82464E-06 <2270>
+m: 767 s: 18 n: 22 -- tau: 6.575071 v: 45527 <2188>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-19.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:36:58 CEST
+m: 767 s: 19 n: 19 -- tau: 6.453616 v: 2.76427E+46 <1867>
+m: 767 s: 19 n: 20 -- tau: 6.499497 v: 8.67397E+36 <2006>
+m: 767 s: 19 n: 24 -- tau: 6.644992 v: 0.082974 <2420>
+m: 767 s: 19 n: 23 -- tau: 6.593208 v: 1.90117E+08 <2274>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-20.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:38:36 CEST
+m: 767 s: 20 n: 20 -- tau: 6.493936 v: 8.7955E+48 <1998>
+m: 767 s: 20 n: 21 -- tau: 6.548183 v: 1.33278E+40 <2195>
+m: 767 s: 20 n: 26 -- tau: 6.686655 v: 2.77759E-05 <2578>
+m: 767 s: 20 n: 25 -- tau: 6.656306 v: 21140.3 <2518>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-21.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:39:41 CEST
+m: 767 s: 21 n: 21 -- tau: 6.530326 v: 4.46436E+52 <2067>
+m: 767 s: 21 n: 22 -- tau: 6.584216 v: 2.86778E+44 <2254>
+m: 767 s: 21 n: 28 -- tau: 6.732850 v: 2.93419E-06 <2800>
+m: 767 s: 21 n: 27 -- tau: 6.702560 v: 518.381 <2605>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-22.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:40:52 CEST
+m: 767 s: 22 n: 22 -- tau: 6.583189 v: 4.96312E+57 <2200>
+m: 767 s: 22 n: 23 -- tau: 6.609363 v: 8.66713E+49 <2270>
+m: 767 s: 22 n: 30 -- tau: 6.801785 v: 0.000147348 <2973>
+m: 767 s: 22 n: 29 -- tau: 6.769610 v: 5714.41 <2854>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-23.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:42:06 CEST
+m: 767 s: 23 n: 23 -- tau: 6.604862 v: 6.74597E+56 <2335>
+m: 767 s: 23 n: 24 -- tau: 6.624458 v: 2.17494E+49 <2334>
+m: 767 s: 23 n: 31 -- tau: 6.821370 v: 0.00645597 <3069>
+m: 767 s: 23 n: 30 -- tau: 6.788922 v: 120006 <2905>
+
+# Processing: linear-distribution-max-dim-8192-d-m-767-s-24.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:43:24 CEST
+m: 767 s: 24 n: 24 -- tau: 6.637553 v: 7.68135E+63 <2391>
+m: 767 s: 24 n: 25 -- tau: 6.671530 v: 1.33205E+57 <2466>
+m: 767 s: 24 n: 34 -- tau: 6.883871 v: 0.000167305 <3394>
+m: 767 s: 24 n: 33 -- tau: 6.858523 v: 821.635 <3269>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:47:24 CEST
+m: 1023 s: 1 n: 1 -- tau: 4.332734 v: 1278.75 <95>
+m: 1023 s: 1 n: 2 -- tau: 4.821811 v: 2.98459E-303 <180>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:53:55 CEST
+m: 1023 s: 2 n: 2 -- tau: 4.853138 v: 143157 <202>
+m: 1023 s: 2 n: 3 -- tau: 5.123885 v: 2.44983E-147 <324>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:01:35 CEST
+m: 1023 s: 3 n: 3 -- tau: 5.136454 v: 6.80226E+07 <297>
+m: 1023 s: 3 n: 4 -- tau: 5.334999 v: 4.03052E-93 <417>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:01:41 CEST
+m: 1023 s: 4 n: 4 -- tau: 5.332509 v: 8.94975E+09 <359>
+m: 1023 s: 4 n: 5 -- tau: 5.516417 v: 2.56605E-65 <487>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:01:48 CEST
+m: 1023 s: 5 n: 5 -- tau: 5.531965 v: 1.58488E+12 <501>
+m: 1023 s: 5 n: 6 -- tau: 5.633133 v: 9.01565E-48 <546>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:01:57 CEST
+m: 1023 s: 6 n: 6 -- tau: 5.636999 v: 2.3619E+14 <585>
+m: 1023 s: 6 n: 7 -- tau: 5.762042 v: 3.06213E-35 <699>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:02:07 CEST
+m: 1023 s: 7 n: 7 -- tau: 5.754533 v: 1.09896E+16 <707>
+m: 1023 s: 7 n: 8 -- tau: 5.850317 v: 2.37025E-26 <803>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:02:18 CEST
+m: 1023 s: 8 n: 8 -- tau: 5.809163 v: 1.04679E+20 <816>
+m: 1023 s: 8 n: 9 -- tau: 5.916237 v: 1.42766E-16 <809>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:02:31 CEST
+m: 1023 s: 9 n: 9 -- tau: 5.925994 v: 1.29949E+22 <910>
+m: 1023 s: 9 n: 10 -- tau: 5.987880 v: 2.41268E-10 <1008>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:47:27 CEST
+m: 1023 s: 10 n: 10 -- tau: 5.997314 v: 3.36543E+23 <998>
+m: 1023 s: 10 n: 11 -- tau: 6.082053 v: 1.7031E-05 <1075>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:47:42 CEST
+m: 1023 s: 11 n: 11 -- tau: 6.077677 v: 2.13173E+28 <1118>
+m: 1023 s: 11 n: 12 -- tau: 6.147029 v: 1081.43 <1136>
+m: 1023 s: 11 n: 13 -- tau: 6.192666 v: 4.8104E-23 <1280>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:48:09 CEST
+m: 1023 s: 12 n: 12 -- tau: 6.106467 v: 1.4514E+28 <1204>
+m: 1023 s: 12 n: 13 -- tau: 6.189109 v: 115059 <1290>
+m: 1023 s: 12 n: 14 -- tau: 6.225435 v: 6.3335E-19 <1357>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:48:37 CEST
+m: 1023 s: 13 n: 13 -- tau: 6.176699 v: 2.52552E+32 <1270>
+m: 1023 s: 13 n: 14 -- tau: 6.258724 v: 2.83724E+11 <1421>
+m: 1023 s: 13 n: 15 -- tau: 6.302300 v: 2.33609E-10 <1469>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:49:08 CEST
+m: 1023 s: 14 n: 14 -- tau: 6.245113 v: 2.90762E+32 <1337>
+m: 1023 s: 14 n: 15 -- tau: 6.287290 v: 7.47214E+12 <1445>
+m: 1023 s: 14 n: 16 -- tau: 6.349557 v: 2.58408E-07 <1573>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:49:40 CEST
+m: 1023 s: 15 n: 15 -- tau: 6.283263 v: 2.69959E+35 <1474>
+m: 1023 s: 15 n: 16 -- tau: 6.332596 v: 2.55804E+17 <1535>
+m: 1023 s: 15 n: 17 -- tau: 6.415631 v: 0.39583 <1696>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:50:15 CEST
+m: 1023 s: 16 n: 16 -- tau: 6.321131 v: 2.70171E+41 <1591>
+m: 1023 s: 16 n: 17 -- tau: 6.353328 v: 7.03835E+24 <1640>
+m: 1023 s: 16 n: 19 -- tau: 6.448099 v: 8.35485E-09 <1850>
+m: 1023 s: 16 n: 18 -- tau: 6.420764 v: 3.05384E+08 <1750>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-17.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:51:05 CEST
+m: 1023 s: 17 n: 17 -- tau: 6.340293 v: 1.34701E+40 <1672>
+m: 1023 s: 17 n: 18 -- tau: 6.392295 v: 3.78126E+24 <1666>
+m: 1023 s: 17 n: 20 -- tau: 6.491828 v: 3.47868E-07 <2031>
+m: 1023 s: 17 n: 19 -- tau: 6.464265 v: 1.50652E+09 <1936>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-18.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:51:58 CEST
+m: 1023 s: 18 n: 18 -- tau: 6.418020 v: 2.50571E+46 <1804>
+m: 1023 s: 18 n: 19 -- tau: 6.445284 v: 8.74938E+31 <1819>
+m: 1023 s: 18 n: 22 -- tau: 6.601729 v: 1.54625E-11 <2182>
+m: 1023 s: 18 n: 21 -- tau: 6.503734 v: 1272.72 <1996>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-19.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:52:55 CEST
+m: 1023 s: 19 n: 19 -- tau: 6.478935 v: 2.01043E+49 <1919>
+m: 1023 s: 19 n: 20 -- tau: 6.495200 v: 5.0925E+35 <1971>
+m: 1023 s: 19 n: 23 -- tau: 6.627367 v: 3.81525E-05 <2355>
+m: 1023 s: 19 n: 22 -- tau: 6.536155 v: 4.01097E+08 <2140>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-20.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:54:00 CEST
+m: 1023 s: 20 n: 20 -- tau: 6.493022 v: 5.42455E+47 <1918>
+m: 1023 s: 20 n: 21 -- tau: 6.537874 v: 8.68911E+34 <2083>
+m: 1023 s: 20 n: 24 -- tau: 6.656560 v: 0.00039606 <2452>
+m: 1023 s: 20 n: 23 -- tau: 6.599224 v: 1.68104E+09 <2254>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-21.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:55:03 CEST
+m: 1023 s: 21 n: 21 -- tau: 6.542347 v: 8.58012E+53 <2083>
+m: 1023 s: 21 n: 22 -- tau: 6.570744 v: 9.03709E+41 <2220>
+m: 1023 s: 21 n: 26 -- tau: 6.703970 v: 2.40038E-06 <2577>
+m: 1023 s: 21 n: 25 -- tau: 6.676129 v: 1.93394E+06 <2425>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-22.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:56:10 CEST
+m: 1023 s: 22 n: 22 -- tau: 6.576496 v: 1.7425E+55 <2165>
+m: 1023 s: 22 n: 23 -- tau: 6.609269 v: 8.25269E+43 <2207>
+m: 1023 s: 22 n: 27 -- tau: 6.739635 v: 0.064972 <2643>
+m: 1023 s: 22 n: 26 -- tau: 6.678931 v: 6.7659E+09 <2561>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-23.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:57:20 CEST
+m: 1023 s: 23 n: 23 -- tau: 6.625121 v: 7.55961E+57 <2280>
+m: 1023 s: 23 n: 24 -- tau: 6.636419 v: 1.04526E+47 <2439>
+m: 1023 s: 23 n: 29 -- tau: 6.753285 v: 2.36873E-07 <2825>
+m: 1023 s: 23 n: 28 -- tau: 6.757756 v: 20790.6 <2790>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-24.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:58:34 CEST
+m: 1023 s: 24 n: 24 -- tau: 6.620783 v: 2.24383E+61 <2384>
+m: 1023 s: 24 n: 25 -- tau: 6.668952 v: 2.42534E+51 <2497>
+m: 1023 s: 24 n: 31 -- tau: 6.806960 v: 5.59058E-10 <3060>
+m: 1023 s: 24 n: 30 -- tau: 6.790444 v: 7.56817 <2978>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-25.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 20:59:51 CEST
+m: 1023 s: 25 n: 25 -- tau: 6.659879 v: 2.31877E+66 <2445>
+m: 1023 s: 25 n: 26 -- tau: 6.701299 v: 9.39316E+56 <2596>
+m: 1023 s: 25 n: 33 -- tau: 6.855545 v: 3.4832E-10 <3276>
+m: 1023 s: 25 n: 32 -- tau: 6.824843 v: 0.804575 <3127>
+m: 1023 s: 25 n: 31 -- tau: 6.826232 v: 3.9533E+09 <3042>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-26.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:33:23 CEST
+m: 1023 s: 26 n: 26 -- tau: 6.685905 v: 4.7258E+64 <2554>
+m: 1023 s: 26 n: 27 -- tau: 6.734708 v: 4.63304E+55 <2644>
+m: 1023 s: 26 n: 34 -- tau: 6.870007 v: 1.82372E-09 <3209>
+m: 1023 s: 26 n: 33 -- tau: 6.878265 v: 5.11092 <3227>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-27.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:36:25 CEST
+m: 1023 s: 27 n: 27 -- tau: 6.724447 v: 6.83916E+71 <2688>
+m: 1023 s: 27 n: 28 -- tau: 6.751555 v: 1.84337E+63 <2759>
+m: 1023 s: 27 n: 36 -- tau: 6.940108 v: 9.78043E-06 <3568>
+m: 1023 s: 27 n: 35 -- tau: 6.899589 v: 1953.36 <3541>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-28.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:39:38 CEST
+m: 1023 s: 28 n: 28 -- tau: 6.735415 v: 3.57733E+71 <2759>
+m: 1023 s: 28 n: 29 -- tau: 6.792635 v: 3.70547E+63 <2837>
+m: 1023 s: 28 n: 37 -- tau: 6.955207 v: 0.00364594 <3711>
+m: 1023 s: 28 n: 36 -- tau: 6.916534 v: 367176 <3586>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1023-s-29.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:42:58 CEST
+m: 1023 s: 29 n: 29 -- tau: 6.787070 v: 1.77196E+72 <2899>
+m: 1023 s: 29 n: 30 -- tau: 6.789015 v: 1.20769E+64 <2908>
+m: 1023 s: 29 n: 38 -- tau: 6.941817 v: 2.57087 <3654>
+m: 1023 s: 29 n: 39 -- tau: 6.974189 v: 4.6063E-08 <3844>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:02:15 CEST
+m: 1535 s: 1 n: 1 -- tau: 4.334997 v: 1282.75 <104>
+m: 1535 s: 1 n: 2 -- tau: 4.835309 v: 2.28933E-457 <197>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:15:47 CEST
+m: 1535 s: 2 n: 2 -- tau: 4.834580 v: 137741 <208>
+m: 1535 s: 2 n: 3 -- tau: 5.127264 v: 2.13562E-224 <301>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:33:27 CEST
+m: 1535 s: 3 n: 3 -- tau: 5.144988 v: 3.48254E+07 <285>
+m: 1535 s: 3 n: 4 -- tau: 5.328070 v: 6.57315E-145 <410>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:33:45 CEST
+m: 1535 s: 4 n: 4 -- tau: 5.351933 v: 9.57288E+09 <390>
+m: 1535 s: 4 n: 5 -- tau: 5.486485 v: 6.65838E-104 <520>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:34:07 CEST
+m: 1535 s: 5 n: 5 -- tau: 5.529946 v: 6.28648E+12 <447>
+m: 1535 s: 5 n: 6 -- tau: 5.620113 v: 6.67672E-78 <591>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:34:33 CEST
+m: 1535 s: 6 n: 6 -- tau: 5.638475 v: 9.51553E+14 <616>
+m: 1535 s: 6 n: 7 -- tau: 5.778916 v: 3.47672E-60 <718>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:35:01 CEST
+m: 1535 s: 7 n: 7 -- tau: 5.721952 v: 1.83465E+16 <669>
+m: 1535 s: 7 n: 8 -- tau: 5.848869 v: 4.97409E-48 <783>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:35:32 CEST
+m: 1535 s: 8 n: 8 -- tau: 5.855078 v: 1.39397E+20 <808>
+m: 1535 s: 8 n: 9 -- tau: 5.931892 v: 8.62642E-36 <898>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:36:06 CEST
+m: 1535 s: 9 n: 9 -- tau: 5.936901 v: 7.00775E+21 <930>
+m: 1535 s: 9 n: 10 -- tau: 5.985015 v: 8.18981E-28 <973>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:02:25 CEST
+m: 1535 s: 10 n: 10 -- tau: 6.004623 v: 1.42332E+24 <1019>
+m: 1535 s: 10 n: 11 -- tau: 6.068330 v: 2.69896E-20 <1068>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:03:07 CEST
+m: 1535 s: 11 n: 11 -- tau: 6.078355 v: 6.69935E+26 <1095>
+m: 1535 s: 11 n: 12 -- tau: 6.145875 v: 2.37642E-13 <1234>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:03:51 CEST
+m: 1535 s: 12 n: 12 -- tau: 6.148896 v: 5.44584E+30 <1205>
+m: 1535 s: 12 n: 13 -- tau: 6.194325 v: 7.04504E-06 <1254>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:04:40 CEST
+m: 1535 s: 13 n: 13 -- tau: 6.189554 v: 1.1176E+30 <1332>
+m: 1535 s: 13 n: 14 -- tau: 6.234599 v: 0.000784371 <1367>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:05:31 CEST
+m: 1535 s: 14 n: 14 -- tau: 6.222738 v: 5.8985E+34 <1383>
+m: 1535 s: 14 n: 15 -- tau: 6.292326 v: 29434.5 <1480>
+m: 1535 s: 14 n: 16 -- tau: 6.342403 v: 1.28759E-26 <1555>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:06:55 CEST
+m: 1535 s: 15 n: 15 -- tau: 6.292641 v: 1.19818E+36 <1457>
+m: 1535 s: 15 n: 16 -- tau: 6.360292 v: 8.2544E+07 <1536>
+m: 1535 s: 15 n: 17 -- tau: 6.384094 v: 3.61948E-21 <1691>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:08:24 CEST
+m: 1535 s: 16 n: 16 -- tau: 6.340931 v: 3.41165E+41 <1638>
+m: 1535 s: 16 n: 17 -- tau: 6.377429 v: 2.21362E+15 <1789>
+m: 1535 s: 16 n: 18 -- tau: 6.405896 v: 1.3611E-11 <1795>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-17.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:09:56 CEST
+m: 1535 s: 17 n: 17 -- tau: 6.381772 v: 9.04034E+40 <1738>
+m: 1535 s: 17 n: 18 -- tau: 6.443202 v: 2.75397E+16 <1785>
+m: 1535 s: 17 n: 19 -- tau: 6.473746 v: 5.96095E-09 <1877>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-18.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:11:35 CEST
+m: 1535 s: 18 n: 18 -- tau: 6.433525 v: 3.00131E+43 <1687>
+m: 1535 s: 18 n: 19 -- tau: 6.448677 v: 1.66815E+20 <1876>
+m: 1535 s: 18 n: 20 -- tau: 6.487322 v: 0.00133442 <1961>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-19.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:13:18 CEST
+m: 1535 s: 19 n: 19 -- tau: 6.453465 v: 7.06175E+48 <1837>
+m: 1535 s: 19 n: 20 -- tau: 6.494300 v: 1.87242E+27 <1916>
+m: 1535 s: 19 n: 22 -- tau: 6.586364 v: 1.8468E-16 <2168>
+m: 1535 s: 19 n: 21 -- tau: 6.538780 v: 555990 <2058>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-20.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:16:03 CEST
+m: 1535 s: 20 n: 20 -- tau: 6.508486 v: 2.7828E+51 <1922>
+m: 1535 s: 20 n: 21 -- tau: 6.541536 v: 1.1216E+31 <2045>
+m: 1535 s: 20 n: 23 -- tau: 6.586507 v: 1.47507E-10 <2333>
+m: 1535 s: 20 n: 22 -- tau: 6.579849 v: 5.15173E+10 <2177>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-21.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:18:44 CEST
+m: 1535 s: 21 n: 21 -- tau: 6.556125 v: 1.29224E+50 <2095>
+m: 1535 s: 21 n: 22 -- tau: 6.561584 v: 2.84099E+30 <2237>
+m: 1535 s: 21 n: 24 -- tau: 6.660849 v: 6.50962E-09 <2341>
+m: 1535 s: 21 n: 23 -- tau: 6.619477 v: 1.50686E+11 <2333>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-22.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:21:25 CEST
+m: 1535 s: 22 n: 22 -- tau: 6.572942 v: 1.05378E+57 <2267>
+m: 1535 s: 22 n: 23 -- tau: 6.598281 v: 5.24446E+38 <2229>
+m: 1535 s: 22 n: 26 -- tau: 6.702413 v: 1.35709E-16 <2579>
+m: 1535 s: 22 n: 25 -- tau: 6.651972 v: 152.749 <2469>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-23.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:24:17 CEST
+m: 1535 s: 23 n: 23 -- tau: 6.639884 v: 6.18496E+59 <2331>
+m: 1535 s: 23 n: 24 -- tau: 6.652682 v: 2.11414E+42 <2360>
+m: 1535 s: 23 n: 27 -- tau: 6.725745 v: 1.84846E-10 <2740>
+m: 1535 s: 23 n: 26 -- tau: 6.690363 v: 3.27346E+07 <2564>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-24.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:27:14 CEST
+m: 1535 s: 24 n: 24 -- tau: 6.641271 v: 8.19245E+63 <2353>
+m: 1535 s: 24 n: 25 -- tau: 6.655933 v: 2.34145E+47 <2492>
+m: 1535 s: 24 n: 28 -- tau: 6.756172 v: 0.0192063 <2750>
+m: 1535 s: 24 n: 27 -- tau: 6.716926 v: 3.76622E+14 <2747>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-25.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 00:30:18 CEST
+m: 1535 s: 25 n: 25 -- tau: 6.681660 v: 4.19125E+62 <2476>
+m: 1535 s: 25 n: 26 -- tau: 6.678458 v: 3.5657E+46 <2571>
+m: 1535 s: 25 n: 29 -- tau: 6.760682 v: 0.14484 <2878>
+m: 1535 s: 25 n: 28 -- tau: 6.732357 v: 8.57473E+14 <2823>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-26.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 03:16:53 CEST
+m: 1535 s: 26 n: 26 -- tau: 6.695813 v: 2.22209E+62 <2601>
+m: 1535 s: 26 n: 27 -- tau: 6.718803 v: 1.26757E+47 <2735>
+m: 1535 s: 26 n: 31 -- tau: 6.810108 v: 1.82949E-14 <3057>
+m: 1535 s: 26 n: 30 -- tau: 6.787776 v: 28.5863 <2965>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-27.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 03:21:10 CEST
+m: 1535 s: 27 n: 27 -- tau: 6.730983 v: 3.88205E+71 <2721>
+m: 1535 s: 27 n: 28 -- tau: 6.722775 v: 9.85767E+56 <2716>
+m: 1535 s: 27 n: 32 -- tau: 6.834447 v: 1.00225 <3167>
+m: 1535 s: 27 n: 31 -- tau: 6.838249 v: 3.38224E+14 <3122>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-28.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 03:25:34 CEST
+m: 1535 s: 28 n: 28 -- tau: 6.749535 v: 1.21637E+74 <2723>
+m: 1535 s: 28 n: 29 -- tau: 6.765977 v: 2.07872E+60 <2866>
+m: 1535 s: 28 n: 34 -- tau: 6.862577 v: 6.09159E-09 <3285>
+m: 1535 s: 28 n: 33 -- tau: 6.866270 v: 504946 <3286>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-29.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 03:30:08 CEST
+m: 1535 s: 29 n: 29 -- tau: 6.779117 v: 7.87413E+77 <2831>
+m: 1535 s: 29 n: 30 -- tau: 6.800062 v: 6.12492E+64 <2894>
+m: 1535 s: 29 n: 35 -- tau: 6.918305 v: 0.380382 <3422>
+m: 1535 s: 29 n: 34 -- tau: 6.891310 v: 3.60996E+12 <3349>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-30.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 03:34:45 CEST
+m: 1535 s: 30 n: 30 -- tau: 6.783479 v: 4.60525E+73 <2977>
+m: 1535 s: 30 n: 31 -- tau: 6.837725 v: 1.52686E+61 <3098>
+m: 1535 s: 30 n: 36 -- tau: 6.933055 v: 0.00208948 <3605>
+m: 1535 s: 30 n: 35 -- tau: 6.915061 v: 1.20536E+10 <3500>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-31.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:13:34 CEST
+m: 1535 s: 31 n: 31 -- tau: 6.841784 v: 7.70487E+79 <3119>
+m: 1535 s: 31 n: 32 -- tau: 6.844774 v: 3.42202E+67 <3197>
+m: 1535 s: 31 n: 38 -- tau: 6.953018 v: 3.3188E-06 <3695>
+m: 1535 s: 31 n: 37 -- tau: 6.926499 v: 3.67575E+06 <3668>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-32.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:15:36 CEST
+m: 1535 s: 32 n: 32 -- tau: 6.824259 v: 3.94826E+86 <3100>
+m: 1535 s: 32 n: 33 -- tau: 6.858041 v: 1.43531E+75 <3202>
+m: 1535 s: 32 n: 40 -- tau: 6.995650 v: 2.71979E-06 <3975>
+m: 1535 s: 32 n: 39 -- tau: 6.956464 v: 495735 <3810>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-33.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:19:09 CEST
+m: 1535 s: 33 n: 33 -- tau: 6.854022 v: 1.12151E+85 <3246>
+m: 1535 s: 33 n: 34 -- tau: 6.908763 v: 1.41748E+74 <3531>
+m: 1535 s: 33 n: 41 -- tau: 7.011239 v: 1.74354E-05 <4097>
+m: 1535 s: 33 n: 40 -- tau: 6.981057 v: 1.97528E+06 <3959>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-34.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:23:33 CEST
+m: 1535 s: 34 n: 34 -- tau: 6.913080 v: 2.70407E+84 <3426>
+m: 1535 s: 34 n: 35 -- tau: 6.920533 v: 2.27359E+73 <3531>
+m: 1535 s: 34 n: 42 -- tau: 7.042909 v: 0.00073799 <4088>
+m: 1535 s: 34 n: 41 -- tau: 7.028686 v: 6.37167E+07 <4023>
+
+# Processing: linear-distribution-max-dim-8192-d-m-1535-s-35.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:27:23 CEST
+m: 1535 s: 35 n: 35 -- tau: 6.914779 v: 2.32521E+94 <3442>
+m: 1535 s: 35 n: 36 -- tau: 6.916200 v: 6.7445E+83 <3479>
+m: 1535 s: 35 n: 44 -- tau: 7.073264 v: 34.5282 <4316>
+m: 1535 s: 35 n: 45 -- tau: 7.076017 v: 1.17978E-09 <4363>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:02:47 CEST
+m: 2047 s: 1 n: 1 -- tau: 4.345378 v: 1301.3 <98>
+m: 2047 s: 1 n: 2 -- tau: 4.827870 v: 1.68127E-611 <201>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:07:23 CEST
+m: 2047 s: 2 n: 2 -- tau: 4.824012 v: 134749 <200>
+m: 2047 s: 2 n: 3 -- tau: 5.134962 v: 1.88413E-301 <300>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:13:47 CEST
+m: 2047 s: 3 n: 3 -- tau: 5.122533 v: 1.63619E+07 <283>
+m: 2047 s: 3 n: 4 -- tau: 5.329448 v: 1.10329E-196 <423>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:13:52 CEST
+m: 2047 s: 4 n: 4 -- tau: 5.345716 v: 9.36887E+09 <377>
+m: 2047 s: 4 n: 5 -- tau: 5.489083 v: 1.97798E-142 <527>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:14:00 CEST
+m: 2047 s: 5 n: 5 -- tau: 5.508956 v: 7.20129E+11 <485>
+m: 2047 s: 5 n: 6 -- tau: 5.624947 v: 8.42502E-110 <581>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:14:08 CEST
+m: 2047 s: 6 n: 6 -- tau: 5.630324 v: 5.7166E+13 <579>
+m: 2047 s: 6 n: 7 -- tau: 5.719709 v: 2.02252E-87 <686>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:14:18 CEST
+m: 2047 s: 7 n: 7 -- tau: 5.744628 v: 4.16093E+16 <690>
+m: 2047 s: 7 n: 8 -- tau: 5.845620 v: 1.03217E-69 <799>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:14:30 CEST
+m: 2047 s: 8 n: 8 -- tau: 5.843337 v: 1.29552E+20 <770>
+m: 2047 s: 8 n: 9 -- tau: 5.925380 v: 4.46999E-55 <880>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:14:42 CEST
+m: 2047 s: 9 n: 9 -- tau: 5.909343 v: 2.89463E+21 <860>
+m: 2047 s: 9 n: 10 -- tau: 5.998618 v: 3.15194E-45 <1009>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:02:50 CEST
+m: 2047 s: 10 n: 10 -- tau: 5.977963 v: 4.64605E+24 <965>
+m: 2047 s: 10 n: 11 -- tau: 6.054717 v: 4.28111E-35 <1103>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:03:05 CEST
+m: 2047 s: 11 n: 11 -- tau: 6.060314 v: 1.80181E+25 <1064>
+m: 2047 s: 11 n: 12 -- tau: 6.141872 v: 5.08978E-29 <1220>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:03:22 CEST
+m: 2047 s: 12 n: 12 -- tau: 6.129542 v: 2.85894E+29 <1128>
+m: 2047 s: 12 n: 13 -- tau: 6.194664 v: 5.02227E-20 <1339>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:03:40 CEST
+m: 2047 s: 13 n: 13 -- tau: 6.218214 v: 4.72303E+31 <1354>
+m: 2047 s: 13 n: 14 -- tau: 6.238088 v: 4.73431E-14 <1390>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:04:00 CEST
+m: 2047 s: 14 n: 14 -- tau: 6.247177 v: 1.18827E+33 <1352>
+m: 2047 s: 14 n: 15 -- tau: 6.290274 v: 3.27104E-09 <1510>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:04:21 CEST
+m: 2047 s: 15 n: 15 -- tau: 6.277057 v: 4.03206E+36 <1513>
+m: 2047 s: 15 n: 16 -- tau: 6.311642 v: 0.0108333 <1581>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:04:44 CEST
+m: 2047 s: 16 n: 16 -- tau: 6.345750 v: 3.61099E+41 <1588>
+m: 2047 s: 16 n: 17 -- tau: 6.404763 v: 724857 <1710>
+m: 2047 s: 16 n: 18 -- tau: 6.426062 v: 9.623E-31 <1771>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-17.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:05:20 CEST
+m: 2047 s: 17 n: 17 -- tau: 6.380122 v: 3.54245E+41 <1689>
+m: 2047 s: 17 n: 18 -- tau: 6.451459 v: 1.14379E+08 <1717>
+m: 2047 s: 17 n: 19 -- tau: 6.475046 v: 2.10573E-26 <1873>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-18.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:05:59 CEST
+m: 2047 s: 18 n: 18 -- tau: 6.418440 v: 6.29906E+45 <1793>
+m: 2047 s: 18 n: 19 -- tau: 6.491225 v: 2.86945E+14 <1923>
+m: 2047 s: 18 n: 20 -- tau: 6.499157 v: 5.63209E-18 <2027>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-19.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:06:40 CEST
+m: 2047 s: 19 n: 19 -- tau: 6.475597 v: 4.79878E+48 <1922>
+m: 2047 s: 19 n: 20 -- tau: 6.483292 v: 5.94258E+18 <1896>
+m: 2047 s: 19 n: 21 -- tau: 6.529748 v: 1.34463E-11 <2037>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-20.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:07:28 CEST
+m: 2047 s: 20 n: 20 -- tau: 6.504983 v: 1.03299E+49 <1910>
+m: 2047 s: 20 n: 21 -- tau: 6.531122 v: 5.56998E+20 <2139>
+m: 2047 s: 20 n: 22 -- tau: 6.557600 v: 3.13404E-08 <2210>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-21.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:08:13 CEST
+m: 2047 s: 21 n: 21 -- tau: 6.531671 v: 2.27843E+52 <2094>
+m: 2047 s: 21 n: 22 -- tau: 6.567844 v: 4.78996E+25 <2162>
+m: 2047 s: 21 n: 23 -- tau: 6.585276 v: 0.0775869 <2296>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-22.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:09:00 CEST
+m: 2047 s: 22 n: 22 -- tau: 6.583089 v: 1.89026E+52 <2252>
+m: 2047 s: 22 n: 23 -- tau: 6.587326 v: 3.97516E+26 <2270>
+m: 2047 s: 22 n: 25 -- tau: 6.646266 v: 4.45334E-25 <2419>
+m: 2047 s: 22 n: 24 -- tau: 6.627472 v: 15.6796 <2403>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-23.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:10:08 CEST
+m: 2047 s: 23 n: 23 -- tau: 6.613863 v: 2.5676E+61 <2252>
+m: 2047 s: 23 n: 24 -- tau: 6.631094 v: 2.21917E+37 <2310>
+m: 2047 s: 23 n: 26 -- tau: 6.661729 v: 1.6614E-11 <2526>
+m: 2047 s: 23 n: 25 -- tau: 6.642652 v: 1.77479E+13 <2375>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-24.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:11:18 CEST
+m: 2047 s: 24 n: 24 -- tau: 6.645915 v: 1.35484E+59 <2410>
+m: 2047 s: 24 n: 25 -- tau: 6.652588 v: 8.01981E+35 <2502>
+m: 2047 s: 24 n: 27 -- tau: 6.691919 v: 4.79363E-11 <2737>
+m: 2047 s: 24 n: 26 -- tau: 6.682811 v: 7.45012E+12 <2564>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-25.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-07 21:12:30 CEST
+m: 2047 s: 25 n: 25 -- tau: 6.648077 v: 9.3725E+65 <2469>
+m: 2047 s: 25 n: 26 -- tau: 6.688663 v: 1.68598E+44 <2544>
+m: 2047 s: 25 n: 29 -- tau: 6.765041 v: 5.37305E-22 <2882>
+m: 2047 s: 25 n: 28 -- tau: 6.734553 v: 3.18385 <2764>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-26.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:50:04 CEST
+m: 2047 s: 26 n: 26 -- tau: 6.696934 v: 5.9486E+67 <2586>
+m: 2047 s: 26 n: 27 -- tau: 6.704853 v: 4.83453E+46 <2612>
+m: 2047 s: 26 n: 30 -- tau: 6.798724 v: 1.25482E-16 <2989>
+m: 2047 s: 26 n: 29 -- tau: 6.748118 v: 58479.2 <2847>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-27.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:52:56 CEST
+m: 2047 s: 27 n: 27 -- tau: 6.700261 v: 1.06925E+71 <2581>
+m: 2047 s: 27 n: 28 -- tau: 6.728117 v: 1.04666E+51 <2750>
+m: 2047 s: 27 n: 31 -- tau: 6.834521 v: 2.06052E-09 <3125>
+m: 2047 s: 27 n: 30 -- tau: 6.775570 v: 9.44522E+10 <2961>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-28.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:56:05 CEST
+m: 2047 s: 28 n: 28 -- tau: 6.761449 v: 1.47389E+68 <2842>
+m: 2047 s: 28 n: 29 -- tau: 6.774326 v: 4.49806E+48 <2854>
+m: 2047 s: 28 n: 32 -- tau: 6.840356 v: 2.67121E-10 <3086>
+m: 2047 s: 28 n: 31 -- tau: 6.816467 v: 6.36696E+09 <3079>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-29.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:59:47 CEST
+m: 2047 s: 29 n: 29 -- tau: 6.765461 v: 5.78867E+74 <2787>
+m: 2047 s: 29 n: 30 -- tau: 6.777762 v: 1.41306E+56 <2878>
+m: 2047 s: 29 n: 34 -- tau: 6.886151 v: 2.51278E-18 <3378>
+m: 2047 s: 29 n: 33 -- tau: 6.854867 v: 5.88923 <3305>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-30.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:03:19 CEST
+m: 2047 s: 30 n: 30 -- tau: 6.787168 v: 1.99406E+74 <2911>
+m: 2047 s: 30 n: 31 -- tau: 6.838491 v: 4.73946E+56 <3100>
+m: 2047 s: 30 n: 35 -- tau: 6.929297 v: 1.7779E-15 <3533>
+m: 2047 s: 30 n: 34 -- tau: 6.914193 v: 1464.35 <3434>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-31.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:31:13 CEST
+m: 2047 s: 31 n: 31 -- tau: 6.839764 v: 2.24832E+75 <3121>
+m: 2047 s: 31 n: 32 -- tau: 6.831222 v: 5.84384E+57 <3120>
+m: 2047 s: 31 n: 36 -- tau: 6.878256 v: 1.90919E-12 <3387>
+m: 2047 s: 31 n: 35 -- tau: 6.906212 v: 1.17986E+06 <3449>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-32.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:34:27 CEST
+m: 2047 s: 32 n: 32 -- tau: 6.824677 v: 3.98619E+86 <3057>
+m: 2047 s: 32 n: 33 -- tau: 6.849226 v: 1.77928E+70 <3205>
+m: 2047 s: 32 n: 38 -- tau: 6.966262 v: 4.52759E-12 <3779>
+m: 2047 s: 32 n: 37 -- tau: 6.959439 v: 136762 <3591>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-33.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:37:52 CEST
+m: 2047 s: 33 n: 33 -- tau: 6.851523 v: 1.6134E+80 <3267>
+m: 2047 s: 33 n: 34 -- tau: 6.874685 v: 1.44378E+64 <3425>
+m: 2047 s: 33 n: 38 -- tau: 6.961478 v: 1.09357 <3765>
+m: 2047 s: 33 n: 37 -- tau: 6.960192 v: 1.91729E+16 <3673>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-34.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:41:24 CEST
+m: 2047 s: 34 n: 34 -- tau: 6.873475 v: 4.13802E+84 <3335>
+m: 2047 s: 34 n: 35 -- tau: 6.892876 v: 1.39191E+69 <3470>
+m: 2047 s: 34 n: 40 -- tau: 7.009127 v: 1.55824E-08 <3977>
+m: 2047 s: 34 n: 39 -- tau: 6.987191 v: 3.7186E+07 <3917>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-35.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:45:09 CEST
+m: 2047 s: 35 n: 35 -- tau: 6.909552 v: 2.49129E+90 <3434>
+m: 2047 s: 35 n: 36 -- tau: 6.910444 v: 2.16771E+75 <3490>
+m: 2047 s: 35 n: 41 -- tau: 7.005044 v: 15.2655 <3956>
+m: 2047 s: 35 n: 42 -- tau: 7.032454 v: 3.14557E-14 <4226>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-36.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 15:49:31 CEST
+m: 2047 s: 36 n: 36 -- tau: 6.952911 v: 3.042E+97 <3682>
+m: 2047 s: 36 n: 37 -- tau: 6.932502 v: 6.2316E+82 <3508>
+m: 2047 s: 36 n: 43 -- tau: 7.076965 v: 0.00877799 <4376>
+m: 2047 s: 36 n: 42 -- tau: 7.039566 v: 7.52104E+11 <4196>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-37.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 15:51:46 CEST
+m: 2047 s: 37 n: 37 -- tau: 6.957186 v: 1.64086E+94 <3654>
+m: 2047 s: 37 n: 38 -- tau: 6.940102 v: 7.27553E+79 <3721>
+m: 2047 s: 37 n: 44 -- tau: 7.032876 v: 0.000149484 <4241>
+m: 2047 s: 37 n: 43 -- tau: 7.042899 v: 2.73194E+10 <4220>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-38.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 15:54:06 CEST
+m: 2047 s: 38 n: 38 -- tau: 6.971206 v: 1.27441E+103 <3692>
+m: 2047 s: 38 n: 39 -- tau: 6.977627 v: 4.32927E+89 <3888>
+m: 2047 s: 38 n: 46 -- tau: 7.102448 v: 0.000394228 <4525>
+m: 2047 s: 38 n: 45 -- tau: 7.108476 v: 1.53154E+10 <4551>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-39.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 15:56:29 CEST
+m: 2047 s: 39 n: 39 -- tau: 6.984736 v: 2.89852E+101 <3852>
+m: 2047 s: 39 n: 40 -- tau: 6.980871 v: 1.49104E+88 <3850>
+m: 2047 s: 39 n: 47 -- tau: 7.113914 v: 0.00253515 <4612>
+m: 2047 s: 39 n: 46 -- tau: 7.134303 v: 7.83103E+10 <4559>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-40.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 15:58:57 CEST
+m: 2047 s: 40 n: 40 -- tau: 6.994933 v: 2.44485E+100 <3892>
+m: 2047 s: 40 n: 41 -- tau: 7.013120 v: 4.80201E+87 <3956>
+m: 2047 s: 40 n: 48 -- tau: 7.148971 v: 0.147672 <4729>
+m: 2047 s: 40 n: 47 -- tau: 7.111952 v: 3.34245E+11 <4639>
+
+# Processing: linear-distribution-max-dim-8192-d-m-2047-s-41.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 17:18:26 CEST
+m: 2047 s: 41 n: 41 -- tau: 7.010442 v: 2.14795E+112 <4029>
+m: 2047 s: 41 n: 42 -- tau: 7.046001 v: 2.89995E+100 <4108>
+m: 2047 s: 41 n: 51 -- tau: 7.176309 v: 4.30335E-09 <5013>
+m: 2047 s: 41 n: 50 -- tau: 7.156406 v: 4049.22 <4934>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:52:19 CEST
+m: 3071 s: 1 n: 1 -- tau: 4.338125 v: 1288.31 <96>
+m: 3071 s: 1 n: 2 -- tau: 4.849716 v: 9.78675E-920 <199>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:00:47 CEST
+m: 3071 s: 2 n: 2 -- tau: 4.855868 v: 143972 <222>
+m: 3071 s: 2 n: 3 -- tau: 5.104031 v: 1.28979E-455 <298>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:21:50 CEST
+m: 3071 s: 3 n: 3 -- tau: 5.128563 v: 3.32754E+07 <280>
+m: 3071 s: 3 n: 4 -- tau: 5.329068 v: 4.91946E-299 <417>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:25:05 CEST
+m: 3071 s: 4 n: 4 -- tau: 5.326574 v: 8.76759E+09 <400>
+m: 3071 s: 4 n: 5 -- tau: 5.513932 v: 1.89417E-219 <495>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:25:22 CEST
+m: 3071 s: 5 n: 5 -- tau: 5.497437 v: 3.43223E+11 <497>
+m: 3071 s: 5 n: 6 -- tau: 5.640307 v: 8.82582E-172 <572>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:25:42 CEST
+m: 3071 s: 6 n: 6 -- tau: 5.626178 v: 8.96443E+14 <568>
+m: 3071 s: 6 n: 7 -- tau: 5.750158 v: 2.55999E-137 <713>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:26:05 CEST
+m: 3071 s: 7 n: 7 -- tau: 5.746646 v: 1.68309E+17 <689>
+m: 3071 s: 7 n: 8 -- tau: 5.851676 v: 4.80659E-113 <780>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:26:30 CEST
+m: 3071 s: 8 n: 8 -- tau: 5.838237 v: 1.25495E+20 <817>
+m: 3071 s: 8 n: 9 -- tau: 5.924915 v: 1.30939E-93 <845>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:26:58 CEST
+m: 3071 s: 9 n: 9 -- tau: 5.926751 v: 8.16461E+20 <852>
+m: 3071 s: 9 n: 10 -- tau: 5.989676 v: 3.54397E-80 <996>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:52:28 CEST
+m: 3071 s: 10 n: 10 -- tau: 6.015994 v: 9.70134E+22 <1036>
+m: 3071 s: 10 n: 11 -- tau: 6.062032 v: 7.00983E-68 <1112>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:53:02 CEST
+m: 3071 s: 11 n: 11 -- tau: 6.065847 v: 3.77335E+25 <1049>
+m: 3071 s: 11 n: 12 -- tau: 6.157212 v: 1.18023E-56 <1212>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:53:38 CEST
+m: 3071 s: 12 n: 12 -- tau: 6.120034 v: 4.19871E+30 <1189>
+m: 3071 s: 12 n: 13 -- tau: 6.198345 v: 2.15272E-44 <1327>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:54:19 CEST
+m: 3071 s: 13 n: 13 -- tau: 6.193401 v: 4.64042E+30 <1258>
+m: 3071 s: 13 n: 14 -- tau: 6.248983 v: 1.09646E-38 <1405>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:55:04 CEST
+m: 3071 s: 14 n: 14 -- tau: 6.246398 v: 4.71474E+33 <1316>
+m: 3071 s: 14 n: 15 -- tau: 6.301715 v: 1.57276E-30 <1540>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:55:50 CEST
+m: 3071 s: 15 n: 15 -- tau: 6.317795 v: 1.01358E+38 <1458>
+m: 3071 s: 15 n: 16 -- tau: 6.351096 v: 9.34849E-22 <1621>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:56:39 CEST
+m: 3071 s: 16 n: 16 -- tau: 6.362534 v: 4.40066E+41 <1627>
+m: 3071 s: 16 n: 17 -- tau: 6.402425 v: 3.8165E-14 <1687>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-17.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:57:29 CEST
+m: 3071 s: 17 n: 17 -- tau: 6.375128 v: 5.32559E+42 <1645>
+m: 3071 s: 17 n: 18 -- tau: 6.412469 v: 9.49866E-10 <1776>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-18.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:58:23 CEST
+m: 3071 s: 18 n: 18 -- tau: 6.413995 v: 1.48522E+45 <1723>
+m: 3071 s: 18 n: 19 -- tau: 6.451750 v: 0.000287986 <1790>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-19.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 01:59:19 CEST
+m: 3071 s: 19 n: 19 -- tau: 6.483888 v: 1.34582E+48 <1905>
+m: 3071 s: 19 n: 20 -- tau: 6.475692 v: 73.8335 <1893>
+m: 3071 s: 19 n: 21 -- tau: 6.549358 v: 1.39693E-44 <2078>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-20.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:00:59 CEST
+m: 3071 s: 20 n: 20 -- tau: 6.509015 v: 1.75268E+50 <2072>
+m: 3071 s: 20 n: 21 -- tau: 6.526008 v: 3.66079E+06 <2097>
+m: 3071 s: 20 n: 22 -- tau: 6.550588 v: 8.84339E-38 <2124>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-21.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:02:33 CEST
+m: 3071 s: 21 n: 21 -- tau: 6.518850 v: 5.85574E+50 <2038>
+m: 3071 s: 21 n: 22 -- tau: 6.545854 v: 1.87268E+09 <2148>
+m: 3071 s: 21 n: 23 -- tau: 6.619107 v: 1.34311E-32 <2305>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-22.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:04:12 CEST
+m: 3071 s: 22 n: 22 -- tau: 6.533579 v: 3.51633E+55 <2122>
+m: 3071 s: 22 n: 23 -- tau: 6.592270 v: 2.5122E+16 <2317>
+m: 3071 s: 22 n: 24 -- tau: 6.625588 v: 1.25532E-23 <2411>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-23.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:05:52 CEST
+m: 3071 s: 23 n: 23 -- tau: 6.584125 v: 7.6445E+57 <2233>
+m: 3071 s: 23 n: 24 -- tau: 6.629880 v: 3.01561E+20 <2370>
+m: 3071 s: 23 n: 25 -- tau: 6.659677 v: 9.51408E-18 <2409>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-24.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:07:37 CEST
+m: 3071 s: 24 n: 24 -- tau: 6.621942 v: 5.86079E+63 <2432>
+m: 3071 s: 24 n: 25 -- tau: 6.672554 v: 1.71257E+28 <2492>
+m: 3071 s: 24 n: 26 -- tau: 6.686500 v: 2.70466E-08 <2633>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-25.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:09:26 CEST
+m: 3071 s: 25 n: 25 -- tau: 6.661600 v: 5.97957E+65 <2406>
+m: 3071 s: 25 n: 26 -- tau: 6.702580 v: 4.97394E+31 <2567>
+m: 3071 s: 25 n: 27 -- tau: 6.768281 v: 0.00708045 <2714>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-26.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:11:20 CEST
+m: 3071 s: 26 n: 26 -- tau: 6.714823 v: 1.26861E+63 <2570>
+m: 3071 s: 26 n: 27 -- tau: 6.724345 v: 9.79418E+29 <2641>
+m: 3071 s: 26 n: 28 -- tau: 6.740983 v: 0.000884558 <2738>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-27.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:13:17 CEST
+m: 3071 s: 27 n: 27 -- tau: 6.691885 v: 2.27208E+70 <2638>
+m: 3071 s: 27 n: 28 -- tau: 6.734132 v: 1.07427E+39 <2791>
+m: 3071 s: 27 n: 30 -- tau: 6.805756 v: 2.1748E-24 <2868>
+m: 3071 s: 27 n: 29 -- tau: 6.770522 v: 4.77084E+07 <2902>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-28.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:16:02 CEST
+m: 3071 s: 28 n: 28 -- tau: 6.746184 v: 7.10703E+72 <2766>
+m: 3071 s: 28 n: 29 -- tau: 6.798134 v: 7.03778E+42 <2964>
+m: 3071 s: 28 n: 31 -- tau: 6.814396 v: 1.22804E-18 <3069>
+m: 3071 s: 28 n: 30 -- tau: 6.783387 v: 1.78763E+12 <2879>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-29.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:18:54 CEST
+m: 3071 s: 29 n: 29 -- tau: 6.788109 v: 4.7466E+77 <2911>
+m: 3071 s: 29 n: 30 -- tau: 6.799611 v: 3.36727E+48 <3000>
+m: 3071 s: 29 n: 32 -- tau: 6.850671 v: 3.38202E-10 <3249>
+m: 3071 s: 29 n: 31 -- tau: 6.824612 v: 3.27603E+19 <3054>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-30.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 02:22:04 CEST
+m: 3071 s: 30 n: 30 -- tau: 6.785540 v: 3.0808E+75 <2965>
+m: 3071 s: 30 n: 31 -- tau: 6.821693 v: 3.04104E+47 <3025>
+m: 3071 s: 30 n: 33 -- tau: 6.864519 v: 1.7214E-09 <3270>
+m: 3071 s: 30 n: 32 -- tau: 6.841012 v: 2.14838E+19 <3210>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-31.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:06:59 CEST
+m: 3071 s: 31 n: 31 -- tau: 6.823254 v: 3.11776E+75 <3029>
+m: 3071 s: 31 n: 32 -- tau: 6.818303 v: 1.0125E+48 <3109>
+m: 3071 s: 31 n: 34 -- tau: 6.866912 v: 4.33106E-07 <3312>
+m: 3071 s: 31 n: 33 -- tau: 6.871927 v: 1.29918E+21 <3309>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-32.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:10:34 CEST
+m: 3071 s: 32 n: 32 -- tau: 6.816041 v: 3.27162E+86 <3111>
+m: 3071 s: 32 n: 33 -- tau: 6.845216 v: 3.76921E+60 <3239>
+m: 3071 s: 32 n: 36 -- tau: 6.930191 v: 6.89772E-18 <3576>
+m: 3071 s: 32 n: 35 -- tau: 6.898685 v: 5.0065E+08 <3387>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-33.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:14:19 CEST
+m: 3071 s: 33 n: 33 -- tau: 6.860771 v: 4.01262E+80 <3305>
+m: 3071 s: 33 n: 34 -- tau: 6.885671 v: 1.75533E+55 <3436>
+m: 3071 s: 33 n: 37 -- tau: 6.956436 v: 1.63317E-21 <3673>
+m: 3071 s: 33 n: 36 -- tau: 6.912650 v: 20772.6 <3505>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-34.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:17:45 CEST
+m: 3071 s: 34 n: 34 -- tau: 6.875184 v: 6.90124E+85 <3295>
+m: 3071 s: 34 n: 35 -- tau: 6.916455 v: 3.73558E+61 <3521>
+m: 3071 s: 34 n: 38 -- tau: 6.950581 v: 7.40828E-13 <3704>
+m: 3071 s: 34 n: 37 -- tau: 6.936317 v: 2.4959E+12 <3650>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-35.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:21:21 CEST
+m: 3071 s: 35 n: 35 -- tau: 6.926657 v: 1.95462E+93 <3493>
+m: 3071 s: 35 n: 36 -- tau: 6.922289 v: 2.80109E+69 <3601>
+m: 3071 s: 35 n: 39 -- tau: 6.984400 v: 0.0641066 <3869>
+m: 3071 s: 35 n: 38 -- tau: 6.957164 v: 1.8383E+22 <3770>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-36.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:24:59 CEST
+m: 3071 s: 36 n: 36 -- tau: 6.923328 v: 1.3585E+91 <3571>
+m: 3071 s: 36 n: 37 -- tau: 6.941067 v: 1.38711E+68 <3668>
+m: 3071 s: 36 n: 40 -- tau: 7.000899 v: 0.206923 <3909>
+m: 3071 s: 36 n: 39 -- tau: 6.981682 v: 1.79689E+22 <3849>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-37.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:28:45 CEST
+m: 3071 s: 37 n: 37 -- tau: 6.947076 v: 4.21867E+101 <3588>
+m: 3071 s: 37 n: 38 -- tau: 6.967823 v: 3.84822E+79 <3831>
+m: 3071 s: 37 n: 42 -- tau: 7.037661 v: 2.40759E-09 <4182>
+m: 3071 s: 37 n: 41 -- tau: 7.025705 v: 3.06293E+13 <4037>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-38.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:32:38 CEST
+m: 3071 s: 38 n: 38 -- tau: 6.948499 v: 1.72455E+102 <3628>
+m: 3071 s: 38 n: 39 -- tau: 6.987472 v: 1.05947E+81 <3946>
+m: 3071 s: 38 n: 43 -- tau: 7.034587 v: 9.41566E-06 <4203>
+m: 3071 s: 38 n: 42 -- tau: 7.033102 v: 4.06529E+16 <4125>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-39.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:36:38 CEST
+m: 3071 s: 39 n: 39 -- tau: 6.981888 v: 2.74275E+104 <3855>
+m: 3071 s: 39 n: 40 -- tau: 6.999840 v: 3.90064E+83 <3980>
+m: 3071 s: 39 n: 44 -- tau: 7.065665 v: 1.70264 <4274>
+m: 3071 s: 39 n: 43 -- tau: 7.046787 v: 1.05686E+21 <4315>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-40.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 12:41:16 CEST
+m: 3071 s: 40 n: 40 -- tau: 6.997969 v: 4.47133E+107 <3994>
+m: 3071 s: 40 n: 41 -- tau: 7.022066 v: 3.11534E+87 <4106>
+m: 3071 s: 40 n: 46 -- tau: 7.080151 v: 1.10982E-14 <4478>
+m: 3071 s: 40 n: 45 -- tau: 7.075463 v: 2.61011E+06 <4438>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-41.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:01:30 CEST
+m: 3071 s: 41 n: 41 -- tau: 6.998697 v: 7.62956E+111 <3935>
+m: 3071 s: 41 n: 42 -- tau: 7.042319 v: 3.87215E+92 <4144>
+m: 3071 s: 41 n: 47 -- tau: 7.116684 v: 2.71478E-06 <4618>
+m: 3071 s: 41 n: 46 -- tau: 7.113517 v: 1.62963E+14 <4533>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-42.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:05:48 CEST
+m: 3071 s: 42 n: 42 -- tau: 7.041476 v: 1.66075E+105 <4125>
+m: 3071 s: 42 n: 43 -- tau: 7.064150 v: 9.45017E+85 <4355>
+m: 3071 s: 42 n: 48 -- tau: 7.096777 v: 5.84068E-12 <4726>
+m: 3071 s: 42 n: 47 -- tau: 7.094535 v: 1.82851E+08 <4570>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-43.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:10:05 CEST
+m: 3071 s: 43 n: 43 -- tau: 7.052085 v: 5.06086E+111 <4150>
+m: 3071 s: 43 n: 44 -- tau: 7.065929 v: 8.95231E+92 <4242>
+m: 3071 s: 43 n: 49 -- tau: 7.125983 v: 0.151019 <4762>
+m: 3071 s: 43 n: 48 -- tau: 7.126886 v: 1.28663E+18 <4713>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-44.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:13:50 CEST
+m: 3071 s: 44 n: 44 -- tau: 7.088065 v: 5.52641E+119 <4355>
+m: 3071 s: 44 n: 45 -- tau: 7.074287 v: 1.67814E+101 <4392>
+m: 3071 s: 44 n: 51 -- tau: 7.193010 v: 1.25708E-07 <5127>
+m: 3071 s: 44 n: 50 -- tau: 7.156562 v: 6.83114E+10 <4967>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-45.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:16:07 CEST
+m: 3071 s: 45 n: 45 -- tau: 7.084152 v: 8.08672E+114 <4449>
+m: 3071 s: 45 n: 46 -- tau: 7.108610 v: 1.6863E+97 <4662>
+m: 3071 s: 45 n: 52 -- tau: 7.169257 v: 1.2004E-10 <5048>
+m: 3071 s: 45 n: 51 -- tau: 7.152734 v: 6.62856E+07 <4959>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-46.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:18:24 CEST
+m: 3071 s: 46 n: 46 -- tau: 7.113702 v: 9.85698E+124 <4642>
+m: 3071 s: 46 n: 47 -- tau: 7.108248 v: 3.15581E+107 <4543>
+m: 3071 s: 46 n: 54 -- tau: 7.232259 v: 4.28954E-13 <5452>
+m: 3071 s: 46 n: 53 -- tau: 7.213096 v: 50173.6 <5266>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-47.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:20:45 CEST
+m: 3071 s: 47 n: 47 -- tau: 7.114672 v: 5.49984E+121 <4594>
+m: 3071 s: 47 n: 48 -- tau: 7.154285 v: 1.62275E+105 <4765>
+m: 3071 s: 47 n: 55 -- tau: 7.239218 v: 8.45031E-14 <5454>
+m: 3071 s: 47 n: 54 -- tau: 7.241356 v: 10930.4 <5405>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-48.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:23:11 CEST
+m: 3071 s: 48 n: 48 -- tau: 7.147580 v: 1.0238E+134 <4749>
+m: 3071 s: 48 n: 49 -- tau: 7.166624 v: 6.23019E+117 <4904>
+m: 3071 s: 48 n: 57 -- tau: 7.243979 v: 1.49577E-13 <5580>
+m: 3071 s: 48 n: 56 -- tau: 7.239542 v: 3728.02 <5489>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-49.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:25:36 CEST
+m: 3071 s: 49 n: 49 -- tau: 7.144993 v: 1.6573E+132 <4863>
+m: 3071 s: 49 n: 50 -- tau: 7.178388 v: 3.38897E+116 <4985>
+m: 3071 s: 49 n: 58 -- tau: 7.300138 v: 1.44329E-11 <5876>
+m: 3071 s: 49 n: 57 -- tau: 7.243380 v: 21043.6 <5552>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-50.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:28:22 CEST
+m: 3071 s: 50 n: 50 -- tau: 7.187495 v: 5.26486E+131 <4973>
+m: 3071 s: 50 n: 51 -- tau: 7.189287 v: 7.26633E+115 <5122>
+m: 3071 s: 50 n: 59 -- tau: 7.297801 v: 5.28712E-10 <5847>
+m: 3071 s: 50 n: 58 -- tau: 7.273154 v: 1.37987E+06 <5710>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-51.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 17:24:30 CEST
+m: 3071 s: 51 n: 51 -- tau: 7.169525 v: 8.02603E+130 <4943>
+m: 3071 s: 51 n: 52 -- tau: 7.169905 v: 2.08037E+115 <5018>
+m: 3071 s: 51 n: 60 -- tau: 7.250765 v: 1.16683E-08 <5772>
+m: 3071 s: 51 n: 59 -- tau: 7.285013 v: 1.79067E+08 <5810>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-52.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 17:31:24 CEST
+m: 3071 s: 52 n: 52 -- tau: 7.212613 v: 4.49867E+131 <5119>
+m: 3071 s: 52 n: 53 -- tau: 7.197155 v: 1.32881E+116 <5211>
+m: 3071 s: 52 n: 61 -- tau: 7.318136 v: 0.00013178 <6080>
+m: 3071 s: 52 n: 60 -- tau: 7.302894 v: 1.21908E+11 <5980>
+
+# Processing: linear-distribution-max-dim-8192-d-m-3071-s-53.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 17:44:33 CEST
+m: 3071 s: 53 n: 53 -- tau: 7.178257 v: 5.31427E+147 <5122>
+m: 3071 s: 53 n: 54 -- tau: 7.203096 v: 2.81932E+133 <5335>
+m: 3071 s: 53 n: 64 -- tau: 7.364838 v: 6.72415E-11 <6426>
+m: 3071 s: 53 n: 63 -- tau: 7.342394 v: 10593 <6262>
+
+
+# ------------------------------------------------------------------------------
+
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-1.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:06:52 CEST
+m: 4091 s: 1 n: 1 -- tau: 4.363881 v: 1335.03 <100>
+m: 4091 s: 1 n: 2 -- tau: 4.850851 v: 8.73107E-1227 <188>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-2.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:10:34 CEST
+m: 4091 s: 2 n: 2 -- tau: 4.825691 v: 135220 <188>
+m: 4091 s: 2 n: 3 -- tau: 5.134704 v: 4.18934E-609 <301>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-3.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:28:03 CEST
+m: 4091 s: 3 n: 3 -- tau: 5.122990 v: 3.27654E+07 <297>
+m: 4091 s: 3 n: 4 -- tau: 5.376336 v: 2.58734E-401 <391>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-4.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:30:37 CEST
+m: 4091 s: 4 n: 4 -- tau: 5.343761 v: 9.3056E+09 <400>
+m: 4091 s: 4 n: 5 -- tau: 5.511404 v: 3.23747E-296 <506>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-5.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:30:57 CEST
+m: 4091 s: 5 n: 5 -- tau: 5.511931 v: 3.64546E+11 <476>
+m: 4091 s: 5 n: 6 -- tau: 5.628252 v: 3.23769E-233 <580>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-6.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:31:20 CEST
+m: 4091 s: 6 n: 6 -- tau: 5.648036 v: 9.96733E+14 <579>
+m: 4091 s: 6 n: 7 -- tau: 5.752928 v: 1.73704E-188 <678>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-7.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:31:46 CEST
+m: 4091 s: 7 n: 7 -- tau: 5.761024 v: 4.55695E+16 <695>
+m: 4091 s: 7 n: 8 -- tau: 5.853622 v: 1.36355E-157 <733>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-8.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:32:15 CEST
+m: 4091 s: 8 n: 8 -- tau: 5.843968 v: 8.12896E+18 <824>
+m: 4091 s: 8 n: 9 -- tau: 5.940959 v: 2.68785E-133 <921>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-9.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:32:48 CEST
+m: 4091 s: 9 n: 9 -- tau: 5.942407 v: 7.28037E+21 <906>
+m: 4091 s: 9 n: 10 -- tau: 6.004915 v: 3.06655E-113 <1000>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-10.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:06:55 CEST
+m: 4091 s: 10 n: 10 -- tau: 6.000253 v: 8.6042E+22 <972>
+m: 4091 s: 10 n: 11 -- tau: 6.096410 v: 1.84007E-98 <1092>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-11.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:07:11 CEST
+m: 4091 s: 11 n: 11 -- tau: 6.073276 v: 1.02755E+28 <1116>
+m: 4091 s: 11 n: 12 -- tau: 6.124922 v: 4.56127E-82 <1179>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-12.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:07:28 CEST
+m: 4091 s: 12 n: 12 -- tau: 6.124374 v: 4.36618E+30 <1201>
+m: 4091 s: 12 n: 13 -- tau: 6.222984 v: 7.06765E-70 <1305>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-13.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:07:46 CEST
+m: 4091 s: 13 n: 13 -- tau: 6.180171 v: 2.61206E+32 <1307>
+m: 4091 s: 13 n: 14 -- tau: 6.246917 v: 2.27251E-60 <1355>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-14.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:08:06 CEST
+m: 4091 s: 14 n: 14 -- tau: 6.233804 v: 1.03403E+33 <1345>
+m: 4091 s: 14 n: 15 -- tau: 6.274972 v: 3.0946E-53 <1439>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-15.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:08:27 CEST
+m: 4091 s: 15 n: 15 -- tau: 6.290633 v: 7.49957E+37 <1450>
+m: 4091 s: 15 n: 16 -- tau: 6.366420 v: 3.79423E-42 <1591>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-16.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:08:49 CEST
+m: 4091 s: 16 n: 16 -- tau: 6.337891 v: 2.05726E+40 <1560>
+m: 4091 s: 16 n: 17 -- tau: 6.402080 v: 1.28753E-34 <1769>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-17.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:09:13 CEST
+m: 4091 s: 17 n: 17 -- tau: 6.404101 v: 7.64461E+42 <1573>
+m: 4091 s: 17 n: 18 -- tau: 6.416222 v: 8.65626E-28 <1794>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-18.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:09:38 CEST
+m: 4091 s: 18 n: 18 -- tau: 6.434764 v: 3.05069E+43 <1804>
+m: 4091 s: 18 n: 19 -- tau: 6.457125 v: 3.36387E-23 <1798>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-19.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:10:05 CEST
+m: 4091 s: 19 n: 19 -- tau: 6.437450 v: 1.10465E+46 <1805>
+m: 4091 s: 19 n: 20 -- tau: 6.506428 v: 1.00173E-16 <1995>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-20.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:10:38 CEST
+m: 4091 s: 20 n: 20 -- tau: 6.487370 v: 1.27901E+50 <1910>
+m: 4091 s: 20 n: 21 -- tau: 6.515714 v: 1.38954E-09 <2041>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-21.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:11:21 CEST
+m: 4091 s: 21 n: 21 -- tau: 6.528743 v: 2.78906E+54 <2117>
+m: 4091 s: 21 n: 22 -- tau: 6.577575 v: 0.0451864 <2238>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-22.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:12:25 CEST
+m: 4091 s: 22 n: 22 -- tau: 6.580674 v: 1.90722E+58 <2179>
+m: 4091 s: 22 n: 23 -- tau: 6.627374 v: 163881 <2350>
+m: 4091 s: 22 n: 24 -- tau: 6.632873 v: 7.36306E-49 <2374>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-23.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:14:07 CEST
+m: 4091 s: 23 n: 23 -- tau: 6.611333 v: 3.07723E+60 <2195>
+m: 4091 s: 23 n: 24 -- tau: 6.623636 v: 3.93825E+09 <2330>
+m: 4091 s: 23 n: 25 -- tau: 6.648952 v: 6.48677E-42 <2420>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-24.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:15:53 CEST
+m: 4091 s: 24 n: 24 -- tau: 6.603679 v: 1.04267E+60 <2273>
+m: 4091 s: 24 n: 25 -- tau: 6.681469 v: 5.58181E+11 <2521>
+m: 4091 s: 24 n: 26 -- tau: 6.716382 v: 1.49295E-37 <2569>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-25.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:17:43 CEST
+m: 4091 s: 25 n: 25 -- tau: 6.651623 v: 1.56111E+64 <2412>
+m: 4091 s: 25 n: 26 -- tau: 6.694348 v: 6.05924E+17 <2583>
+m: 4091 s: 25 n: 27 -- tau: 6.720660 v: 1.81578E-29 <2573>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-26.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:19:38 CEST
+m: 4091 s: 26 n: 26 -- tau: 6.692331 v: 5.3297E+64 <2584>
+m: 4091 s: 26 n: 27 -- tau: 6.697276 v: 6.74246E+19 <2606>
+m: 4091 s: 26 n: 28 -- tau: 6.750608 v: 2.27293E-25 <2789>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-27.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:21:36 CEST
+m: 4091 s: 27 n: 27 -- tau: 6.719055 v: 6.01523E+68 <2669>
+m: 4091 s: 27 n: 28 -- tau: 6.752404 v: 8.81677E+25 <2777>
+m: 4091 s: 27 n: 29 -- tau: 6.788712 v: 1.44015E-17 <2911>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-28.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:23:38 CEST
+m: 4091 s: 28 n: 28 -- tau: 6.740992 v: 9.76975E+67 <2779>
+m: 4091 s: 28 n: 29 -- tau: 6.777430 v: 5.08004E+26 <2815>
+m: 4091 s: 28 n: 30 -- tau: 6.800589 v: 2.0898E-15 <2943>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-29.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:25:47 CEST
+m: 4091 s: 29 n: 29 -- tau: 6.781524 v: 2.46712E+70 <2823>
+m: 4091 s: 29 n: 30 -- tau: 6.807954 v: 3.49412E+30 <3018>
+m: 4091 s: 29 n: 31 -- tau: 6.811756 v: 3.10902E-10 <3083>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-30.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 11:28:19 CEST
+m: 4091 s: 30 n: 30 -- tau: 6.787682 v: 3.22594E+75 <2951>
+m: 4091 s: 30 n: 31 -- tau: 6.817278 v: 1.60497E+37 <3030>
+m: 4091 s: 30 n: 32 -- tau: 6.859456 v: 0.110993 <3203>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-31.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:48:54 CEST
+m: 4091 s: 31 n: 31 -- tau: 6.811096 v: 6.39095E+83 <3109>
+m: 4091 s: 31 n: 32 -- tau: 6.856946 v: 1.53162E+47 <3252>
+m: 4091 s: 31 n: 34 -- tau: 6.905861 v: 3.77502E-27 <3427>
+m: 4091 s: 31 n: 33 -- tau: 6.861602 v: 1.48223E+10 <3234>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-32.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:52:01 CEST
+m: 4091 s: 32 n: 32 -- tau: 6.828312 v: 2.70738E+85 <3213>
+m: 4091 s: 32 n: 33 -- tau: 6.846800 v: 5.69344E+49 <3205>
+m: 4091 s: 32 n: 35 -- tau: 6.894076 v: 3.5203E-22 <3382>
+m: 4091 s: 32 n: 34 -- tau: 6.880101 v: 1.7603E+14 <3327>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-33.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:55:23 CEST
+m: 4091 s: 33 n: 33 -- tau: 6.855543 v: 3.80908E+89 <3232>
+m: 4091 s: 33 n: 34 -- tau: 6.884553 v: 1.70834E+55 <3290>
+m: 4091 s: 33 n: 36 -- tau: 6.931735 v: 2.93943E-14 <3531>
+m: 4091 s: 33 n: 35 -- tau: 6.899864 v: 5.66894E+20 <3388>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-34.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 13:58:44 CEST
+m: 4091 s: 34 n: 34 -- tau: 6.889335 v: 9.72789E+85 <3333>
+m: 4091 s: 34 n: 35 -- tau: 6.925061 v: 4.3124E+52 <3499>
+m: 4091 s: 34 n: 37 -- tau: 6.934467 v: 1.92025E-15 <3618>
+m: 4091 s: 34 n: 36 -- tau: 6.934404 v: 1.02149E+19 <3730>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-35.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:02:08 CEST
+m: 4091 s: 35 n: 35 -- tau: 6.912259 v: 4.36691E+94 <3475>
+m: 4091 s: 35 n: 36 -- tau: 6.924575 v: 1.77038E+62 <3612>
+m: 4091 s: 35 n: 38 -- tau: 6.956759 v: 0.00376018 <3814>
+m: 4091 s: 35 n: 37 -- tau: 6.954323 v: 1.15595E+30 <3666>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-36.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:05:37 CEST
+m: 4091 s: 36 n: 36 -- tau: 6.938378 v: 8.18553E+94 <3587>
+m: 4091 s: 36 n: 37 -- tau: 6.944737 v: 2.33138E+63 <3577>
+m: 4091 s: 36 n: 39 -- tau: 6.984707 v: 4.13795 <3781>
+m: 4091 s: 36 n: 40 -- tau: 7.017482 v: 2.61498E-31 <3960>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-37.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:09:16 CEST
+m: 4091 s: 37 n: 37 -- tau: 6.962011 v: 9.53977E+96 <3733>
+m: 4091 s: 37 n: 38 -- tau: 6.973478 v: 2.54875E+66 <3741>
+m: 4091 s: 37 n: 41 -- tau: 7.020961 v: 7.83988E-26 <3961>
+m: 4091 s: 37 n: 40 -- tau: 7.011318 v: 291738 <3942>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-38.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:12:58 CEST
+m: 4091 s: 38 n: 38 -- tau: 6.959583 v: 3.63596E+100 <3756>
+m: 4091 s: 38 n: 39 -- tau: 6.987309 v: 1.22782E+71 <3837>
+m: 4091 s: 38 n: 42 -- tau: 7.037690 v: 2.24415E-18 <4120>
+m: 4091 s: 38 n: 41 -- tau: 7.031027 v: 1.11755E+12 <4061>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-39.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:16:46 CEST
+m: 4091 s: 39 n: 39 -- tau: 6.983730 v: 1.84733E+106 <3758>
+m: 4091 s: 39 n: 40 -- tau: 7.031644 v: 9.18477E+77 <3978>
+m: 4091 s: 39 n: 43 -- tau: 7.056454 v: 4.4784E-09 <4227>
+m: 4091 s: 39 n: 42 -- tau: 7.045495 v: 2.40918E+20 <4115>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-40.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:20:45 CEST
+m: 4091 s: 40 n: 40 -- tau: 7.000132 v: 4.53454E+101 <3933>
+m: 4091 s: 40 n: 41 -- tau: 7.010052 v: 3.1205E+73 <4003>
+m: 4091 s: 40 n: 44 -- tau: 7.057367 v: 1.91265E-11 <4337>
+m: 4091 s: 40 n: 43 -- tau: 7.055772 v: 3.39365E+17 <4242>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-41.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:32:30 CEST
+m: 4091 s: 41 n: 41 -- tau: 7.029816 v: 5.89925E+110 <4025>
+m: 4091 s: 41 n: 42 -- tau: 7.040790 v: 3.4456E+83 <4055>
+m: 4091 s: 41 n: 46 -- tau: 7.113781 v: 1.20759E-25 <4499>
+m: 4091 s: 41 n: 45 -- tau: 7.097999 v: 163.409 <4517>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-42.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:38:43 CEST
+m: 4091 s: 42 n: 42 -- tau: 7.020857 v: 3.67931E+108 <4049>
+m: 4091 s: 42 n: 43 -- tau: 7.077674 v: 3.48511E+82 <4414>
+m: 4091 s: 42 n: 47 -- tau: 7.123627 v: 1.48328E-24 <4566>
+m: 4091 s: 42 n: 46 -- tau: 7.074444 v: 166.006 <4342>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-43.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:46:55 CEST
+m: 4091 s: 43 n: 43 -- tau: 7.053476 v: 1.28911E+108 <4326>
+m: 4091 s: 43 n: 44 -- tau: 7.075077 v: 1.73294E+82 <4453>
+m: 4091 s: 43 n: 48 -- tau: 7.146919 v: 4.66657E-22 <4799>
+m: 4091 s: 43 n: 47 -- tau: 7.112450 v: 20255.4 <4613>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-44.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 14:55:11 CEST
+m: 4091 s: 44 n: 44 -- tau: 7.057883 v: 5.51846E+121 <4358>
+m: 4091 s: 44 n: 45 -- tau: 7.094129 v: 9.64106E+96 <4519>
+m: 4091 s: 44 n: 49 -- tau: 7.143161 v: 0.000534963 <4789>
+m: 4091 s: 44 n: 48 -- tau: 7.128500 v: 5.56705E+21 <4736>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-45.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 15:01:17 CEST
+m: 4091 s: 45 n: 45 -- tau: 7.114158 v: 2.26034E+124 <4555>
+m: 4091 s: 45 n: 46 -- tau: 7.092673 v: 2.5686E+99 <4506>
+m: 4091 s: 45 n: 50 -- tau: 7.162501 v: 78.4813 <4975>
+m: 4091 s: 45 n: 51 -- tau: 7.192808 v: 5.54196E-23 <5182>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-46.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:31:19 CEST
+m: 4091 s: 46 n: 46 -- tau: 7.099707 v: 1.59949E+127 <4547>
+m: 4091 s: 46 n: 47 -- tau: 7.133205 v: 4.41879E+103 <4618>
+m: 4091 s: 46 n: 52 -- tau: 7.198936 v: 3.40602E-16 <5043>
+m: 4091 s: 46 n: 51 -- tau: 7.168160 v: 1.15585E+08 <4964>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-47.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:33:52 CEST
+m: 4091 s: 47 n: 47 -- tau: 7.088843 v: 1.42141E+117 <4494>
+m: 4091 s: 47 n: 48 -- tau: 7.127657 v: 9.55852E+93 <4729>
+m: 4091 s: 47 n: 53 -- tau: 7.211606 v: 4.79142E-24 <5203>
+m: 4091 s: 47 n: 52 -- tau: 7.205884 v: 1.97993 <5225>
+m: 4091 s: 47 n: 51 -- tau: 7.178954 v: 3.84046E+23 <5112>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-48.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:37:12 CEST
+m: 4091 s: 48 n: 48 -- tau: 7.130765 v: 8.41617E+122 <4695>
+m: 4091 s: 48 n: 49 -- tau: 7.151806 v: 1.2934E+100 <4770>
+m: 4091 s: 48 n: 54 -- tau: 7.218589 v: 3.98011E-15 <5349>
+m: 4091 s: 48 n: 53 -- tau: 7.216222 v: 4.62028E+08 <5294>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-49.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:39:47 CEST
+m: 4091 s: 49 n: 49 -- tau: 7.134202 v: 2.22693E+129 <4733>
+m: 4091 s: 49 n: 50 -- tau: 7.148957 v: 1.11516E+107 <4779>
+m: 4091 s: 49 n: 55 -- tau: 7.234958 v: 7.6905E-05 <5506>
+m: 4091 s: 49 n: 54 -- tau: 7.232043 v: 2.15718E+18 <5449>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-50.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 16:42:15 CEST
+m: 4091 s: 50 n: 50 -- tau: 7.153636 v: 1.66785E+137 <4833>
+m: 4091 s: 50 n: 51 -- tau: 7.172498 v: 3.9675E+115 <5011>
+m: 4091 s: 50 n: 57 -- tau: 7.255174 v: 3.66572E-15 <5633>
+m: 4091 s: 50 n: 56 -- tau: 7.259755 v: 3.39373E+07 <5531>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-51.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 18:04:04 CEST
+m: 4091 s: 51 n: 51 -- tau: 7.167694 v: 7.51344E+130 <4992>
+m: 4091 s: 51 n: 52 -- tau: 7.185945 v: 3.5765E+109 <5154>
+m: 4091 s: 51 n: 58 -- tau: 7.245296 v: 9.13254E-20 <5702>
+m: 4091 s: 51 n: 57 -- tau: 7.262180 v: 700.144 <5595>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-52.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 18:10:26 CEST
+m: 4091 s: 52 n: 52 -- tau: 7.174282 v: 4.72601E+140 <5109>
+m: 4091 s: 52 n: 53 -- tau: 7.219785 v: 2.53938E+120 <5236>
+m: 4091 s: 52 n: 59 -- tau: 7.302256 v: 8.34067E-05 <5891>
+m: 4091 s: 52 n: 58 -- tau: 7.253937 v: 1.08032E+16 <5674>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-53.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 19:27:38 CEST
+m: 4091 s: 53 n: 53 -- tau: 7.186380 v: 6.55084E+135 <5156>
+m: 4091 s: 53 n: 54 -- tau: 7.208379 v: 2.99098E+115 <5310>
+m: 4091 s: 53 n: 60 -- tau: 7.285572 v: 5.08332E-08 <5913>
+m: 4091 s: 53 n: 59 -- tau: 7.261363 v: 8.77737E+12 <5732>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-54.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 19:33:31 CEST
+m: 4091 s: 54 n: 54 -- tau: 7.198178 v: 6.5789E+147 <5317>
+m: 4091 s: 54 n: 55 -- tau: 7.229376 v: 1.75814E+128 <5453>
+m: 4091 s: 54 n: 62 -- tau: 7.307313 v: 1.25149E-11 <6088>
+m: 4091 s: 54 n: 61 -- tau: 7.309469 v: 1.59737E+09 <5987>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-55.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-08 19:37:41 CEST
+m: 4091 s: 55 n: 55 -- tau: 7.227204 v: 5.82234E+144 <5467>
+m: 4091 s: 55 n: 56 -- tau: 7.229583 v: 1.03925E+125 <5366>
+m: 4091 s: 55 n: 63 -- tau: 7.324089 v: 2.0884E-12 <6170>
+m: 4091 s: 55 n: 62 -- tau: 7.323385 v: 1.16435E+08 <6082>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-56.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-10 23:51:58 CEST
+m: 4091 s: 56 n: 56 -- tau: 7.223893 v: 5.98098E+141 <5410>
+m: 4091 s: 56 n: 57 -- tau: 7.252615 v: 6.154E+122 <5608>
+m: 4091 s: 56 n: 64 -- tau: 7.321530 v: 5.9717E-13 <6213>
+m: 4091 s: 56 n: 63 -- tau: 7.326247 v: 2.11976E+07 <6226>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-57.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-10 23:55:35 CEST
+m: 4091 s: 57 n: 57 -- tau: 7.252142 v: 1.25404E+157 <5670>
+m: 4091 s: 57 n: 58 -- tau: 7.254784 v: 1.84827E+138 <5704>
+m: 4091 s: 57 n: 66 -- tau: 7.365187 v: 2.97933E-11 <6551>
+m: 4091 s: 57 n: 65 -- tau: 7.339998 v: 6.57151E+07 <6382>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-58.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-10 23:59:10 CEST
+m: 4091 s: 58 n: 58 -- tau: 7.259908 v: 6.5693E+155 <5667>
+m: 4091 s: 58 n: 59 -- tau: 7.283228 v: 4.60975E+137 <5757>
+m: 4091 s: 58 n: 67 -- tau: 7.351063 v: 3.23633E-10 <6488>
+m: 4091 s: 58 n: 66 -- tau: 7.377390 v: 3.87462E+09 <6579>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-59.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-11 00:24:41 CEST
+m: 4091 s: 59 n: 59 -- tau: 7.274427 v: 1.84284E+155 <5741>
+m: 4091 s: 59 n: 60 -- tau: 7.275175 v: 1.02243E+137 <5814>
+m: 4091 s: 59 n: 68 -- tau: 7.382029 v: 1.19169E-07 <6692>
+m: 4091 s: 59 n: 67 -- tau: 7.378291 v: 1.72354E+11 <6694>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-60.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-11 00:28:30 CEST
+m: 4091 s: 60 n: 60 -- tau: 7.271426 v: 1.00599E+155 <5908>
+m: 4091 s: 60 n: 61 -- tau: 7.294415 v: 2.899E+137 <6005>
+m: 4091 s: 60 n: 69 -- tau: 7.395105 v: 7.69179E-05 <6753>
+m: 4091 s: 60 n: 68 -- tau: 7.403450 v: 9.79785E+13 <6778>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-61.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-11 00:42:49 CEST
+m: 4091 s: 61 n: 61 -- tau: 7.317781 v: 1.82467E+156 <6129>
+m: 4091 s: 61 n: 62 -- tau: 7.310992 v: 3.00655E+138 <6055>
+m: 4091 s: 61 n: 70 -- tau: 7.405580 v: 0.17795 <6860>
+m: 4091 s: 61 n: 69 -- tau: 7.385642 v: 2.86883E+16 <6750>
+
+# Processing: linear-distribution-max-dim-8192-d-m-4091-s-62.txt
+# Bounds: (v = 2)
+# Timestamp: 2025-06-11 00:50:00 CEST
+m: 4091 s: 62 n: 62 -- tau: 7.309661 v: 6.03321E+175 <6032>
+m: 4091 s: 62 n: 63 -- tau: 7.344042 v: 2.44476E+159 <6354>
+m: 4091 s: 62 n: 73 -- tau: 7.416865 v: 3.71262E-10 <7026>
+m: 4091 s: 62 n: 72 -- tau: 7.433833 v: 9.21546E+07 <7175>

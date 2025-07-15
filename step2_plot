@@ -2,7 +2,10 @@
 
 set -e
 
-mkdir assets/gen -p
+PYTHON=python
+
+
+mkdir -p assets/gen
 cp \
     src/facto/algorithm/_simple_example_code.py \
     assets/gen/simple_example_code.py
@@ -12,22 +15,23 @@ cp \
     assets/gen/detailed_example_code.py
 echo "wrote file://$(realpath assets/gen/detailed_example_code.py)"
 
-PYTHONPATH=src python \
+
+PYTHONPATH=src $PYTHON \
     src/facto/operations/adder/main2_make_adder_circuit_diagram.py \
     --out_dir assets/gen \
     &
 
-PYTHONPATH=src python \
+PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main3_generate_progression_plot.py \
     --out assets/gen/historical-physical-cost-progression.png \
     &
 
-PYTHONPATH=src python \
+PYTHONPATH=src $PYTHON \
     src/facto/operations/phaseup/main2_make_phaseup_circuit_diagram.py \
     --out_dir assets/gen \
     &
 
-PYTHONPATH=src python \
+PYTHONPATH=src $PYTHON \
     src/facto/algorithm/sim/main0_generate_compression_example_plot.py \
     --out_path assets/gen/period-finding-compression-example.svg \
     --n 3127 \
@@ -35,21 +39,56 @@ PYTHONPATH=src python \
     --mask_proportion 0.1 \
     &
 
-PYTHONPATH=src python \
+
+PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main2_generate_pareto_plot.py \
-    --out assets/gen/logical-pareto-cost-curves.png \
-    --csv_path out/cost_variations.csv \
+    --out assets/gen/rsa-logical-pareto-cost-curves.png \
+    --csv_path out/rsa-cost-variations.csv \
+    --title "RSA IFP" \
     &
 
-PYTHONPATH=src python \
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main2_generate_pareto_plot.py \
+    --out assets/gen/ff-dh-short-logical-pareto-cost-curves.png \
+    --csv_path out/ff-dh-short-cost-variations.csv \
+    --title "Short DLP in safe-prime groups" \
+    &
+
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main2_generate_pareto_plot.py \
+    --out assets/gen/ff-dh-schnorr-logical-pareto-cost-curves.png \
+    --csv_path out/ff-dh-schnorr-cost-variations.csv \
+    --title "DLP in Schnorr groups of known order" \
+    &
+
+
+PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main5_generate_cost_table.py \
-    --csv_path out/cost_variations.csv \
+    --csv_path out/rsa-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --out assets/gen/logical-cost-table.tex \
+    --out assets/gen/rsa-logical-cost-table.tex \
     &
 
-PYTHONPATH=src python src/facto/algorithm/sim/main2_plot_masked_success_rates.py \
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main5_generate_cost_table.py \
+    --csv_path out/ff-dh-short-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --out assets/gen/ff-dh-short-logical-cost-table.tex \
+    &
+
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main5_generate_cost_table.py \
+    --csv_path out/ff-dh-schnorr-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --out assets/gen/ff-dh-schnorr-logical-cost-table.tex \
+    &
+
+
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/sim/main2_plot_masked_success_rates.py \
     --in assets/masked_success_stats.csv \
     --out assets/gen/masked_success_rate.png \
     --xmax 10_000 \

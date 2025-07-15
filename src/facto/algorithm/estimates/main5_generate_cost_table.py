@@ -29,15 +29,31 @@ def generate_cost_table(*, csv_path: str | pathlib.Path, score_func: Callable[[i
     for k2 in range(-1, 11):
         entries[k2 - 1j] = '---'
     for n, v in sorted(buckets.items()):
-        tup = min(v.items(), key=lambda e: score_func(e[0], e[1][0]))
-        tofs, n, s, l, w1, w3, w4, len_acc = tup[1]
-        att = CostConfig.from_params(n=n, l=l, s=s, w1=w1, w3=w3, w4=w4, len_acc=len_acc)
+        tup = min(v.items(), key=lambda e: score_func(e[0], e[1]["tofs"]))
+        result = tup[1]
+        att = CostConfig.from_params(
+            modulus_bitlength=result["modulus_bitlength"],
+            num_input_qubits=result["num_input_qubits"],
+            num_shots=result["num_shots"],
+            pp_success_probability=result["pp_success_probability"],
+            l=result["l"],
+            w1=result["w1"],
+            w3=result["w3"],
+            w4=result["w4"],
+            len_acc=result["len_acc"])
+
+        details = result["details"]
+        if "s" in details.keys():
+            s = int(details["s"])
+        else:
+            # Not relevant/available for this parameterization.
+            s = "--"
 
         tof_str = f'{att.toffolis:0.2g}'
         if '.' not in tof_str:
             tof_str = tof_str.replace('e', '.0e')
         entries[-1 + k*1j] = att.conf.modulus.bit_length()
-        entries[0 + k*1j] = att.s
+        entries[0 + k*1j] = s
         entries[1 + k*1j] = att.conf.rns_primes_bit_length
         entries[2 + k*1j] = att.conf.window1
         entries[3 + k*1j] = att.conf.window3a
