@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from facto.operations.lookup._lookup_coster import LookupCoster
+
 
 def main():
     print(r"""    \begin{tabular}{|c|c|c|c|c|c|c|}""")
@@ -9,28 +11,21 @@ def main():
     print(
         r"""        \\       & Qubits    &CX Gates (A)& CCX Gates (B)  & AND Gates (C)  & Depth (D) & (approximate)"""
     )
-    R = 10
-    S = 25
-    M = 25
     for n in range(1, 11):
-        m1 = n // 2
-        m2 = n - m1
-        p1 = (1 << m1) - 1
-        p2 = (1 << m2) - 1
-        power_product_and_gates = (p1 - m1) + (p2 - m2)
-        multi_target_ccx_gates = p1 * p2
-        multi_target_cx_gates = (1 << n) - 1 - multi_target_ccx_gates
-        assert multi_target_cx_gates == p1 + p2
-        ccz_states = power_product_and_gates + multi_target_ccx_gates
-        assert ccz_states == (1 << n) - n - 1
-        reactions = multi_target_ccx_gates + (n > 2)
-        workspace = ((1 << m1) - m1 - 1) + ((1 << m2) - m2 - 1)
-        execution_time = (
-            1 * R
-            + multi_target_ccx_gates * max(M, S, R)
-            + multi_target_cx_gates * S
-            + power_product_and_gates * M
+        coster = LookupCoster(
+            addr_len=n,
+            reaction_micros=10,
+            surgery_micros=25,
+            factory_micros=150,
+            factory_count=6,
         )
+        power_product_and_gates = coster.and_gates_for_power_product
+        multi_target_ccx_gates = coster.multi_target_ccx_gates
+        multi_target_cx_gates = coster.multi_target_cx_gates
+        reactions = coster.reaction_depth
+        workspace = coster.workspace
+        execution_time = coster.lookup_duration_micros
+
         execution_time = round(execution_time / 10) * 10
         execution_time = rf"{{{execution_time}}}us"
         if n == 6:

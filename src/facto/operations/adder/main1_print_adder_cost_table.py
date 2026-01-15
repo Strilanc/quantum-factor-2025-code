@@ -1,23 +1,25 @@
 from __future__ import annotations
 
-import math
+from facto.operations.adder._add_coster import AddCoster
 
 
 def main():
     print(r"""    \begin{tabular}{|c|c|c|c|c|}""")
     print(r"""        \hline n & Compute    & Uncompute  & CCZ States & Execution Time""")
     print(r"""        \\       & Layers (A) & Layers (B) & (C)        & (approximate)""")
-    R = 10
-    S = 25
-    M = 25
-    F = 6
     for n in range(5, 51, 5):
-        compute_layers = math.ceil(n / F) * 6
-        uncompute_layers = math.ceil(n / F) * 3
-        ccz_states = n - 1
-        execution_time = max(compute_layers * S, ccz_states * M, ccz_states * R) + max(
-            uncompute_layers * S, ccz_states * R
+        coster = AddCoster(
+            n=n,
+            reaction_micros=10,
+            surgery_micros=25,
+            factory_micros=150,
+            factory_count=6,
         )
+        compute_layers = coster.adder_compute_layers
+        uncompute_layers = coster.adder_uncompute_layers
+        ccz_states = coster.adder_ccz_states
+        execution_time = coster.adder_duration_micros
+
         execution_time = round(execution_time / 10) * 10
         execution_time = rf"{{{execution_time}}}us"
         if n == 35:

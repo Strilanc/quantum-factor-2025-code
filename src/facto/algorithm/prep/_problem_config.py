@@ -255,7 +255,10 @@ class ProblemConfig:
                 else:
                     val = tuple(int(e) for e in val[1:-1].split(","))
             else:
-                val = int(val)
+                if '.' in val or 'e' in val:
+                    val = float(val)
+                else:
+                    val = int(val)
             if key in kv:
                 raise ValueError(f"Duplicate {key=}")
             kv[key] = val

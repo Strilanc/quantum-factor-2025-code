@@ -7,14 +7,19 @@ from typing import Any, Callable
 from facto.algorithm.estimates._cost_config import CostConfig
 from facto.algorithm.estimates.main1_generate_cost_table_data import read_buckets
 
-def generate_cost_table(*, csv_path: str | pathlib.Path, score_func: Callable[[int, int], float], out_path: str | pathlib.Path | None = None):
+def generate_cost_table(
+        *,
+        csv_path: str | pathlib.Path,
+        score_func: Callable[[int, int], float],
+        out_path: str | pathlib.Path | None = None,
+):
     buckets = read_buckets(csv_path)
 
     table_data = ""
   
     for _, v in sorted(buckets.items()):
         tup = min(v.items(), key=lambda e: score_func(e[0], e[1]["tofs"]))
-        result = tup[1]
+        result: dict[str, Any] = tup[1]
 
         att = CostConfig.from_params(
             modulus_bitlength=result["modulus_bitlength"],
@@ -96,6 +101,25 @@ def generate_cost_table(*, csv_path: str | pathlib.Path, score_func: Callable[[i
 
     if out_path is not None:
         print(f'wrote file://{pathlib.Path(out_path).absolute()}')
+
+
+
+"""
+    |
+    | parameterizations/create-csv-files.py
+    |     (turns hardcoded parameters from https://github.com/ekera/qunundrum into shot counts etc)
+    v
+CSV[modulus_bitlength,num_input_qubits,num_shots,pp_success_probability,details]
+    |
+    | src/factor/algorithm/estimates/main1_generate_cost_table_data.py
+    |     (picks execution parameters like w1 by doing a grid scan)
+    v
+CSV[n,s,l,w1,w3,w4,len_acc,tofs,qubits]
+    |
+    | src/factor/algorithm/estimates/main5_generate_cost_table.py
+    v
+CostTableInPaper (using CostConfig which uses ExecutionConfig which uses ExecutionConfig which uses ProblemConfig)
+"""
 
 
 def main():

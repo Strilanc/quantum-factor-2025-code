@@ -51,8 +51,9 @@ def generate_cost_table_data(
   
     print(f"wrote file://{pathlib.Path(out_csv_path).absolute()}", file=sys.stderr)
 
-def read_buckets(csv_path: str | pathlib.Path) -> dict[int, dict[int, tuple[int, ...]]]:
-    buckets: dict[int, dict[int, tuple[int, ...]]] = {}
+
+def read_buckets(csv_path: str | pathlib.Path) -> dict[int, dict[int, dict[str, Any]]]:
+    buckets: dict[int, dict[int, dict[str, Any]]] = {}
     f: Any
     with open(csv_path) as f:
         csv_reader = csv.DictReader(f)
@@ -78,6 +79,7 @@ def read_buckets(csv_path: str | pathlib.Path) -> dict[int, dict[int, tuple[int,
                 buckets[n][qubits] = result
 
     return buckets
+
 
 def read_parameterizations(params_csv_path: str | pathlib.Path) -> list[dict[str, int | float]]:
     parameterizations = []

@@ -301,6 +301,9 @@ class VecSim:
     def do_s(self, a: Any) -> None:
         self.state[self.state_slicer({a: True})] *= 1j
 
+    def do_phase(self, qubit: Any, phase: complex) -> None:
+        self.state[self.state_slicer({qubit: True})] *= phase
+
     def do_multi_phase(self, qubits: Iterable[Any], phase: complex) -> None:
         root, *rest = qubits
         for q in rest:
