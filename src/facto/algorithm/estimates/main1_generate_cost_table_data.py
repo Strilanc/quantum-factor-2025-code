@@ -53,6 +53,7 @@ def generate_cost_table_data(
 
 
 def read_buckets(csv_path: str | pathlib.Path) -> dict[int, dict[int, dict[str, Any]]]:
+    """modulus_bitlength -> qubits -> parameter_name -> parameter_value"""
     buckets: dict[int, dict[int, dict[str, Any]]] = {}
     f: Any
     with open(csv_path) as f:

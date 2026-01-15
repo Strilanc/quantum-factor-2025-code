@@ -1,3 +1,22 @@
+"""Data flow into this file:
+
+parameterizations/create-csv-files.py
+    |
+    |     (turns hardcoded parameters from https://github.com/ekera/qunundrum into shot counts etc)
+    v
+CSV[modulus_bitlength,num_input_qubits,num_shots,pp_success_probability,details]
+    |
+    | src/factor/algorithm/estimates/main1_generate_cost_table_data.py
+    |     (picks execution parameters like w1 by doing a grid scan)
+    v
+CSV[n,s,l,w1,w3,w4,len_acc,tofs,qubits]
+    |
+    | src/factor/algorithm/estimates/main5_generate_cost_table.py (this file)
+    |      (using CostConfig which uses ExecutionConfig which uses ExecutionConfig which uses ProblemConfig)
+    v
+LaTeX table used in paper
+"""
+
 from __future__ import annotations
 
 import argparse
@@ -101,25 +120,6 @@ def generate_cost_table(
 
     if out_path is not None:
         print(f'wrote file://{pathlib.Path(out_path).absolute()}')
-
-
-
-"""
-    |
-    | parameterizations/create-csv-files.py
-    |     (turns hardcoded parameters from https://github.com/ekera/qunundrum into shot counts etc)
-    v
-CSV[modulus_bitlength,num_input_qubits,num_shots,pp_success_probability,details]
-    |
-    | src/factor/algorithm/estimates/main1_generate_cost_table_data.py
-    |     (picks execution parameters like w1 by doing a grid scan)
-    v
-CSV[n,s,l,w1,w3,w4,len_acc,tofs,qubits]
-    |
-    | src/factor/algorithm/estimates/main5_generate_cost_table.py
-    v
-CostTableInPaper (using CostConfig which uses ExecutionConfig which uses ExecutionConfig which uses ProblemConfig)
-"""
 
 
 def main():
