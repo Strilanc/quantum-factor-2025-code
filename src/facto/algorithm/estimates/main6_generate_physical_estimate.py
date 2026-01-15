@@ -26,8 +26,10 @@ import math
 import pathlib
 from typing import Any
 
+import sinter
+
 from facto.algorithm.estimates._cost_config import CostConfig
-from facto.algorithm.estimates.main1_generate_cost_table_data import read_buckets
+from facto.algorithm.estimates.main1_generate_cost_table_data import read_buckets, read_csv_for_table_data
 from facto.algorithm.prep import table_str
 from facto.operations.adder._add_coster import AddCoster
 from facto.operations.lookup._lookup_coster import LookupCoster
@@ -154,7 +156,8 @@ def main():
     tof_power = args.toffoli_power
     qub_power = args.qubit_power
 
-    buckets = read_buckets(csv_path)
+    data = read_csv_for_table_data(csv_path)
+    grouped_data = sinter.group_by(data, key=lambda e: (e["modulus_bitlength"], e["num_input_qubits"]))
     score_func = lambda qubits, toffolis: toffolis ** tof_power * qubits ** qub_power
     entries = {}
 
@@ -212,9 +215,8 @@ def main():
     col += 1
     entries[-2j + col] = "len"
     entries[-1j + col] = "acc"
-    for row, (_, v) in enumerate(sorted(buckets.items())):
-        tup = min(v.items(), key=lambda e: score_func(e[0], e[1]["tofs"]))
-        result: dict[str, Any] = tup[1]
+    for row, (_group_key, group) in enumerate(sorted(grouped_data.items())):
+        result: dict[str, Any] = min(group, key=lambda e: score_func(e["qubits"], e["tofs"]))
 
         cost_conf = CostConfig.from_params(
             modulus_bitlength=result["modulus_bitlength"],
@@ -326,7 +328,13 @@ def main():
         if isinstance(e, float):
             return f'{e:0.2f}'
         return str(e)
-    print(table_str(entries, latex=True, formatter=formatter))
+
+    s = table_str(entries, latex=True, formatter=formatter)
+    if out_path is None:
+        print(s)
+    else:
+        with open(out_path, "w") as f:
+            print(s, file=f)
 
 
 def hot_error(rounds: int, block_size: int, distance: int) -> float:

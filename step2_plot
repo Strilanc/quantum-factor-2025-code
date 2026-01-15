@@ -139,6 +139,29 @@ PYTHONPATH=src $PYTHON \
     --out assets/gen/ff-dh-schnorr-logical-cost-table.tex \
     &
 
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
+    --csv_path out/rsa-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --out assets/gen/rsa-physical-cost-table.tex \
+    &
+
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
+    --csv_path out/ff-dh-short-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --out assets/gen/ff-dh-short-physical-cost-table.tex \
+    &
+
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
+    --csv_path out/ff-dh-schnorr-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --out assets/gen/ff-dh-schnorr-physical-cost-table.tex \
+    &
 
 
 
