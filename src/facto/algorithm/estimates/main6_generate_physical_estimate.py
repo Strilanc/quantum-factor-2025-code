@@ -30,6 +30,10 @@ from matplotlib import pyplot as plt
 
 from facto.algorithm.estimates._cost_config import CostConfig, min_pareto_frontier
 from facto.algorithm.estimates.main1_generate_cost_table_data import read_buckets
+import sinter
+
+from facto.algorithm.estimates._cost_config import CostConfig
+from facto.algorithm.estimates.main1_generate_cost_table_data import read_buckets, read_csv_for_table_data
 from facto.algorithm.prep import table_str
 from facto.operations.adder._add_coster import AddCoster
 from facto.operations.lookup._lookup_coster import LookupCoster
@@ -156,7 +160,8 @@ def main():
     tof_power = args.toffoli_power
     qub_power = args.qubit_power
 
-    buckets = read_buckets(csv_path)
+    data = read_csv_for_table_data(csv_path)
+    grouped_data = sinter.group_by(data, key=lambda e: (e["modulus_bitlength"], e["num_input_qubits"]))
     score_func = lambda qubits, toffolis: toffolis ** tof_power * qubits ** qub_power
     entries = {}
 
@@ -231,56 +236,57 @@ def main():
         for d in range(50)
     ]
 
-    for row, (_, v) in enumerate(sorted(buckets.items())):
-        xys = []
-        for tup in v.items():
-            result: dict[str, Any] = tup[1]
+    for row, (_group_key, group) in enumerate(sorted(grouped_data.items())):
+        if True:
+            xys = []
+            for tup in group:
+                result: dict[str, Any] = tup
 
-            cost_conf = CostConfig.from_params(
-                modulus_bitlength=result["modulus_bitlength"],
-                num_input_qubits=result["num_input_qubits"],
-                num_shots=result["num_shots"],
-                pp_success_probability=result["pp_success_probability"],
-                l=result["l"],
-                w1=result["w1"],
-                w3=result["w3"],
-                w4=result["w4"],
-                len_acc=result["len_acc"],
-            )
+                cost_conf = CostConfig.from_params(
+                    modulus_bitlength=result["modulus_bitlength"],
+                    num_input_qubits=result["num_input_qubits"],
+                    num_shots=result["num_shots"],
+                    pp_success_probability=result["pp_success_probability"],
+                    l=result["l"],
+                    w1=result["w1"],
+                    w3=result["w3"],
+                    w4=result["w4"],
+                    len_acc=result["len_acc"],
+                )
 
-            coster = AlgoCoster(
-                conf=cost_conf,
-                surgery_micros=25,
-                reaction_micros=10,
-                factory_micros=150,
-                factory_count=6,
-            )
+                coster = AlgoCoster(
+                    conf=cost_conf,
+                    surgery_micros=25,
+                    reaction_micros=10,
+                    factory_micros=150,
+                    factory_count=6,
+                )
 
-            hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
-            target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
-            target_cold_err = 1 / (coster.cold_logical_qubits * coster.shot_duration_micros * 10)
-            hot_size = min(
-                qubits
-                for qubits, err_per_round_per_logical in hot_confs
-                if err_per_round_per_logical <= target_hot_err
-            )
-            cold_size = min(
-                qubits
-                for qubits, err_per_round_per_logical in cold_confs + hot_confs
-                if err_per_round_per_logical <= target_cold_err
-            )
+                hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
+                target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
+                target_cold_err = 1 / (coster.cold_logical_qubits * coster.shot_duration_micros * 10)
+                hot_size = min(
+                    qubits
+                    for qubits, err_per_round_per_logical in hot_confs
+                    if err_per_round_per_logical <= target_hot_err
+                )
+                cold_size = min(
+                    qubits
+                    for qubits, err_per_round_per_logical in cold_confs + hot_confs
+                    if err_per_round_per_logical <= target_cold_err
+                )
 
-            total_qubits = 0
-            total_qubits += hot_patches * hot_size
-            total_qubits += coster.factory_patches * hot_size
-            total_qubits += coster.cold_logical_qubits * cold_size
+                total_qubits = 0
+                total_qubits += hot_patches * hot_size
+                total_qubits += coster.factory_patches * hot_size
+                total_qubits += coster.cold_logical_qubits * cold_size
 
-            duration_days = coster.total_duration_micros / 10 ** 6 / 60 / 60 / 24
-            xys.append((duration_days, total_qubits))
-        xys = min_pareto_frontier(xys)
-        plt.plot([e[0] for e in xys], [e[1] for e in xys], label=coster.conf.conf.modulus.bit_length(), marker='x')
-        tup = min(v.items(), key=lambda e: score_func(e[0], e[1]["tofs"]))
-        result: dict[str, Any] = tup[1]
+                duration_days = coster.total_duration_micros / 10 ** 6 / 60 / 60 / 24
+                xys.append((duration_days, total_qubits))
+            xys = min_pareto_frontier(xys)
+            plt.plot([e[0] for e in xys], [e[1] for e in xys], label=coster.conf.conf.modulus.bit_length(), marker='x')
+
+        result: dict[str, Any] = min(group, key=lambda e: score_func(e["qubits"], e["tofs"]))
 
         cost_conf = CostConfig.from_params(
             modulus_bitlength=result["modulus_bitlength"],
@@ -367,7 +373,13 @@ def main():
         if isinstance(e, float):
             return f'{e:0.2f}'
         return str(e)
-    print(table_str(entries, latex=True, formatter=formatter))
+
+    s = table_str(entries, latex=True, formatter=formatter)
+    if out_path is None:
+        print(s)
+    else:
+        with open(out_path, "w") as f:
+            print(s, file=f)
 
     plt.ylabel("Physical Qubits")
     plt.xlabel("Days")

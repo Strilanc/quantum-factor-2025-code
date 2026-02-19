@@ -82,6 +82,30 @@ def read_buckets(csv_path: str | pathlib.Path) -> dict[int, dict[int, dict[str, 
     return buckets
 
 
+def read_csv_for_table_data(csv_path: str | pathlib.Path) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    f: Any
+    with open(csv_path) as f:
+        csv_reader = csv.DictReader(f)
+        for result in csv_reader:
+            result["modulus_bitlength"] = int(result["modulus_bitlength"])
+            result["num_input_qubits"] = int(result["num_input_qubits"])
+            result["num_shots"] = int(result["num_shots"])
+            result["pp_success_probability"] = float(result["pp_success_probability"])
+
+            result["l"] = int(result["l"])
+            result["w1"] = int(result["w1"])
+            result["w3"] = int(result["w3"])
+            result["w4"] = int(result["w4"])
+            result["len_acc"] = int(result["len_acc"])
+            result["tofs"] = int(result["tofs"])
+            result["qubits"] = int(result["qubits"])
+
+            result["details"] = json.loads(result["details"])
+            out.append(result)
+    return out
+
+
 def read_parameterizations(params_csv_path: str | pathlib.Path) -> list[dict[str, int | float]]:
     parameterizations = []
 
