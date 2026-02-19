@@ -26,7 +26,9 @@ import math
 import pathlib
 from typing import Any
 
-from facto.algorithm.estimates._cost_config import CostConfig
+from matplotlib import pyplot as plt
+
+from facto.algorithm.estimates._cost_config import CostConfig, min_pareto_frontier
 from facto.algorithm.estimates.main1_generate_cost_table_data import read_buckets
 from facto.algorithm.prep import table_str
 from facto.operations.adder._add_coster import AddCoster
@@ -212,7 +214,71 @@ def main():
     col += 1
     entries[-2j + col] = "len"
     entries[-1j + col] = "acc"
+
+    # Eyeballed minimum storage costs from yoked storage cost plot.
+    cold_confs = [
+        (190, 1e-7),
+        (240, 1e-9),
+        (300, 1e-11),
+        (360, 1e-13),
+        (420, 1e-15),
+        (500, 1e-17),
+        (600, 1e-19),
+    ]
+    # Non-yoked storage cost (fit parameters taken from yoked storage cost plot).
+    hot_confs = [
+        (2 * (d + 1) ** 2, 3.5 ** -d / 40)
+        for d in range(50)
+    ]
+
     for row, (_, v) in enumerate(sorted(buckets.items())):
+        xys = []
+        for tup in v.items():
+            result: dict[str, Any] = tup[1]
+
+            cost_conf = CostConfig.from_params(
+                modulus_bitlength=result["modulus_bitlength"],
+                num_input_qubits=result["num_input_qubits"],
+                num_shots=result["num_shots"],
+                pp_success_probability=result["pp_success_probability"],
+                l=result["l"],
+                w1=result["w1"],
+                w3=result["w3"],
+                w4=result["w4"],
+                len_acc=result["len_acc"],
+            )
+
+            coster = AlgoCoster(
+                conf=cost_conf,
+                surgery_micros=25,
+                reaction_micros=10,
+                factory_micros=150,
+                factory_count=6,
+            )
+
+            hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
+            target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
+            target_cold_err = 1 / (coster.cold_logical_qubits * coster.shot_duration_micros * 10)
+            hot_size = min(
+                qubits
+                for qubits, err_per_round_per_logical in hot_confs
+                if err_per_round_per_logical <= target_hot_err
+            )
+            cold_size = min(
+                qubits
+                for qubits, err_per_round_per_logical in cold_confs + hot_confs
+                if err_per_round_per_logical <= target_cold_err
+            )
+
+            total_qubits = 0
+            total_qubits += hot_patches * hot_size
+            total_qubits += coster.factory_patches * hot_size
+            total_qubits += coster.cold_logical_qubits * cold_size
+
+            duration_days = coster.total_duration_micros / 10 ** 6 / 60 / 60 / 24
+            xys.append((duration_days, total_qubits))
+        xys = min_pareto_frontier(xys)
+        plt.plot([e[0] for e in xys], [e[1] for e in xys], label=coster.conf.conf.modulus.bit_length(), marker='x')
         tup = min(v.items(), key=lambda e: score_func(e[0], e[1]["tofs"]))
         result: dict[str, Any] = tup[1]
 
@@ -228,17 +294,6 @@ def main():
             len_acc=result["len_acc"],
         )
 
-        # cost_conf = CostConfig.from_params(
-        #     modulus_bitlength=2048,
-        #     num_input_qubits=math.ceil(2048 * (1/2 + 1/9)),
-        #     num_shots=9,
-        #     pp_success_probability=0.99,
-        #     l=20,
-        #     w1=6,
-        #     w3=3,
-        #     w4=5,
-        #     len_acc=33,
-        # )
         coster = AlgoCoster(
             conf=cost_conf,
             surgery_micros=25,
@@ -246,22 +301,6 @@ def main():
             factory_micros=150,
             factory_count=6,
         )
-
-        # Eyeballed minimum storage costs from yoked storage cost plot.
-        cold_confs = [
-            (190, 1e-7),
-            (240, 1e-9),
-            (300, 1e-11),
-            (360, 1e-13),
-            (420, 1e-15),
-            (500, 1e-17),
-            (600, 1e-19),
-        ]
-        # Non-yoked storage cost (fit parameters taken from yoked storage cost plot).
-        hot_confs = [
-            (2*(d + 1)**2, 3.5**-d / 40)
-            for d in range(50)
-        ]
 
         hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
         target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
@@ -281,6 +320,8 @@ def main():
         total_qubits += hot_patches * hot_size
         total_qubits += coster.factory_patches * hot_size
         total_qubits += coster.cold_logical_qubits * cold_size
+
+        duration_days = coster.total_duration_micros / 10**6 / 60 / 60 / 24
 
         col = 0
         entries[1j*row + col] = result["modulus_bitlength"]
@@ -303,7 +344,7 @@ def main():
         col += 1
         entries[1j*row + col] = coster.factory_count
         col += 1
-        entries[1j*row + col] = coster.total_duration_micros / 10**6 / 60 / 60 / 24
+        entries[1j*row + col] = duration_days
         col += 1
         entries[1j*row + col] = total_qubits
         col += 1
@@ -327,6 +368,12 @@ def main():
             return f'{e:0.2f}'
         return str(e)
     print(table_str(entries, latex=True, formatter=formatter))
+
+    plt.ylabel("Physical Qubits")
+    plt.xlabel("Days")
+    plt.loglog()
+    plt.legend()
+    plt.show()
 
 
 def hot_error(rounds: int, block_size: int, distance: int) -> float:

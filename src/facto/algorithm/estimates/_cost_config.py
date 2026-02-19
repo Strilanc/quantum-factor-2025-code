@@ -15,6 +15,20 @@ def total_costs(conf: ExecutionConfig) -> dict[str, collections.Counter[CostKey]
     }
 
 
+def min_pareto_frontier(pts: list[tuple[float, float]]) -> list[tuple[float, float]]:
+    if not pts:
+        return pts
+    pts = sorted(pts, reverse=True)
+
+    result = [pts[0]]
+    for k in range(1, len(pts)):
+        x, y = pts[k]
+        while result and x <= result[-1][0] and y <= result[-1][1]:
+            result.pop()
+        result.append((x, y))
+    return result
+
+
 @dataclasses.dataclass(frozen=True)
 class CostConfig:
     conf: ExecutionConfig

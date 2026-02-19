@@ -5,6 +5,7 @@ import sys
 import random
 from typing import Mapping
 
+from facto.algorithm.estimates._cost_config import min_pareto_frontier
 from facto.algorithm.prep import table_str, ExecutionConfig
 from facto.algorithm.prep._execution_config import black_box_costs, simplified_costs
 from facto.algorithm._detailed_example_code import loop1, loop2, loop3, loop4, unloop3, unloop2
@@ -254,3 +255,9 @@ def test_costs_unloop2():
     estimated_costs = conf.estimated_subroutine_costs_per_call["unloop2"]
 
     assert_costs_comparable(actual_costs=actual_costs, estimated_costs=estimated_costs)
+
+
+def test_pareto_frontier():
+    assert min_pareto_frontier([(0, 0), (1, 0), (0, 1), (1, 1)]) == [(0, 0)]
+    assert min_pareto_frontier([(3, 0), (2, 1), (1, 2), (0, 3)]) == [(3, 0), (2, 1), (1, 2), (0, 3)]
+    assert min_pareto_frontier([(3, 0), (3, 1), (3, 2), (0, 3)]) == [(3, 0), (0, 3)]
