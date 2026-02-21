@@ -23,7 +23,7 @@ PYTHONPATH=src $PYTHON \
 
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main3_generate_progression_plot.py \
-    --out assets/gen/historical-physical-cost-progression.png \
+    --out_path assets/gen/historical-physical-cost-progression.png \
     &
 
 PYTHONPATH=src $PYTHON \
@@ -42,21 +42,21 @@ PYTHONPATH=src $PYTHON \
 
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main2_generate_pareto_plot.py \
-    --out assets/gen/rsa-logical-pareto-cost-curves.png \
+    --out_path assets/gen/rsa-logical-pareto-cost-curves.png \
     --csv_path out/rsa-cost-variations.csv \
     --title "RSA IFP" \
     &
 
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main2_generate_pareto_plot.py \
-    --out assets/gen/ff-dh-short-logical-pareto-cost-curves.png \
+    --out_path assets/gen/ff-dh-short-logical-pareto-cost-curves.png \
     --csv_path out/ff-dh-short-cost-variations.csv \
     --title "Short DLP in safe-prime groups" \
     &
 
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main2_generate_pareto_plot.py \
-    --out assets/gen/ff-dh-schnorr-logical-pareto-cost-curves.png \
+    --out_path assets/gen/ff-dh-schnorr-logical-pareto-cost-curves.png \
     --csv_path out/ff-dh-schnorr-cost-variations.csv \
     --title "DLP in Schnorr groups of known order" \
     &
@@ -94,7 +94,7 @@ PYTHONPATH=src $PYTHON \
     --csv_path out/rsa-large-s-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --out assets/gen/rsa-logical-large-s-cost-table.tex \
+    --out_path assets/gen/rsa-logical-large-s-cost-table.tex \
     &
 
 PYTHONPATH=src $PYTHON \
@@ -102,7 +102,7 @@ PYTHONPATH=src $PYTHON \
     --csv_path out/ff-dh-short-large-s-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --out assets/gen/ff-dh-short-logical-large-s-cost-table.tex \
+    --out_path assets/gen/ff-dh-short-logical-large-s-cost-table.tex \
     &
 
 PYTHONPATH=src $PYTHON \
@@ -110,7 +110,7 @@ PYTHONPATH=src $PYTHON \
     --csv_path out/ff-dh-schnorr-large-s-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --out assets/gen/ff-dh-schnorr-logical-large-s-cost-table.tex \
+    --out_path assets/gen/ff-dh-schnorr-logical-large-s-cost-table.tex \
     &
 
 
@@ -128,7 +128,7 @@ PYTHONPATH=src $PYTHON \
     --csv_path out/ff-dh-short-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --out assets/gen/ff-dh-short-logical-cost-table.tex \
+    --out_path assets/gen/ff-dh-short-logical-cost-table.tex \
     &
 
 PYTHONPATH=src $PYTHON \
@@ -136,7 +136,7 @@ PYTHONPATH=src $PYTHON \
     --csv_path out/ff-dh-schnorr-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --out assets/gen/ff-dh-schnorr-logical-cost-table.tex \
+    --out_path assets/gen/ff-dh-schnorr-logical-cost-table.tex \
     &
 
 
@@ -145,7 +145,7 @@ PYTHONPATH=src $PYTHON \
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/sim/main2_plot_masked_success_rates.py \
     --in assets/masked_success_stats.csv \
-    --out assets/gen/masked_success_rate.png \
+    --out_path assets/gen/masked_success_rate.png \
     --xmax 10_000 \
     &
 
@@ -158,22 +158,22 @@ PYTHONPATH=src $PYTHON \
     --csv_path out/rsa-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --table_out assets/gen/rsa-physical-cost-table.tex \
-    --plot_out assets/gen/rsa-physical-cost-table.png
+    --table_out_path assets/gen/rsa-physical-cost-table.tex \
+    --plot_out_path assets/gen/rsa-physical-cost-table.png
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
     --csv_path out/ff-dh-short-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --table_out assets/gen/ff-dh-short-physical-cost-table.tex \
-    --plot_out assets/gen/ff-dh-short-physical-cost-table.png
+    --table_out_path assets/gen/ff-dh-short-physical-cost-table.tex \
+    --plot_out_path assets/gen/ff-dh-short-physical-cost-table.png
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
     --csv_path out/ff-dh-schnorr-cost-variations.csv \
     --toffoli_power 1 \
     --qubit_power 3 \
-    --table_out assets/gen/ff-dh-schnorr-physical-cost-table.tex \
-    --plot_out assets/gen/ff-dh-schnorr-physical-cost-plot.png
+    --table_out_path assets/gen/ff-dh-schnorr-physical-cost-table.tex \
+    --plot_out_path assets/gen/ff-dh-schnorr-physical-cost-plot.png
 
 
 if (which inkscape > /dev/null); then
