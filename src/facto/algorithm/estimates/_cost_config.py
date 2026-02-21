@@ -4,6 +4,7 @@ import collections
 import dataclasses
 import json
 import math
+from typing import TypeVar
 
 from facto.algorithm.prep import ExecutionConfig, simplified_costs, prime_count_and_capacity_at_bit_length
 from scatter_script import CostKey
@@ -14,13 +15,14 @@ def total_costs(conf: ExecutionConfig) -> dict[str, collections.Counter[CostKey]
         subroutine: simplified_costs(v) for subroutine, v in conf.estimated_subroutine_costs.items()
     }
 
+T = TypeVar("T")
 
-def min_pareto_frontier(pts: list[tuple[float, float]]) -> list[tuple[float, float]]:
+def min_pareto_frontier(pts: list[tuple[T, T]]) -> list[tuple[T, T]]:
     if not pts:
         return pts
     pts = sorted(pts, reverse=True)
 
-    result = [pts[0]]
+    result: list[T] = [pts[0]]
     for k in range(1, len(pts)):
         x, y = pts[k]
         while result and x <= result[-1][0] and y <= result[-1][1]:

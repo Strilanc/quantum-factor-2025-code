@@ -23,8 +23,9 @@ import argparse
 import dataclasses
 import functools
 import math
+import multiprocessing
 import pathlib
-from typing import Any
+from typing import Any, Callable
 
 from matplotlib import pyplot as plt
 
@@ -142,27 +143,113 @@ class AlgoCoster:
         return duration_micros
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--csv_path', required=True, type=str)
-    parser.add_argument('--out_path', default=None, type=str)
-    parser.add_argument('--toffoli_power', required=True, type=int)
-    parser.add_argument('--qubit_power', required=True, type=int)
-    parser.add_argument('--show', action='store_true')
-    args = parser.parse_args()
+def config_to_cost_summary(config: dict[str, Any]):
+    cost_conf = CostConfig.from_params(
+        modulus_bitlength=config["modulus_bitlength"],
+        num_input_qubits=config["num_input_qubits"],
+        num_shots=config["num_shots"],
+        pp_success_probability=config["pp_success_probability"],
+        l=config["l"],
+        w1=config["w1"],
+        w3=config["w3"],
+        w4=config["w4"],
+        len_acc=config["len_acc"],
+    )
 
-    csv_path = pathlib.Path(args.csv_path)
-    if args.out_path is None:
-        out_path = None
-    else:
-        out_path = pathlib.Path(args.out_path)
-        out_path.parent.mkdir(exist_ok=True, parents=True)
-    tof_power = args.toffoli_power
-    qub_power = args.qubit_power
+    # Eyeballed minimum storage costs from yoked storage cost plot.
+    cold_confs = [
+        (190, 1e-7),
+        (240, 1e-9),
+        (300, 1e-11),
+        (360, 1e-13),
+        (420, 1e-15),
+        (500, 1e-17),
+        (600, 1e-19),
+    ]
 
-    data = read_csv_for_table_data(csv_path)
+    # Non-yoked storage cost (fit parameters taken from yoked storage cost plot).
+    hot_confs = [
+        (2 * (d + 1) ** 2, 3.5 ** -d / 40)
+        for d in range(50)
+    ]
+
+    coster = AlgoCoster(
+        conf=cost_conf,
+        surgery_micros=25,
+        reaction_micros=10,
+        factory_micros=150,
+        factory_count=6,
+    )
+
+    hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
+    target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
+    target_cold_err = 1 / (coster.cold_logical_qubits * coster.shot_duration_micros * 10)
+    hot_size = min(
+        qubits
+        for qubits, err_per_round_per_logical in hot_confs
+        if err_per_round_per_logical <= target_hot_err
+    )
+    cold_size = min(
+        qubits
+        for qubits, err_per_round_per_logical in cold_confs + hot_confs
+        if err_per_round_per_logical <= target_cold_err
+    )
+
+    total_qubits = 0
+    total_qubits += hot_patches * hot_size
+    total_qubits += coster.factory_patches * hot_size
+    total_qubits += coster.cold_logical_qubits * cold_size
+
+    duration_days = coster.total_duration_micros / 10 ** 6 / 60 / 60 / 24
+
+    col = 0
+    entries2 = {}
+    entries2[col] = config["modulus_bitlength"]
+    col += 1
+    entries2[col] = config["num_input_qubits"]
+    col += 1
+    entries2[col] = f"{coster.hot_span[0]} x {coster.hot_span[1]}"
+    col += 1
+    entries2[col] = f"{coster.routing_span[0] + coster.factory_span[0]} x {coster.routing_span[1]}"
+    col += 1
+    entries2[col] = hot_size * coster.compute_area_patches
+    col += 1
+    entries2[col] = hot_size * coster.hot_storage_patches
+    col += 1
+    entries2[col] = cold_size * coster.cold_logical_qubits
+    col += 1
+    entries2[col] = coster.factory_count
+    col += 1
+    entries2[col] = duration_days
+    col += 1
+    entries2[col] = total_qubits
+    col += 1
+    entries2[col] = config["num_shots"]
+    col += 1
+    entries2[col] = coster.shot_success_rate
+    col += 1
+    entries2[col] = config["pp_success_probability"]
+    col += 1
+    entries2[col] = config["l"]
+    col += 1
+    entries2[col] = config["w1"]
+    col += 1
+    entries2[col] = config["w3"]
+    col += 1
+    entries2[col] = config["w4"]
+    col += 1
+    entries2[col] = config["len_acc"]
+    return duration_days, total_qubits, entries2
+
+
+def plot_and_tabulate_cost_estimates(
+        *,
+        score_func: Callable[[int, int], float],
+        data: list[dict[str, Any]],
+        pareto: bool = True,
+        ax: plt.Axes,
+) -> dict[complex, str]:
     grouped_data = sinter.group_by(data, key=lambda e: (e["modulus_bitlength"], e["num_input_qubits"]))
-    score_func = lambda qubits, toffolis: toffolis ** tof_power * qubits ** qub_power
     entries = {}
 
     col = 0
@@ -220,172 +307,21 @@ def main():
     entries[-2j + col] = "len"
     entries[-1j + col] = "acc"
 
-    # Eyeballed minimum storage costs from yoked storage cost plot.
-    cold_confs = [
-        (190, 1e-7),
-        (240, 1e-9),
-        (300, 1e-11),
-        (360, 1e-13),
-        (420, 1e-15),
-        (500, 1e-17),
-        (600, 1e-19),
-    ]
-    # Non-yoked storage cost (fit parameters taken from yoked storage cost plot).
-    hot_confs = [
-        (2 * (d + 1) ** 2, 3.5 ** -d / 40)
-        for d in range(50)
-    ]
+    with multiprocessing.Pool() as pool:
+        for row, ((modulus_big_length, input_qubits), group) in enumerate(sorted(grouped_data.items())):
+            xyds = pool.map(config_to_cost_summary, group)
+            label = f'n={modulus_big_length}, m={input_qubits}'
+            xys: list[tuple[int, int]] = sorted([(e[0], e[1]) for e in xyds])
+            if pareto:
+                xys = min_pareto_frontier(xys)
+            xs = [e[0] for e in xys]
+            ys = [e[1] for e in xys]
+            ax.plot(xs, ys, label=label, marker='x')
+            highlighted = min(xyds, key=lambda e: score_func(e[1], e[0]))
+            for k, v in highlighted[2].items():
+                entries[1j*row + k] = v
 
-    for row, (_group_key, group) in enumerate(sorted(grouped_data.items())):
-        if True:
-            xys = []
-            for tup in group:
-                result: dict[str, Any] = tup
-
-                cost_conf = CostConfig.from_params(
-                    modulus_bitlength=result["modulus_bitlength"],
-                    num_input_qubits=result["num_input_qubits"],
-                    num_shots=result["num_shots"],
-                    pp_success_probability=result["pp_success_probability"],
-                    l=result["l"],
-                    w1=result["w1"],
-                    w3=result["w3"],
-                    w4=result["w4"],
-                    len_acc=result["len_acc"],
-                )
-
-                coster = AlgoCoster(
-                    conf=cost_conf,
-                    surgery_micros=25,
-                    reaction_micros=10,
-                    factory_micros=150,
-                    factory_count=6,
-                )
-
-                hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
-                target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
-                target_cold_err = 1 / (coster.cold_logical_qubits * coster.shot_duration_micros * 10)
-                hot_size = min(
-                    qubits
-                    for qubits, err_per_round_per_logical in hot_confs
-                    if err_per_round_per_logical <= target_hot_err
-                )
-                cold_size = min(
-                    qubits
-                    for qubits, err_per_round_per_logical in cold_confs + hot_confs
-                    if err_per_round_per_logical <= target_cold_err
-                )
-
-                total_qubits = 0
-                total_qubits += hot_patches * hot_size
-                total_qubits += coster.factory_patches * hot_size
-                total_qubits += coster.cold_logical_qubits * cold_size
-
-                duration_days = coster.total_duration_micros / 10 ** 6 / 60 / 60 / 24
-                xys.append((duration_days, total_qubits))
-            xys = min_pareto_frontier(xys)
-            plt.plot([e[0] for e in xys], [e[1] for e in xys], label=coster.conf.conf.modulus.bit_length(), marker='x')
-
-        result: dict[str, Any] = min(group, key=lambda e: score_func(e["qubits"], e["tofs"]))
-
-        cost_conf = CostConfig.from_params(
-            modulus_bitlength=result["modulus_bitlength"],
-            num_input_qubits=result["num_input_qubits"],
-            num_shots=result["num_shots"],
-            pp_success_probability=result["pp_success_probability"],
-            l=result["l"],
-            w1=result["w1"],
-            w3=result["w3"],
-            w4=result["w4"],
-            len_acc=result["len_acc"],
-        )
-
-        coster = AlgoCoster(
-            conf=cost_conf,
-            surgery_micros=25,
-            reaction_micros=10,
-            factory_micros=150,
-            factory_count=6,
-        )
-
-        hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
-        target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
-        target_cold_err = 1 / (coster.cold_logical_qubits * coster.shot_duration_micros * 10)
-        hot_size = min(
-            qubits
-            for qubits, err_per_round_per_logical in hot_confs
-            if err_per_round_per_logical <= target_hot_err
-        )
-        cold_size = min(
-            qubits
-            for qubits, err_per_round_per_logical in cold_confs + hot_confs
-            if err_per_round_per_logical <= target_cold_err
-        )
-
-        total_qubits = 0
-        total_qubits += hot_patches * hot_size
-        total_qubits += coster.factory_patches * hot_size
-        total_qubits += coster.cold_logical_qubits * cold_size
-
-        duration_days = coster.total_duration_micros / 10**6 / 60 / 60 / 24
-
-        col = 0
-        entries[1j*row + col] = result["modulus_bitlength"]
-        col += 1
-        entries[1j*row + col] = result["num_input_qubits"]
-        col += 1
-        entries[1j*row + col] = f"{coster.hot_span[0]} x {coster.hot_span[1]}"
-        col += 1
-        entries[1j*row + col] = f"{coster.routing_span[0] + coster.factory_span[0]} x {coster.routing_span[1]}"
-        col += 1
-        # entries[1j*row + col] = target_hot_err
-        # col += 1
-        # entries[1j*row + col] = target_cold_err
-        # col += 1
-        entries[1j*row + col] = hot_size * coster.compute_area_patches
-        col += 1
-        entries[1j*row + col] = hot_size * coster.hot_storage_patches
-        col += 1
-        entries[1j*row + col] = cold_size * coster.cold_logical_qubits
-        col += 1
-        entries[1j*row + col] = coster.factory_count
-        col += 1
-        entries[1j*row + col] = duration_days
-        col += 1
-        entries[1j*row + col] = total_qubits
-        col += 1
-        entries[1j*row + col] = result["num_shots"]
-        col += 1
-        entries[1j*row + col] = coster.shot_success_rate
-        col += 1
-        entries[1j*row + col] = result["pp_success_probability"]
-        col += 1
-        entries[1j*row + col] = result["l"]
-        col += 1
-        entries[1j*row + col] = result["w1"]
-        col += 1
-        entries[1j*row + col] = result["w3"]
-        col += 1
-        entries[1j*row + col] = result["w4"]
-        col += 1
-        entries[1j*row + col] = result["len_acc"]
-    def formatter(e: float | int) -> str:
-        if isinstance(e, float):
-            return f'{e:0.2f}'
-        return str(e)
-
-    s = table_str(entries, latex=True, formatter=formatter)
-    if out_path is None:
-        print(s)
-    else:
-        with open(out_path, "w") as f:
-            print(s, file=f)
-
-    plt.ylabel("Physical Qubits")
-    plt.xlabel("Days")
-    plt.loglog()
-    plt.legend()
-    plt.show()
+    return entries
 
 
 def hot_error(rounds: int, block_size: int, distance: int) -> float:
@@ -400,6 +336,73 @@ def cold_error(rounds: int, block_size: int, distance: int) -> float:
     #   Projections of the cost of storage of normal surface codes and surface codes
     #   “yoked by” (concatenated below) 1D and 2D parity check codes, under uniform depolarizing noise.
     return rounds**4 * block_size**2 * 150**-distance / 50_000
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--csv_path', required=True, type=str)
+    parser.add_argument('--table_out_path', default=None, type=str)
+    parser.add_argument('--plot_out_path', default=None, type=str)
+    parser.add_argument('--toffoli_power', required=True, type=int)
+    parser.add_argument('--qubit_power', required=True, type=int)
+    parser.add_argument('--show', action='store_true')
+    args = parser.parse_args()
+
+    ax: plt.Axes
+    fig: plt.Figure
+    fig, ax = plt.subplots()
+
+    csv_path = pathlib.Path(args.csv_path)
+    show: bool = args.show
+    if args.table_out_path is None:
+        table_out_path = None
+    else:
+        table_out_path = pathlib.Path(args.table_out_path)
+        table_out_path.parent.mkdir(exist_ok=True, parents=True)
+    if args.plot_out_path is None:
+        plot_out_path = None
+    else:
+        plot_out_path = pathlib.Path(args.plot_out_path)
+        plot_out_path.parent.mkdir(exist_ok=True, parents=True)
+    tof_power = args.toffoli_power
+    qub_power = args.qubit_power
+
+    data = read_csv_for_table_data(csv_path)
+    score_func = lambda qubits, toffolis: toffolis ** tof_power * qubits ** qub_power
+
+    def formatter(e: float | int) -> str:
+        if isinstance(e, float):
+            return f'{e:0.2f}'
+        return str(e)
+    entries = plot_and_tabulate_cost_estimates(
+        score_func=score_func,
+        data=data,
+        pareto=True,
+        ax=ax,
+    )
+    table = table_str(entries, latex=True, formatter=formatter)
+
+    fig.set_dpi(200)
+    fig.set_size_inches(12, 7)
+    fig.tight_layout()
+    ax.set_ylabel("Physical Qubits")
+    ax.set_xlabel("Days")
+    ax.loglog()
+    ax.legend()
+
+    if table_out_path is None and plot_out_path is None:
+        print(table)
+        plt.show()
+    else:
+        if table_out_path is not None:
+            with open(table_out_path, "w") as f:
+                print(table, file=f)
+                print(f"wrote file://{table_out_path.absolute()}")
+        if plot_out_path is not None:
+            fig.savefig(plot_out_path)
+            print(f"wrote file://{plot_out_path.absolute()}")
+        if show:
+            plt.show()
 
 
 if __name__ == "__main__":

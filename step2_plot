@@ -139,29 +139,6 @@ PYTHONPATH=src $PYTHON \
     --out assets/gen/ff-dh-schnorr-logical-cost-table.tex \
     &
 
-PYTHONPATH=src $PYTHON \
-    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
-    --csv_path out/rsa-cost-variations.csv \
-    --toffoli_power 1 \
-    --qubit_power 3 \
-    --out assets/gen/rsa-physical-cost-table.tex \
-    &
-
-PYTHONPATH=src $PYTHON \
-    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
-    --csv_path out/ff-dh-short-cost-variations.csv \
-    --toffoli_power 1 \
-    --qubit_power 3 \
-    --out assets/gen/ff-dh-short-physical-cost-table.tex \
-    &
-
-PYTHONPATH=src $PYTHON \
-    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
-    --csv_path out/ff-dh-schnorr-cost-variations.csv \
-    --toffoli_power 1 \
-    --qubit_power 3 \
-    --out assets/gen/ff-dh-schnorr-physical-cost-table.tex \
-    &
 
 
 
@@ -173,6 +150,31 @@ PYTHONPATH=src $PYTHON \
     &
 
 wait
+
+# These use multiprocessing to speed up computation and so should be done serially.
+# They are also quite expensive to run (several minutes to complete).
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
+    --csv_path out/rsa-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --table_out assets/gen/rsa-physical-cost-table.tex \
+    --plot_out assets/gen/rsa-physical-cost-table.png
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
+    --csv_path out/ff-dh-short-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --table_out assets/gen/ff-dh-short-physical-cost-table.tex \
+    --plot_out assets/gen/ff-dh-short-physical-cost-table.png
+PYTHONPATH=src $PYTHON \
+    src/facto/algorithm/estimates/main6_generate_physical_estimate.py \
+    --csv_path out/ff-dh-schnorr-cost-variations.csv \
+    --toffoli_power 1 \
+    --qubit_power 3 \
+    --table_out assets/gen/ff-dh-schnorr-physical-cost-table.tex \
+    --plot_out assets/gen/ff-dh-schnorr-physical-cost-plot.png
+
 
 if (which inkscape > /dev/null); then
   for filename in assets/gen/*.svg; do
