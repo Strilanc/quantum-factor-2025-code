@@ -95,12 +95,8 @@ class AlgoCoster:
         return self.conf.conf.num_input_qubits
 
     @functools.cached_property
-    def shot_success_rate(self) -> float:
+    def shot_success_rate_without_logical_err(self) -> float:
         return self.conf.conf.pp_success_probability * (1 - self.conf.conf.probability_of_deviation_failure)
-
-    @functools.cached_property
-    def total_duration_micros(self) -> float:
-        return self.shot_duration_micros * self.conf.conf.num_shots / self.shot_success_rate
 
     @functools.cached_property
     def shot_duration_micros(self) -> float:
@@ -178,29 +174,32 @@ def config_to_cost_summary(config: dict[str, Any]):
         surgery_micros=25,
         reaction_micros=10,
         factory_micros=150,
-        factory_count=6,
+        factory_count=config['factory_count'],
     )
 
     hot_patches = coster.hot_storage_patches + coster.compute_area_patches - coster.factory_patches
     target_hot_err = 1 / (hot_patches * coster.shot_duration_micros * 10)
     target_cold_err = 1 / (coster.cold_logical_qubits * coster.shot_duration_micros * 10)
-    hot_size = min(
-        qubits
+    hot_size, hot_err = min(
+        (qubits, err_per_round_per_logical)
         for qubits, err_per_round_per_logical in hot_confs
         if err_per_round_per_logical <= target_hot_err
     )
-    cold_size = min(
-        qubits
+    cold_size, cold_err = min(
+        (qubits, err_per_round_per_logical)
         for qubits, err_per_round_per_logical in cold_confs + hot_confs
         if err_per_round_per_logical <= target_cold_err
     )
+    total_logical_error = (cold_err * coster.cold_logical_qubits + hot_err * hot_patches) * coster.shot_duration_micros
 
     total_qubits = 0
     total_qubits += hot_patches * hot_size
     total_qubits += coster.factory_patches * hot_size
     total_qubits += coster.cold_logical_qubits * cold_size
+    shot_success_rate = coster.shot_success_rate_without_logical_err + total_logical_error
 
-    duration_days = coster.total_duration_micros / 10 ** 6 / 60 / 60 / 24
+    duration_micros = coster.shot_duration_micros * coster.conf.conf.num_shots / shot_success_rate
+    duration_days = duration_micros / 10 ** 6 / 60 / 60 / 24
 
     col = 0
     entries2 = {}
@@ -226,7 +225,7 @@ def config_to_cost_summary(config: dict[str, Any]):
     col += 1
     entries2[col] = config["num_shots"]
     col += 1
-    entries2[col] = coster.shot_success_rate
+    entries2[col] = coster.shot_success_rate_without_logical_err
     col += 1
     entries2[col] = config["pp_success_probability"]
     col += 1
@@ -249,7 +248,7 @@ def plot_and_tabulate_cost_estimates(
         pareto: bool = True,
         ax: plt.Axes,
 ) -> dict[complex, str]:
-    grouped_data = sinter.group_by(data, key=lambda e: (e["modulus_bitlength"], e["num_input_qubits"]))
+    grouped_data = sinter.group_by(data, key=lambda e: e["modulus_bitlength"])
     entries = {}
 
     col = 0
@@ -308,9 +307,13 @@ def plot_and_tabulate_cost_estimates(
     entries[-1j + col] = "acc"
 
     with multiprocessing.Pool() as pool:
-        for row, ((modulus_big_length, input_qubits), group) in enumerate(sorted(grouped_data.items())):
-            xyds = pool.map(config_to_cost_summary, group)
-            label = f'n={modulus_big_length}, m={input_qubits}'
+        for row, (modulus_big_length, group) in enumerate(sorted(grouped_data.items())):
+            xyds = pool.map(config_to_cost_summary, [
+                {**g, 'factory_count': factory_count}
+                for g in group
+                for factory_count in range(1, 7)
+            ])
+            label = f'n={modulus_big_length}'
             xys: list[tuple[int, int]] = sorted([(e[0], e[1]) for e in xyds])
             if pareto:
                 xys = min_pareto_frontier(xys)
@@ -382,14 +385,14 @@ def main():
     )
     table = table_str(entries, latex=True, formatter=formatter)
 
-    fig.set_dpi(200)
-    fig.set_size_inches(12, 7)
-    fig.tight_layout()
     ax.set_ylabel("Physical Qubits")
     ax.set_xlabel("Days")
     ax.loglog()
     ax.legend()
 
+    fig.set_dpi(200)
+    fig.set_size_inches(12, 7)
+    fig.tight_layout()
     if table_out_path is None and plot_out_path is None:
         print(table)
         plt.show()

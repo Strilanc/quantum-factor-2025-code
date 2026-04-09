@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--in', nargs='+', type=str, required=True)
-    parser.add_argument('--out', type=str, required=True)
+    parser.add_argument('--out_path', type=str, required=True)
     parser.add_argument('--xmax', type=int, default=None)
     parser.add_argument('--title', type=str, default=None)
     parser.add_argument('--show', action='store_true')

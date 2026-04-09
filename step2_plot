@@ -140,8 +140,6 @@ PYTHONPATH=src $PYTHON \
     &
 
 
-
-
 PYTHONPATH=src $PYTHON \
     src/facto/algorithm/sim/main2_plot_masked_success_rates.py \
     --in assets/masked_success_stats.csv \
